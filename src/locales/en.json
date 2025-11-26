@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "welcome": {
+    "title": "Artificial Intelligence Behavior Analysis System",
+    "subtitle": "Advanced AI-Powered Security & Surveillance",
+    "description": "INFINITY PHOENIX presents the AIB system - cutting-edge deep learning technology with 80-90% accuracy, monitoring 35-40 cameras per AI server with automatic real-time alerts.",
+    "cta": "Learn More",
+    "badge": "AI-Powered Security System",
+    "watchDemo": "Watch Demo",
+    "trustIndicators": {
+      "enterprise": "Enterprise Grade",
+      "monitoring": "24/7 Monitoring",
+      "certified": "ISO Certified"
+    }
+  },
+  "products": {
+    "title": "Technical Specifications",
+    "subtitle": "Complete AIB System Package",
+    "mainProduct": {
+      "name": "Intelligent Behavior Analysis Equipment Set",
+      "model": "AIB (Artificial Intelligence Behavior)",
+      "manufacturer": "INFINITY PHOENIX PTE. LTD",
+      "origin": "Singapore",
+      "quantity": "01 Complete Set",
+      "description": "The AIB Intelligent Behavior Analysis System applies artificial intelligence (AI) for video surveillance and automatic detection of abnormal behaviors on camera systems. Deep Learning technology enables accurate recognition of dangerous or violation situations, sending real-time alerts to operators. The system supports zone setup, security scenario creation, camera-based configuration, and visual monitoring. AIB detects diverse behaviors including restricted area intrusion, climbing, fighting, weapon carrying, vandalism, smoking, gambling, as well as emergencies like suicide risk or abnormal falls."
+    },
+    "module1": {
+      "title": "Intelligent Behavior Analysis Module",
+      "performance": {
+        "title": "Performance Specifications",
+        "detectionTime": "Behavior violation detection delay: 5-10 seconds",
+        "accuracy": "Accurate alert rate: 80-90%",
+        "cameraCapacity": "Simultaneous camera support: 35-40 cameras per AI server",
+        "violationAccuracy": "Violation detection accuracy (behavior dependent): 70-85%",
+        "emergencyAlert": "Emergency alert time: <5 seconds"
+      },
+      "features": {
+        "title": "Key Features",
+        "detection": "Detect and alert on object behaviors",
+        "zoneCreation": "Create zones & security monitoring scenarios",
+        "configuration": "Configure and draw monitoring zones per camera",
+        "alerting": "Recognize and alert on violation behaviors"
+      },
+      "behaviors": {
+        "title": "Monitored Behaviors",
+        "item1": "Restricted/prohibited area intrusion",
+        "item2": "Climbing walls/crossing fences",
+        "item3": "Fighting/causing disturbances",
+        "item4": "Signs of hanging (suicide risk)",
+        "item5": "Weapons (knives, sticks, metal objects)",
+        "item6": "Cutting window bars (using wire or saw)",
+        "item7": "Frequent approach to window areas",
+        "item8": "Drilling/digging walls",
+        "item9": "Smoking",
+        "item10": "Playing cards",
+        "item11": "Distinguishing falls from stroke vs. fighting/accidents",
+        "item12": "Identifying and naming objects in frame"
+      },
+      "alerts": "Automatic emergency alerts"
+    },
+    "equipment": {
+      "title": "Integrated System Equipment Package",
+      "server1": {
+        "name": "Dedicated AI Server",
+        "model": "HISOKAI HS25-G4P5000",
+        "cpu": "Intel Xeon Gen5 x2",
+        "ram": "128GB",
+        "storage": "1.92TB SSD x2",
+        "gpu": "48GB VRAM x4",
+        "power": "2600W x2",
+        "managementPort": "01",
+        "usbPort": "02",
+        "sata3Port": "04",
+        "networkPort": "02 x RJ45 10Gigabit",
+        "sfpPort": "02 x SFP+ 10Gb",
+        "antivirus": "Kaspersky Licensed",
+        "warranty": "3 years",
+        "quantity": "01 Unit"
+      },
+      "server2": {
+        "name": "VMS Stream Extraction Server",
+        "model": "HISOKAI HS25-C5420",
+        "cpu": "Intel Xeon Gen4 x2",
+        "ram": "256GB",
+        "storage": "1TB SSD",
+        "power": "500W x2",
+        "managementPort": "01",
+        "usbPort": "02",
+        "sata3Port": "04",
+        "networkPort": "02 x RJ45 10Gigabit",
+        "sfpPort": "02 x SFP+ 10Gb",
+        "antivirus": "Kaspersky Licensed",
+        "warranty": "3 years",
+        "quantity": "01 Unit"
+      },
+      "workstation": {
+        "name": "Control Workstation",
+        "model": "HISOKAI HS26-S95",
+        "cpu": "Intel Core i5 11th Gen",
+        "ram": "16GB",
+        "storage": "512GB SSD NVMe M.2",
+        "monitor": "24 inch, Full HD (1920x1080), IPS, HDMI",
+        "speaker": "Alert speaker included",
+        "antivirus": "Kaspersky Licensed",
+        "warranty": "3 years",
+        "quantity": "01 Unit"
+      },
+      "switch": {
+        "name": "Network Switch",
+        "model": "TP-Link TL-SG3424",
+        "ports": "12 x 10/100/1000BASE-T",
+        "warranty": "3 years",
+        "quantity": "01 Unit"
+      },
+      "rack": {
+        "name": "20U Rack Cabinet",
+        "model": "Rack Cabinet 19 inch 20U ECP 20U800",
+        "dimensions": "H972 x W600 x D800 (mm) - height excludes wheels",
+        "quantity": "01 Unit"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 AIB - INFINITY PHOENIX PTE. LTD. All rights reserved.",
+    "location": "Singapore",
+    "distributor": "Distributed by HTC Import-Export Technology Equipment JSC"
+  }
+}

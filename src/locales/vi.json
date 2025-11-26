@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "products": "Sản phẩm",
+    "contact": "Liên hệ"
+  },
+  "welcome": {
+    "title": "Hệ thống Phân tích Hành vi Thông minh",
+    "subtitle": "Công nghệ AI tiên tiến cho An ninh & Giám sát",
+    "description": "INFINITY PHOENIX giới thiệu hệ thống AIB - công nghệ học sâu tiên tiến với độ chính xác 80-90%, giám sát 35-40 camera trên mỗi máy chủ AI với cảnh báo tự động theo thời gian thực.",
+    "cta": "Tìm hiểu thêm",
+    "badge": "Hệ thống An ninh AI",
+    "watchDemo": "Xem Demo",
+    "trustIndicators": {
+      "enterprise": "Cấp Doanh nghiệp",
+      "monitoring": "Giám sát 24/7",
+      "certified": "Chứng nhận ISO"
+    }
+  },
+  "products": {
+    "title": "Bảng Mô tả Kỹ thuật",
+    "subtitle": "Bộ thiết bị Hệ thống AIB Hoàn chỉnh",
+    "mainProduct": {
+      "name": "Bộ thiết bị Phân tích Hành vi Thông minh",
+      "model": "AIB (Artificial Intelligence Behavior)",
+      "manufacturer": "INFINITY PHOENIX PTE. LTD",
+      "origin": "Singapore",
+      "quantity": "01 Bộ thiết bị",
+      "description": "Bộ thiết bị Phân tích Hành vi Thông minh - AIB là giải pháp ứng dụng trí tuệ nhân tạo (AI) để giám sát video và phát hiện tự động các hành vi bất thường trên hệ thống camera. Công nghệ học sâu (Deep Learning) cho phép module nhận diện chính xác nhiều tình huống nguy hiểm hoặc vi phạm, đồng thời gửi cảnh báo theo thời gian thực đến người vận hành. Hệ thống hỗ trợ người dùng thiết lập vùng giám sát, tạo kịch bản an ninh, quản lý cấu hình theo từng camera và theo dõi diễn biến trực quan. AIB có thể phát hiện đa dạng hành vi như xâm nhập khu vực cấm, leo trèo, ẩu đả, mang hung khí, phá hoại, hút thuốc, đánh bài, cũng như các tình huống khẩn cấp như nguy cơ tự tử hay ngã bất thường."
+    },
+    "module1": {
+      "title": "Module Phân tích Hành vi Thông minh",
+      "performance": {
+        "title": "Thông số Hiệu suất",
+        "detectionTime": "Độ trễ phát hiện hành vi vi phạm: 5-10 giây",
+        "accuracy": "Tỷ lệ cảnh báo chính xác: 80-90%",
+        "cameraCapacity": "Số lượng camera hỗ trợ đồng thời: 35-40 camera/1 server AI",
+        "violationAccuracy": "Độ chính xác phát hiện vi phạm (tuỳ hành vi): 70-85%",
+        "emergencyAlert": "Thời gian phát cảnh báo khẩn cấp: <5 giây"
+      },
+      "features": {
+        "title": "Tính năng Chính",
+        "detection": "Phát hiện và cảnh báo khi phát hiện đối tượng các hành vi",
+        "zoneCreation": "Tạo vùng & kịch bản giám sát an ninh",
+        "configuration": "Cấu hình và vẽ vùng giám sát theo từng camera",
+        "alerting": "Nhận diện và cảnh báo hành vi vi phạm"
+      },
+      "behaviors": {
+        "title": "Các Hành vi Được Giám sát",
+        "item1": "Vùng giới hạn/cấm xâm nhập",
+        "item2": "Trèo tường/vượt rào",
+        "item3": "Đánh nhau/gây rối",
+        "item4": "Dấu hiệu treo cổ (nguy cơ tự tử)",
+        "item5": "Hung khí (dao, gậy, vật kim loại)",
+        "item6": "Cưa thanh sắt cửa sổ (dùng dây đàn hoặc cưa)",
+        "item7": "Khi các đối tượng hay lui tới khu vực cửa sổ",
+        "item8": "Khoan tường/đào tường",
+        "item9": "Hút thuốc",
+        "item10": "Đánh bài",
+        "item11": "Phân biệt hành vi ngã do đột quỵ và ngã do ẩu đả/tai nạn",
+        "item12": "Xác định và định danh đối tượng trong khung hình"
+      },
+      "alerts": "Cảnh báo khẩn cấp tự động"
+    },
+    "equipment": {
+      "title": "Hệ thống thiết bị kèm theo không thể tách rời",
+      "server1": {
+        "name": "Server AI chuyên dụng",
+        "model": "HISOKAI HS25-G4P5000",
+        "cpu": "Intel Xeon Gen5 x2",
+        "ram": "128GB",
+        "storage": "1.92TB SSD x2",
+        "gpu": "48GB VRAM x4",
+        "power": "2600W x2",
+        "managementPort": "01 cổng quản trị",
+        "usbPort": "02 cổng USB",
+        "sata3Port": "04 cổng SATA3",
+        "networkPort": "02 cổng mạng RJ45 10Gigabit",
+        "sfpPort": "02 cổng SFP+ 10Gb",
+        "antivirus": "Bản quyền diệt virus Kaspersky",
+        "warranty": "Bảo hành 3 năm",
+        "quantity": "01 Thiết bị"
+      },
+      "server2": {
+        "name": "Server khai thác luồng VMS",
+        "model": "HISOKAI HS25-C5420",
+        "cpu": "Intel Xeon Gen4 x2",
+        "ram": "256GB",
+        "storage": "1TB SSD",
+        "power": "500W x2",
+        "managementPort": "01 cổng quản trị",
+        "usbPort": "02 cổng USB",
+        "sata3Port": "04 cổng SATA3",
+        "networkPort": "02 cổng mạng RJ45 10Gigabit",
+        "sfpPort": "02 cổng SFP+ 10Gb",
+        "antivirus": "Bản quyền diệt virus Kaspersky",
+        "warranty": "Bảo hành 3 năm",
+        "quantity": "01 Thiết bị"
+      },
+      "workstation": {
+        "name": "Máy điều khiển",
+        "model": "HISOKAI HS26-S95",
+        "cpu": "Intel Core i5 11th",
+        "ram": "16GB",
+        "storage": "512GB SSD NVMe M.2",
+        "monitor": "Màn hình 24 inch, Full HD (1920x1080), IPS, HDMI",
+        "speaker": "Loa phát thanh cảnh báo",
+        "antivirus": "Bản quyền diệt virus Kaspersky",
+        "warranty": "Bảo hành 3 năm",
+        "quantity": "01 Thiết bị"
+      },
+      "switch": {
+        "name": "Thiết bị chuyển mạch Switch",
+        "model": "TP-Link TL-SG3424",
+        "ports": "12 cổng 10/100/1000BASE-T",
+        "warranty": "Bảo hành 3 năm",
+        "quantity": "01 Thiết bị"
+      },
+      "rack": {
+        "name": "Tủ rack 20U",
+        "model": "Rack Cabinet 19 inch 20U ECP 20U800",
+        "dimensions": "Cao 972 x Rộng 600 x Sâu 800 (mm) - chiều cao chưa bao gồm bánh xe",
+        "quantity": "01 Thiết bị"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 AIB - INFINITY PHOENIX PTE. LTD. Đã đăng ký bản quyền.",
+    "location": "Singapore",
+    "distributor": "Phân phối bởi Công Ty Cổ Phần Xuất Nhập Khẩu Thiết Bị Công Nghệ HTC"
+  }
+}
