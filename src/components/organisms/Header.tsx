@@ -1,10 +1,18 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useState, useEffect } from 'react';
 import { Container } from '@atoms';
-import { LanguageSwitcher } from '@molecules';
+import { Logo, NavMenu, LanguageSwitcher } from '@molecules';
 
 export const Header: React.FC = () => {
-  const { t } = useTranslation();
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
     e.preventDefault();
@@ -28,49 +36,26 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className={`bg-white shadow-md sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}>
       <Container>
-        <nav className="flex items-center justify-between h-16 md:h-20">
+        <div className={`transition-all duration-300 ${isScrolled ? 'flex items-center justify-between' : 'space-y-4'}`}>
+          {/* First Row - Logo */}
           <div className="flex items-center">
-            <a 
-              href="/" 
-              onClick={(e) => handleScrollToSection(e, '/')}
-              className="flex items-center gap-3 cursor-pointer group"
-            >
-              <h1 className="text-xl md:text-2xl font-bold text-red-600 group-hover:text-red-700 transition-colors">
-                AIB
-              </h1>
-            </a>
-          </div>
-          
-          <div className="hidden md:flex items-center gap-8">
-            <a 
-              href="/" 
-              onClick={(e) => handleScrollToSection(e, '/')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase"
-            >
-              {t('nav.home')}
-            </a>
-            <a 
-              href="#solutions" 
-              onClick={(e) => handleScrollToSection(e, '#solutions')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase"
-            >
-              {t('nav.solutions')}
-            </a>
-            <a 
-              href="#contact" 
-              onClick={(e) => handleScrollToSection(e, '#contact')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase"
-            >
-              {t('nav.contact')}
-            </a>
+            <Logo 
+              isScrolled={isScrolled} 
+              onClick={(e) => handleScrollToSection(e, '/')} 
+            />
           </div>
 
-          <div className="flex items-center">
-            <LanguageSwitcher />
-          </div>
-        </nav>
+          {/* Second Row - Navigation & Language Switcher */}
+          <nav className="flex items-center justify-between">
+            <NavMenu onNavigate={handleScrollToSection} />
+            
+            <div className="flex items-center ml-8">
+              <LanguageSwitcher />
+            </div>
+          </nav>
+        </div>
       </Container>
     </header>
   );

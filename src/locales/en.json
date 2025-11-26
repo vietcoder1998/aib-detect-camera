@@ -212,86 +212,101 @@
         "alerting": "Recognize and alert on violation behaviors"
       },
       "behaviors": {
-        "title": "Comprehensive Detection Features",
-        "subtitle": "9 comprehensive detection categories with 50+ features",
-        "intrusion": {
-          "title": "Intrusion & Trespassing Detection",
-          "item1": "Entering restricted/prohibited areas",
-          "item2": "Crossing virtual boundaries",
-          "item3": "Unauthorized access to restricted zones",
-          "item4": "Prolonged loitering near windows/entrances"
-        },
-        "climbing": {
-          "title": "Climbing & Fence Crossing",
-          "item1": "Wall climbing",
-          "item2": "Bi-directional fence climbing/crossing",
-          "item3": "Railing climbing, crossing dividers"
-        },
-        "vandalism": {
-          "title": "Property Damage Detection",
-          "item1": "Wall drilling",
-          "item2": "Wall chiseling/digging",
-          "item3": "Cutting window bars (wire saw, hand saw)",
-          "item4": "Prolonged standing at suspicious points for vandalism"
-        },
-        "lifeThreat": {
-          "title": "Life-Threatening Situations",
-          "suicide": {
-            "title": "Suicide/Hanging Detection",
-            "item1": "Hanging body posture",
-            "item2": "Preparation behavior (tying rope, climbing to high points)"
+        "title": "Monitored Behaviors",
+        "item1": "Entering restricted/prohibited areas",
+        "item2": "Crossing virtual boundaries, unauthorized access",
+        "item3": "Wall climbing, fence crossing, railing climbing",
+        "item4": "Wall drilling, chiseling, cutting window bars",
+        "item5": "Suicide/hanging detection and preparation behavior",
+        "item6": "Dangerous falls (stroke, fighting, accident)",
+        "item7": "Fighting, assault, and struggling behavior",
+        "item8": "Weapon detection (knives, scissors, sticks, metal objects)",
+        "item9": "Smoking/smoke detection",
+        "item10": "Card playing, gambling, unauthorized gatherings",
+        "item11": "Face recognition and identity identification",
+        "item12": "Real-time advanced analysis and emergency alerts",
+        "comprehensive": {
+          "title": "Comprehensive Detection Features",
+          "subtitle": "9 comprehensive detection categories with 50+ features",
+          "intrusion": {
+            "title": "Intrusion & Trespassing Detection",
+            "item1": "Entering restricted/prohibited areas",
+            "item2": "Crossing virtual boundaries",
+            "item3": "Unauthorized access to restricted zones",
+            "item4": "Prolonged loitering near windows/entrances"
           },
-          "fall": {
-            "title": "Dangerous Falls",
-            "item1": "Fall due to stroke",
-            "item2": "Fall from fighting/accident",
-            "item3": "Analysis based on: impact force, fall direction, defensive reflex, immobility after fall"
+          "climbing": {
+            "title": "Climbing & Fence Crossing",
+            "item1": "Wall climbing",
+            "item2": "Bi-directional fence climbing/crossing",
+            "item3": "Railing climbing, crossing dividers"
           },
-          "fighting": {
-            "title": "Fighting & Assault",
-            "item1": "Attack behavior, struggling",
-            "item2": "Intense movement among multiple people"
+          "vandalism": {
+            "title": "Property Damage Detection",
+            "item1": "Wall drilling",
+            "item2": "Wall chiseling/digging",
+            "item3": "Cutting window bars (wire saw, hand saw)",
+            "item4": "Prolonged standing at suspicious points for vandalism"
+          },
+          "lifeThreat": {
+            "title": "Life-Threatening Situations",
+            "suicide": {
+              "title": "Suicide/Hanging Detection",
+              "item1": "Hanging body posture",
+              "item2": "Preparation behavior (tying rope, climbing to high points)"
+            },
+            "fall": {
+              "title": "Dangerous Falls",
+              "item1": "Fall due to stroke",
+              "item2": "Fall from fighting/accident",
+              "item3": "Analysis based on: impact force, fall direction, defensive reflex, immobility after fall"
+            },
+            "fighting": {
+              "title": "Fighting & Assault",
+              "item1": "Attack behavior, struggling",
+              "item2": "Intense movement among multiple people"
+            }
+          },
+          "weapons": {
+            "title": "Weapon Detection",
+            "item1": "Knives",
+            "item2": "Scissors",
+            "item3": "Sticks/Batons",
+            "item4": "Long metal objects (pipes, steel bars)",
+            "item5": "Sharp objects capable of causing injury",
+            "item6": "Detection based on: shape, size, correlation with holding posture"
+          },
+          "violations": {
+            "title": "Rule Violation Detection",
+            "item1": "Smoking/smoke detection",
+            "item2": "Card playing/gambling",
+            "item3": "Crowd gathering in prohibited/sensitive areas",
+            "item4": "Group standing too long in monitored zones"
+          },
+          "faceRecognition": {
+            "title": "Face Recognition & Identification",
+            "item1": "Face detection",
+            "item2": "Identity recognition based on database",
+            "item3": "ID assignment and object naming",
+            "item4": "Distinguishing multiple people in same frame"
+          },
+          "advanced": {
+            "title": "Real-Time Advanced Analysis",
+            "item1": "Person-object-movement recognition",
+            "item2": "Body posture analysis",
+            "item3": "Direction and movement speed analysis",
+            "item4": "Pattern-based action recognition",
+            "item5": "Contextual analysis to reduce false alarms",
+            "item6": "Multi-camera simultaneous processing",
+            "item7": "Drawing and managing monitoring zones per camera"
+          },
+          "emergency": {
+            "title": "Emergency Alert System",
+            "item1": "Audio alert on control workstation",
+            "item2": "Popup with evidence images",
+            "item3": "Camera location identification",
+            "item4": "Complete process logging"
           }
-        },
-        "weapons": {
-          "title": "Weapon Detection",
-          "item1": "Knives",
-          "item2": "Scissors",
-          "item3": "Sticks/Batons",
-          "item4": "Long metal objects (pipes, steel bars)",
-          "item5": "Sharp objects capable of causing injury",
-          "item6": "Detection based on: shape, size, correlation with holding posture"
-        },
-        "violations": {
-          "title": "Rule Violation Detection",
-          "item1": "Smoking/smoke detection",
-          "item2": "Card playing/gambling",
-          "item3": "Crowd gathering in prohibited/sensitive areas",
-          "item4": "Group standing too long in monitored zones"
-        },
-        "faceRecognition": {
-          "title": "Face Recognition & Identification",
-          "item1": "Face detection",
-          "item2": "Identity recognition based on database",
-          "item3": "ID assignment and object naming",
-          "item4": "Distinguishing multiple people in same frame"
-        },
-        "advanced": {
-          "title": "Real-Time Advanced Analysis",
-          "item1": "Person-object-movement recognition",
-          "item2": "Body posture analysis",
-          "item3": "Direction and movement speed analysis",
-          "item4": "Pattern-based action recognition",
-          "item5": "Contextual analysis to reduce false alarms",
-          "item6": "Multi-camera simultaneous processing",
-          "item7": "Drawing and managing monitoring zones per camera"
-        },
-        "emergency": {
-          "title": "Emergency Alert System",
-          "item1": "Audio alert on control workstation",
-          "item2": "Popup with evidence images",
-          "item3": "Camera location identification",
-          "item4": "Complete process logging"
         }
       },
       "alerts": "Automatic emergency alerts"

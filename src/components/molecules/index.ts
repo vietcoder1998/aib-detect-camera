@@ -1,5 +1,7 @@
 export { NavLink } from './NavLink';
 export { LanguageSwitcher } from './LanguageSwitcher';
+export { Logo } from './Logo';
+export { NavMenu } from './NavMenu';
 export { ProductCard } from './ProductCard';
 export { MainProductInfo } from './MainProductInfo';
 export { ModuleSpecifications } from './ModuleSpecifications';

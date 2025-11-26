@@ -212,86 +212,101 @@
         "alerting": "Nhận diện và cảnh báo hành vi vi phạm"
       },
       "behaviors": {
-        "title": "Tính năng Phát hiện Toàn diện",
-        "subtitle": "9 nhóm phát hiện toàn diện với hơn 50 tính năng",
-        "intrusion": {
-          "title": "Phát hiện Xâm nhập / Đột nhập",
-          "item1": "Phát hiện vào vùng cấm",
-          "item2": "Vượt ranh giới ảo",
-          "item3": "Xâm nhập trái phép khu vực hạn chế",
-          "item4": "Đứng lâu hoặc lui tới bất thường tại cửa sổ/lối ra vào"
-        },
-        "climbing": {
-          "title": "Leo trèo / Vượt rào",
-          "item1": "Leo tường",
-          "item2": "Leo rào/vượt rào hai chiều",
-          "item3": "Leo lan can, vượt dải phân cách"
-        },
-        "vandalism": {
-          "title": "Phá hoại Công trình",
-          "item1": "Khoan tường",
-          "item2": "Đục tường/đào tường",
-          "item3": "Cưa song sắt (dùng dây đàn, cưa tay)",
-          "item4": "Đứng lâu tại điểm khả nghi để phá hoại"
-        },
-        "lifeThreat": {
-          "title": "Nguy hiểm Tính mạng",
-          "suicide": {
-            "title": "Tự tử / Treo cổ",
-            "item1": "Tư thế treo cơ thể",
-            "item2": "Hành vi chuẩn bị (buộc dây, leo lên điểm cao)"
+        "title": "Hành vi giám sát",
+        "item1": "Phát hiện vào vùng cấm / khu vực hạn chế",
+        "item2": "Vượt ranh giới ảo, xâm nhập trái phép",
+        "item3": "Leo tường, vượt rào, leo lan can",
+        "item4": "Khoan tường, đục tường, cưa song sắt",
+        "item5": "Phát hiện tự tử/treo cổ và hành vi chuẩn bị",
+        "item6": "Ngã nguy hiểm (đột quỵ, ẩu đả, tai nạn)",
+        "item7": "Ẩu đả, xô xát, hành vi tấn công",
+        "item8": "Phát hiện hung khí (dao, kéo, gậy, kim loại)",
+        "item9": "Hút thuốc / có khói",
+        "item10": "Đánh bài, cờ bạc, tụ tập trái phép",
+        "item11": "Nhận diện khuôn mặt và danh tính",
+        "item12": "Phân tích nâng cao thời gian thực và cảnh báo khẩn cấp",
+        "comprehensive": {
+          "title": "Tính năng Phát hiện Toàn diện",
+          "subtitle": "9 nhóm phát hiện toàn diện với hơn 50 tính năng",
+          "intrusion": {
+            "title": "Phát hiện Xâm nhập / Đột nhập",
+            "item1": "Phát hiện vào vùng cấm",
+            "item2": "Vượt ranh giới ảo",
+            "item3": "Xâm nhập trái phép khu vực hạn chế",
+            "item4": "Đứng lâu hoặc lui tới bất thường tại cửa sổ/lối ra vào"
           },
-          "fall": {
-            "title": "Ngã Nguy hiểm",
-            "item1": "Ngã do đột quỵ",
-            "item2": "Ngã do ẩu đả/tai nạn",
-            "item3": "Phân biệt dựa trên: lực tác động, hướng ngã, phản xạ chống đỡ, bất động sau ngã"
+          "climbing": {
+            "title": "Leo trèo / Vượt rào",
+            "item1": "Leo tường",
+            "item2": "Leo rào/vượt rào hai chiều",
+            "item3": "Leo lan can, vượt dải phân cách"
           },
-          "fighting": {
-            "title": "Ẩu đả - Xô xát",
-            "item1": "Hành vi tấn công, giằng co",
-            "item2": "Chuyển động mạnh giữa nhiều người"
+          "vandalism": {
+            "title": "Phá hoại Công trình",
+            "item1": "Khoan tường",
+            "item2": "Đục tường/đào tường",
+            "item3": "Cưa song sắt (dùng dây đàn, cưa tay)",
+            "item4": "Đứng lâu tại điểm khả nghi để phá hoại"
+          },
+          "lifeThreat": {
+            "title": "Nguy hiểm Tính mạng",
+            "suicide": {
+              "title": "Tự tử / Treo cổ",
+              "item1": "Tư thế treo cơ thể",
+              "item2": "Hành vi chuẩn bị (buộc dây, leo lên điểm cao)"
+            },
+            "fall": {
+              "title": "Ngã Nguy hiểm",
+              "item1": "Ngã do đột quỵ",
+              "item2": "Ngã do ẩu đả/tai nạn",
+              "item3": "Phân biệt dựa trên: lực tác động, hướng ngã, phản xạ chống đỡ, bất động sau ngã"
+            },
+            "fighting": {
+              "title": "Ẩu đả - Xô xát",
+              "item1": "Hành vi tấn công, giằng co",
+              "item2": "Chuyển động mạnh giữa nhiều người"
+            }
+          },
+          "weapons": {
+            "title": "Phát hiện Hung khí",
+            "item1": "Dao",
+            "item2": "Kéo",
+            "item3": "Gậy",
+            "item4": "Kim loại dài (ống, thanh sắt)",
+            "item5": "Vật sắc nhọn có khả năng gây sát thương",
+            "item6": "Phát hiện dựa trên: hình dạng, kích thước, tương quan với tư thế cầm"
+          },
+          "violations": {
+            "title": "Vi phạm Nội quy",
+            "item1": "Hút thuốc/có khói",
+            "item2": "Đánh bài/tụ tập chơi bài",
+            "item3": "Tụ tập đông người tại khu vực cấm hoặc nhạy cảm",
+            "item4": "Đứng nhóm quá lâu trong vùng giám sát"
+          },
+          "faceRecognition": {
+            "title": "Nhận diện Đối tượng (Face Recognition/ID)",
+            "item1": "Phát hiện khuôn mặt",
+            "item2": "Nhận diện danh tính dựa trên database",
+            "item3": "Gán ID - tên đối tượng",
+            "item4": "Phân biệt nhiều người trong cùng khung hình"
+          },
+          "advanced": {
+            "title": "Phân tích Nâng cao Thời gian thực",
+            "item1": "Nhận diện người - vật thể - chuyển động",
+            "item2": "Phân tích tư thế cơ thể",
+            "item3": "Phân tích hướng - tốc độ di chuyển",
+            "item4": "Nhận diện hành động dựa trên pattern",
+            "item5": "Đánh giá ngữ cảnh (contextual analysis) để giảm báo động giả",
+            "item6": "Xử lý multi-camera đồng thời",
+            "item7": "Vẽ và quản lý vùng giám sát theo từng camera"
+          },
+          "emergency": {
+            "title": "Cảnh báo Khẩn cấp",
+            "item1": "Bật âm thanh cảnh báo trên máy điều khiển",
+            "item2": "Popup + hình ảnh chứng cứ",
+            "item3": "Xác định vị trí camera",
+            "item4": "Nhật ký toàn bộ quá trình xử lý"
           }
-        },
-        "weapons": {
-          "title": "Phát hiện Hung khí",
-          "item1": "Dao",
-          "item2": "Kéo",
-          "item3": "Gậy",
-          "item4": "Kim loại dài (ống, thanh sắt)",
-          "item5": "Vật sắc nhọn có khả năng gây sát thương",
-          "item6": "Phát hiện dựa trên: hình dạng, kích thước, tương quan với tư thế cầm"
-        },
-        "violations": {
-          "title": "Vi phạm Nội quy",
-          "item1": "Hút thuốc/có khói",
-          "item2": "Đánh bài/tụ tập chơi bài",
-          "item3": "Tụ tập đông người tại khu vực cấm hoặc nhạy cảm",
-          "item4": "Đứng nhóm quá lâu trong vùng giám sát"
-        },
-        "faceRecognition": {
-          "title": "Nhận diện Đối tượng (Face Recognition/ID)",
-          "item1": "Phát hiện khuôn mặt",
-          "item2": "Nhận diện danh tính dựa trên database",
-          "item3": "Gán ID - tên đối tượng",
-          "item4": "Phân biệt nhiều người trong cùng khung hình"
-        },
-        "advanced": {
-          "title": "Phân tích Nâng cao Thời gian thực",
-          "item1": "Nhận diện người - vật thể - chuyển động",
-          "item2": "Phân tích tư thế cơ thể",
-          "item3": "Phân tích hướng - tốc độ di chuyển",
-          "item4": "Nhận diện hành động dựa trên pattern",
-          "item5": "Đánh giá ngữ cảnh (contextual analysis) để giảm báo động giả",
-          "item6": "Xử lý multi-camera đồng thời",
-          "item7": "Vẽ và quản lý vùng giám sát theo từng camera"
-        },
-        "emergency": {
-          "title": "Cảnh báo Khẩn cấp",
-          "item1": "Bật âm thanh cảnh báo trên máy điều khiển",
-          "item2": "Popup + hình ảnh chứng cứ",
-          "item3": "Xác định vị trí camera",
-          "item4": "Nhật ký toàn bộ quá trình xử lý"
         }
       },
       "alerts": "Cảnh báo khẩn cấp tự động"
