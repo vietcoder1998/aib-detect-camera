@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      setIsScrolled(window.scrollY >= 100);
     };
 
     window.addEventListener('scroll', handleScroll);
