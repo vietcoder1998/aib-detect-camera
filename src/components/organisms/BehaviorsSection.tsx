@@ -1,14 +1,16 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
+import { ShieldAlert, Mountain, Swords, Skull, Hammer, Cigarette, UserX, User, type LucideIcon } from 'lucide-react';
 
 interface BehaviorCardProps {
   name: string;
   description: string;
   color: string;
+  icon: LucideIcon;
 }
 
-const BehaviorCard: React.FC<BehaviorCardProps> = ({ name, description, color }) => {
+const BehaviorCard: React.FC<BehaviorCardProps> = ({ name, description, color, icon: Icon }) => {
   const colorClasses = {
     red: 'bg-red-500',
     orange: 'bg-orange-500',
@@ -24,9 +26,7 @@ const BehaviorCard: React.FC<BehaviorCardProps> = ({ name, description, color })
   return (
     <Card className="p-6 hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-red-600">
       <div className={`w-12 h-12 ${colorClasses[color as keyof typeof colorClasses]} rounded-lg mb-4 flex items-center justify-center`}>
-        <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-        </svg>
+        <Icon className="w-6 h-6 text-white" strokeWidth={2} />
       </div>
       <Text variant="h4" className="text-gray-900 mb-2">
         {name}
@@ -60,46 +60,55 @@ export const BehaviorsSection: React.FC = () => {
       name: t('behaviors.categories.intrusion.name'),
       description: t('behaviors.categories.intrusion.description'),
       color: 'red',
+      icon: ShieldAlert,
     },
     {
       name: t('behaviors.categories.climbing.name'),
       description: t('behaviors.categories.climbing.description'),
       color: 'orange',
+      icon: Mountain,
     },
     {
       name: t('behaviors.categories.violence.name'),
       description: t('behaviors.categories.violence.description'),
       color: 'yellow',
+      icon: Swords,
     },
     {
       name: t('behaviors.categories.weapons.name'),
       description: t('behaviors.categories.weapons.description'),
       color: 'purple',
+      icon: Swords,
     },
     {
       name: t('behaviors.categories.suicide.name'),
       description: t('behaviors.categories.suicide.description'),
       color: 'pink',
+      icon: Skull,
     },
     {
       name: t('behaviors.categories.vandalism.name'),
       description: t('behaviors.categories.vandalism.description'),
       color: 'indigo',
+      icon: Hammer,
     },
     {
       name: t('behaviors.categories.smoking.name'),
       description: t('behaviors.categories.smoking.description'),
       color: 'teal',
+      icon: Cigarette,
     },
     {
       name: t('behaviors.categories.fall.name'),
       description: t('behaviors.categories.fall.description'),
       color: 'green',
+      icon: UserX,
     },
     {
       name: t('behaviors.categories.face.name'),
       description: t('behaviors.categories.face.description'),
       color: 'blue',
+      icon: User,
     },
   ];
 
@@ -128,6 +137,7 @@ export const BehaviorsSection: React.FC = () => {
               name={behavior.name}
               description={behavior.description}
               color={behavior.color}
+              icon={behavior.icon}
             />
           ))}
         </div>

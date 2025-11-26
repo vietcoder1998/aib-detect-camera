@@ -1,15 +1,19 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Text, Card } from '@atoms';
+import { getIcon } from '../../utils/iconMap';
+import { Check } from 'lucide-react';
 
 interface FeatureCategoryProps {
-  icon: string;
+  iconName: string;
   title: string;
   items: string[];
   color?: string;
 }
 
-const FeatureCategory: React.FC<FeatureCategoryProps> = ({ icon, title, items, color = 'blue' }) => {
+const FeatureCategory: React.FC<FeatureCategoryProps> = ({ iconName, title, items, color = 'blue' }) => {
+  const Icon = getIcon(iconName);
+  
   const colorClasses = {
     blue: 'bg-blue-50 border-blue-200 text-blue-700',
     red: 'bg-red-50 border-red-200 text-red-700',
@@ -25,13 +29,13 @@ const FeatureCategory: React.FC<FeatureCategoryProps> = ({ icon, title, items, c
   return (
     <Card className={`p-6 border-l-4 ${colorClasses[color as keyof typeof colorClasses]}`}>
       <div className="flex items-center gap-3 mb-4">
-        <span className="text-3xl">{icon}</span>
+        <Icon className="w-8 h-8 text-gray-700" strokeWidth={1.5} />
         <Text variant="h4" className="text-gray-900">{title}</Text>
       </div>
       <ul className="space-y-2">
         {items.map((item, idx) => (
           <li key={idx} className="flex items-start text-gray-700 text-sm">
-            <span className="text-green-600 mr-2 mt-0.5">✓</span>
+            <Check className="w-4 h-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" strokeWidth={2.5} />
             <span>{item}</span>
           </li>
         ))}
@@ -45,7 +49,7 @@ export const DetectionFeatures: React.FC = () => {
 
   const categories = [
     {
-      icon: '🚫',
+      icon: 'intrusion',
       title: t('products.module1.behaviors.comprehensive.intrusion.title'),
       color: 'red',
       items: [
@@ -56,7 +60,7 @@ export const DetectionFeatures: React.FC = () => {
       ]
     },
     {
-      icon: '🧗',
+      icon: 'climbing',
       title: t('products.module1.behaviors.comprehensive.climbing.title'),
       color: 'orange',
       items: [
@@ -66,7 +70,7 @@ export const DetectionFeatures: React.FC = () => {
       ]
     },
     {
-      icon: '🔨',
+      icon: 'vandalism',
       title: t('products.module1.behaviors.comprehensive.vandalism.title'),
       color: 'yellow',
       items: [
@@ -77,7 +81,7 @@ export const DetectionFeatures: React.FC = () => {
       ]
     },
     {
-      icon: '⚠️',
+      icon: 'lifeThreat',
       title: t('products.module1.behaviors.comprehensive.lifeThreat.title'),
       color: 'red',
       items: [
@@ -88,7 +92,7 @@ export const DetectionFeatures: React.FC = () => {
       ]
     },
     {
-      icon: '🔪',
+      icon: 'weapons',
       title: t('products.module1.behaviors.comprehensive.weapons.title'),
       color: 'purple',
       items: [
@@ -101,7 +105,7 @@ export const DetectionFeatures: React.FC = () => {
       ]
     },
     {
-      icon: '🚭',
+      icon: 'violations',
       title: t('products.module1.behaviors.comprehensive.violations.title'),
       color: 'indigo',
       items: [
@@ -112,7 +116,7 @@ export const DetectionFeatures: React.FC = () => {
       ]
     },
     {
-      icon: '👤',
+      icon: 'faceRecognition',
       title: t('products.module1.behaviors.comprehensive.faceRecognition.title'),
       color: 'blue',
       items: [
@@ -123,7 +127,7 @@ export const DetectionFeatures: React.FC = () => {
       ]
     },
     {
-      icon: '🧠',
+      icon: 'advanced',
       title: t('products.module1.behaviors.comprehensive.advanced.title'),
       color: 'teal',
       items: [
@@ -137,7 +141,7 @@ export const DetectionFeatures: React.FC = () => {
       ]
     },
     {
-      icon: '🚨',
+      icon: 'emergency',
       title: t('products.module1.behaviors.comprehensive.emergency.title'),
       color: 'pink',
       items: [
@@ -164,7 +168,7 @@ export const DetectionFeatures: React.FC = () => {
         {categories.map((category, idx) => (
           <FeatureCategory
             key={idx}
-            icon={category.icon}
+            iconName={category.icon}
             title={category.title}
             items={category.items}
             color={category.color}

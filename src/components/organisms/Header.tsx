@@ -7,10 +7,24 @@ export const Header: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY >= 100);
+      const scrollY = window.scrollY;
+      
+      // Use hysteresis to prevent flickering: different thresholds for scrolling down vs up
+      setIsScrolled((prev) => {
+        if (prev) {
+          // When already scrolled, only switch back to unscrolled below 80px
+          return scrollY > 80;
+        } else {
+          // When unscrolled, only switch to scrolled above 120px
+          return scrollY > 120;
+        }
+      });
     };
 
-    window.addEventListener('scroll', handleScroll);
+    // Initial check
+    handleScroll();
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -49,7 +63,7 @@ export const Header: React.FC = () => {
 
           {/* Second Row - Navigation & Language Switcher */}
           <nav className="flex items-center justify-between">
-            <NavMenu onNavigate={handleScrollToSection} />
+            <NavMenu onNavigate={handleScrollToSection} isScrolled={isScrolled} />
             
             <div className="flex items-center ml-8">
               <LanguageSwitcher />

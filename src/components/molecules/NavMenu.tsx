@@ -3,9 +3,10 @@ import { useTranslation } from 'react-i18next';
 
 interface NavMenuProps {
   onNavigate: (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => void;
+  isScrolled: boolean;
 }
 
-export const NavMenu: React.FC<NavMenuProps> = ({ onNavigate }) => {
+export const NavMenu: React.FC<NavMenuProps> = ({ onNavigate, isScrolled }) => {
   const { t } = useTranslation();
   const [showSolutionsDropdown, setShowSolutionsDropdown] = useState(false);
 
@@ -24,11 +25,11 @@ export const NavMenu: React.FC<NavMenuProps> = ({ onNavigate }) => {
   };
 
   return (
-    <div className="flex items-center gap-8">
+    <div className={`flex items-center ${isScrolled ? 'gap-6' : 'gap-8'}`}>
       <a 
         href="/" 
         onClick={(e) => onNavigate(e, '/')}
-        className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-sm"
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.home')}
       </a>
@@ -42,10 +43,10 @@ export const NavMenu: React.FC<NavMenuProps> = ({ onNavigate }) => {
         <a 
           href="#solutions" 
           onClick={handleSolutionClick}
-          className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-sm flex items-center gap-1"
+          className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase flex items-center gap-1 ${isScrolled ? 'text-xs' : 'text-sm'}`}
         >
           {t('nav.solutions')}
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className={`${isScrolled ? 'w-3 h-3' : 'w-4 h-4'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
         </a>
@@ -69,7 +70,7 @@ export const NavMenu: React.FC<NavMenuProps> = ({ onNavigate }) => {
       <a 
         href="#contact" 
         onClick={(e) => onNavigate(e, '#contact')}
-        className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-sm"
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.contact')}
       </a>

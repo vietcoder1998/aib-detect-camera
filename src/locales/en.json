@@ -54,37 +54,37 @@
     "prison": {
       "title": "Correctional Facilities",
       "description": "Monitor inmate behavior, detect suicide attempts, fighting, escape attempts, and weapon possession. Ensure safety with 24/7 automated surveillance.",
-      "icon": "🏛️",
+      "icon": "prison",
       "features": ["Suicide prevention", "Fighting detection", "Escape monitoring", "Weapon detection"]
     },
     "hospital": {
       "title": "Healthcare & Mental Health",
       "description": "Patient safety monitoring, fall detection, wandering alerts, and emergency response for hospitals and psychiatric facilities.",
-      "icon": "🏥",
+      "icon": "hospital",
       "features": ["Fall detection", "Patient monitoring", "Wandering alerts", "Emergency response"]
     },
     "factory": {
       "title": "Manufacturing & Industry",
       "description": "Safety compliance monitoring, restricted area protection, PPE detection, and accident prevention in industrial environments.",
-      "icon": "🏭",
+      "icon": "factory",
       "features": ["Safety compliance", "Restricted zones", "PPE monitoring", "Accident prevention"]
     },
     "office": {
       "title": "Commercial Buildings",
       "description": "Secure office spaces, retail stores, and commercial facilities with intrusion detection, loitering alerts, and access control.",
-      "icon": "🏢",
+      "icon": "office",
       "features": ["Intrusion detection", "Access control", "Loitering alerts", "Perimeter security"]
     },
     "school": {
       "title": "Educational Institutions",
       "description": "Campus safety with violence detection, unauthorized access alerts, and comprehensive monitoring of school premises.",
-      "icon": "🎓",
+      "icon": "school",
       "features": ["Violence detection", "Unauthorized access", "Campus monitoring", "Student safety"]
     },
     "public": {
       "title": "Public Spaces & Infrastructure",
       "description": "Monitor parks, transportation hubs, and public areas for suspicious behavior, vandalism, and crowd management.",
-      "icon": "🌆",
+      "icon": "public",
       "features": ["Crowd management", "Vandalism detection", "Public safety", "Traffic monitoring"]
     }
   },
@@ -137,49 +137,49 @@
     "efficiency": {
       "title": "Operational Efficiency",
       "description": "Reduce human monitoring workload by 70% with automated AI detection and smart alerts",
-      "icon": "⚡",
+      "icon": "efficiency",
       "stats": "70% reduction in manual monitoring"
     },
     "response": {
       "title": "Faster Response Time",
       "description": "Emergency alerts in <5 seconds enable immediate action and prevent incidents before escalation",
-      "icon": "🚨",
+      "icon": "response",
       "stats": "<5s emergency response"
     },
     "accuracy": {
       "title": "High Accuracy",
       "description": "80-90% detection accuracy with deep learning minimizes false alarms and ensures reliable alerts",
-      "icon": "🎯",
+      "icon": "accuracy",
       "stats": "80-90% detection accuracy"
     },
     "coverage": {
       "title": "Scalable Coverage",
       "description": "Monitor 35-40 cameras per AI server with multi-camera simultaneous processing capability",
-      "icon": "📹",
+      "icon": "coverage",
       "stats": "35-40 cameras per server"
     },
     "cost": {
       "title": "Cost Effective",
       "description": "Reduce security personnel costs while improving coverage and incident detection rates",
-      "icon": "💰",
+      "icon": "cost",
       "stats": "Lower operational costs"
     },
     "compliance": {
       "title": "Compliance & Reporting",
       "description": "Complete audit trails, evidence capture, and comprehensive logging for regulatory compliance",
-      "icon": "📊",
+      "icon": "compliance",
       "stats": "Complete audit trails"
     },
     "integration": {
       "title": "Easy Integration",
       "description": "Works with existing camera infrastructure and VMS systems without major upgrades",
-      "icon": "🔌",
+      "icon": "integration",
       "stats": "Compatible with existing systems"
     },
     "support": {
       "title": "24/7 Support",
       "description": "Enterprise-grade support with 3-year warranty and ongoing system updates",
-      "icon": "🛟",
+      "icon": "support",
       "stats": "3-year warranty included"
     }
   },
@@ -189,7 +189,7 @@
     "mainProduct": {
       "name": "Intelligent Behavior Analysis Equipment Set",
       "model": "AIB (Artificial Intelligence Behavior)",
-      "manufacturer": "INFINITY PHOENIX PTE. LTD",
+      "manufacturer": "AMBILI TECH SDN. BHD",
       "origin": "Singapore",
       "quantity": "01 Complete Set",
       "description": "The AIB Intelligent Behavior Analysis System applies artificial intelligence (AI) for video surveillance and automatic detection of abnormal behaviors on camera systems. Deep Learning technology enables accurate recognition of dangerous or violation situations, sending real-time alerts to operators. The system supports zone setup, security scenario creation, camera-based configuration, and visual monitoring. AIB detects diverse behaviors including restricted area intrusion, climbing, fighting, weapon carrying, vandalism, smoking, gambling, as well as emergencies like suicide risk or abnormal falls."
@@ -378,7 +378,7 @@
     "subtitle": "Contact us for more information about AIB system or to schedule a demo",
     "company": {
       "title": "Manufacturer",
-      "name": "INFINITY PHOENIX PTE. LTD",
+      "name": "AMBILI TECH SDN. BHD",
       "location": "Singapore"
     },
     "distributor": {
@@ -408,7 +408,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 AIB - INFINITY PHOENIX PTE. LTD. All rights reserved.",
+    "copyright": "© 2025 AIB - AMBILI TECH SDN. BHD. All rights reserved.",
     "location": "Singapore",
     "distributor": "Distributed by HTC Import-Export Technology Equipment JSC"
   }

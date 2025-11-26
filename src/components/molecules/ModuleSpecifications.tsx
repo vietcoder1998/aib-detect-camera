@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Text } from '@atoms';
+import { Check, AlertTriangle } from 'lucide-react';
 
 export const ModuleSpecifications: React.FC = () => {
   const { t } = useTranslation();
@@ -44,7 +45,7 @@ export const ModuleSpecifications: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700">
           {[...Array(12)].map((_, i) => (
             <div key={i} className="flex items-start">
-              <span className="text-blue-600 mr-2">✓</span>
+              <Check className="w-4 h-4 text-blue-600 mr-2 mt-0.5 flex-shrink-0" strokeWidth={2.5} />
               <span>{t(`products.module1.behaviors.item${i + 1}`)}</span>
             </div>
           ))}
@@ -53,7 +54,10 @@ export const ModuleSpecifications: React.FC = () => {
 
       {/* Emergency Alerts */}
       <div className="bg-red-50 border-l-4 border-red-500 p-4 mt-6">
-        <p className="text-red-700 font-semibold">⚠️ {t('products.module1.alerts')}</p>
+        <div className="flex items-center gap-2">
+          <AlertTriangle className="w-5 h-5 text-red-700 flex-shrink-0" strokeWidth={2} />
+          <p className="text-red-700 font-semibold">{t('products.module1.alerts')}</p>
+        </div>
       </div>
     </div>
   );

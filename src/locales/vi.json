@@ -54,37 +54,37 @@
     "prison": {
       "title": "Cơ sở Giam giữ",
       "description": "Giám sát hành vi phạm nhân, phát hiện tự tử, ẩu đả, trốn thoát và mang hung khí. Đảm bảo an toàn với giám sát tự động 24/7.",
-      "icon": "🏛️",
+      "icon": "prison",
       "features": ["Phòng chống tự tử", "Phát hiện ẩu đả", "Giám sát trốn thoát", "Phát hiện hung khí"]
     },
     "hospital": {
       "title": "Y tế & Sức khỏe Tâm thần",
       "description": "Giám sát an toàn bệnh nhân, phát hiện ngã, cảnh báo lang thang và phản ứng khẩn cấp cho bệnh viện và cơ sở tâm thần.",
-      "icon": "🏥",
+      "icon": "hospital",
       "features": ["Phát hiện ngã", "Giám sát bệnh nhân", "Cảnh báo lang thang", "Phản ứng khẩn cấp"]
     },
     "factory": {
       "title": "Sản xuất & Công nghiệp",
       "description": "Giám sát tuân thủ an toàn, bảo vệ khu vực hạn chế, phát hiện PPE và phòng ngừa tai nạn trong môi trường công nghiệp.",
-      "icon": "🏭",
+      "icon": "factory",
       "features": ["Tuân thủ an toàn", "Khu vực hạn chế", "Giám sát PPE", "Phòng ngừa tai nạn"]
     },
     "office": {
       "title": "Tòa nhà Thương mại",
       "description": "Bảo mật văn phòng, cửa hàng bán lẻ và cơ sở thương mại với phát hiện xâm nhập, cảnh báo lảng vảng và kiểm soát truy cập.",
-      "icon": "🏢",
+      "icon": "office",
       "features": ["Phát hiện xâm nhập", "Kiểm soát truy cập", "Cảnh báo lảng vảng", "Bảo mật chu vi"]
     },
     "school": {
       "title": "Cơ sở Giáo dục",
       "description": "An toàn khu học xá với phát hiện bạo lực, cảnh báo truy cập trái phép và giám sát toàn diện khuôn viên trường.",
-      "icon": "🎓",
+      "icon": "school",
       "features": ["Phát hiện bạo lực", "Truy cập trái phép", "Giám sát khuôn viên", "An toàn học sinh"]
     },
     "public": {
       "title": "Không gian Công cộng & Hạ tầng",
       "description": "Giám sát công viên, trung tâm giao thông và khu vực công cộng để phát hiện hành vi khả nghi, phá hoại và quản lý đám đông.",
-      "icon": "🌆",
+      "icon": "public",
       "features": ["Quản lý đám đông", "Phát hiện phá hoại", "An toàn công cộng", "Giám sát giao thông"]
     }
   },
@@ -137,49 +137,49 @@
     "efficiency": {
       "title": "Hiệu quả Hoạt động",
       "description": "Giảm khối lượng giám sát thủ công 70% với phát hiện AI tự động và cảnh báo thông minh",
-      "icon": "⚡",
+      "icon": "efficiency",
       "stats": "Giảm 70% giám sát thủ công"
     },
     "response": {
       "title": "Thời gian Phản ứng Nhanh hơn",
       "description": "Cảnh báo khẩn cấp trong <5 giây cho phép hành động ngay lập tức và ngăn chặn sự cố trước khi leo thang",
-      "icon": "🚨",
+      "icon": "response",
       "stats": "Phản ứng khẩn cấp <5s"
     },
     "accuracy": {
       "title": "Độ chính xác Cao",
       "description": "Độ chính xác phát hiện 80-90% với học sâu giảm thiểu cảnh báo giả và đảm bảo cảnh báo đáng tin cậy",
-      "icon": "🎯",
+      "icon": "accuracy",
       "stats": "Độ chính xác phát hiện 80-90%"
     },
     "coverage": {
       "title": "Phạm vi Mở rộng",
       "description": "Giám sát 35-40 camera trên mỗi máy chủ AI với khả năng xử lý đồng thời nhiều camera",
-      "icon": "📹",
+      "icon": "coverage",
       "stats": "35-40 camera/máy chủ"
     },
     "cost": {
       "title": "Tiết kiệm Chi phí",
       "description": "Giảm chi phí nhân sự an ninh trong khi cải thiện phạm vi và tỷ lệ phát hiện sự cố",
-      "icon": "💰",
+      "icon": "cost",
       "stats": "Chi phí vận hành thấp hơn"
     },
     "compliance": {
       "title": "Tuân thủ & Báo cáo",
       "description": "Nhật ký kiểm tra đầy đủ, thu thập chứng cứ và ghi nhật ký toàn diện để tuân thủ quy định",
-      "icon": "📊",
+      "icon": "compliance",
       "stats": "Nhật ký kiểm tra hoàn chỉnh"
     },
     "integration": {
       "title": "Tích hợp Dễ dàng",
       "description": "Hoạt động với cơ sở hạ tầng camera hiện có và hệ thống VMS mà không cần nâng cấp lớn",
-      "icon": "🔌",
+      "icon": "integration",
       "stats": "Tương thích với hệ thống hiện có"
     },
     "support": {
       "title": "Hỗ trợ 24/7",
       "description": "Hỗ trợ cấp doanh nghiệp với bảo hành 3 năm và cập nhật hệ thống liên tục",
-      "icon": "🛟",
+      "icon": "support",
       "stats": "Bảo hành 3 năm đi kèm"
     }
   },
@@ -189,7 +189,7 @@
     "mainProduct": {
       "name": "Bộ thiết bị Phân tích Hành vi Thông minh",
       "model": "AIB (Artificial Intelligence Behavior)",
-      "manufacturer": "INFINITY PHOENIX PTE. LTD",
+      "manufacturer": "AMBILI TECH SDN. BHD",
       "origin": "Singapore",
       "quantity": "01 Bộ thiết bị",
       "description": "Bộ thiết bị Phân tích Hành vi Thông minh - AIB là giải pháp ứng dụng trí tuệ nhân tạo (AI) để giám sát video và phát hiện tự động các hành vi bất thường trên hệ thống camera. Công nghệ học sâu (Deep Learning) cho phép module nhận diện chính xác nhiều tình huống nguy hiểm hoặc vi phạm, đồng thời gửi cảnh báo theo thời gian thực đến người vận hành. Hệ thống hỗ trợ người dùng thiết lập vùng giám sát, tạo kịch bản an ninh, quản lý cấu hình theo từng camera và theo dõi diễn biến trực quan. AIB có thể phát hiện đa dạng hành vi như xâm nhập khu vực cấm, leo trèo, ẩu đả, mang hung khí, phá hoại, hút thuốc, đánh bài, cũng như các tình huống khẩn cấp như nguy cơ tự tử hay ngã bất thường."
@@ -378,7 +378,7 @@
     "subtitle": "Liên hệ để biết thêm thông tin về hệ thống AIB hoặc để đặt lịch demo",
     "company": {
       "title": "Nhà sản xuất",
-      "name": "INFINITY PHOENIX PTE. LTD",
+      "name": "AMBILI TECH SDN. BHD",
       "location": "Singapore"
     },
     "distributor": {
@@ -408,7 +408,7 @@
     }
   },
   "footer": {
-    "copyright": "© 2025 AIB - INFINITY PHOENIX PTE. LTD. Đã đăng ký bản quyền.",
+    "copyright": "© 2025 AIB - AMBILI TECH SDN. BHD. Đã đăng ký bản quyền.",
     "location": "Singapore",
     "distributor": "Phân phối bởi Công Ty Cổ Phần Xuất Nhập Khẩu Thiết Bị Công Nghệ HTC"
   }

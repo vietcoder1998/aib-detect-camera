@@ -1,18 +1,24 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
+import { getIcon } from '../../utils/iconMap';
+import { Check } from 'lucide-react';
 
 interface SolutionCardProps {
-  icon: string;
+  iconName: string;
   title: string;
   description: string;
   features: string[];
 }
 
-const SolutionCard: React.FC<SolutionCardProps> = ({ icon, title, description, features }) => {
+const SolutionCard: React.FC<SolutionCardProps> = ({ iconName, title, description, features }) => {
+  const Icon = getIcon(iconName);
+  
   return (
     <Card className="p-6 hover:shadow-xl transition-shadow duration-300 h-full">
-      <div className="text-5xl mb-4">{icon}</div>
+      <div className="mb-4">
+        <Icon className="w-12 h-12 text-red-600" strokeWidth={1.5} />
+      </div>
       <Text variant="h4" className="text-gray-900 mb-3">
         {title}
       </Text>
@@ -22,7 +28,7 @@ const SolutionCard: React.FC<SolutionCardProps> = ({ icon, title, description, f
       <div className="space-y-2">
         {features.map((feature, idx) => (
           <div key={idx} className="flex items-center text-sm text-gray-700">
-            <span className="text-green-600 mr-2">✓</span>
+            <Check className="w-4 h-4 text-green-600 mr-2 flex-shrink-0" strokeWidth={2.5} />
             <span>{feature}</span>
           </div>
         ))}
@@ -91,7 +97,7 @@ export const SolutionsSection: React.FC = () => {
           {solutions.map((solution, idx) => (
             <SolutionCard
               key={idx}
-              icon={solution.icon}
+              iconName={solution.icon}
               title={solution.title}
               description={solution.description}
               features={solution.features}

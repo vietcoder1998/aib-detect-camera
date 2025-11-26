@@ -9,22 +9,22 @@ export const FeatureHighlights: React.FC = () => {
   return (
     <Grid cols={2} gap={4}>
       <FeatureCard 
-        icon="🎯"
+        iconName="behaviors"
         title={t('welcome.features.behaviors.title')}
         description={t('welcome.features.behaviors.description')}
       />
       <FeatureCard 
-        icon="⚡"
+        iconName="alerts"
         title={t('welcome.features.alerts.title')}
         description={t('welcome.features.alerts.description')}
       />
       <FeatureCard 
-        icon="📊"
+        iconName="categories"
         title={t('welcome.features.categories.title')}
         description={t('welcome.features.categories.description')}
       />
       <FeatureCard 
-        icon="🧠"
+        iconName="aiAccuracy"
         title={t('welcome.features.accuracy.title')}
         description={t('welcome.features.accuracy.description')}
       />

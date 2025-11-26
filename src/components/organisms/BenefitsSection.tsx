@@ -1,18 +1,23 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
+import { getIcon } from '../../utils/iconMap';
 
 interface BenefitCardProps {
-  icon: string;
+  iconName: string;
   title: string;
   description: string;
   stats: string;
 }
 
-const BenefitCard: React.FC<BenefitCardProps> = ({ icon, title, description, stats }) => {
+const BenefitCard: React.FC<BenefitCardProps> = ({ iconName, title, description, stats }) => {
+  const Icon = getIcon(iconName);
+  
   return (
     <Card className="p-6 text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-      <div className="text-5xl mb-4">{icon}</div>
+      <div className="flex justify-center mb-4">
+        <Icon className="w-12 h-12 text-red-600" strokeWidth={1.5} />
+      </div>
       <Text variant="h4" className="text-gray-900 mb-3">
         {title}
       </Text>
@@ -112,7 +117,7 @@ export const BenefitsSection: React.FC = () => {
           {benefits.map((benefit, idx) => (
             <BenefitCard
               key={idx}
-              icon={benefit.icon}
+              iconName={benefit.icon}
               title={benefit.title}
               description={benefit.description}
               stats={benefit.stats}
