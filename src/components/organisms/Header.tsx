@@ -32,51 +32,36 @@ export const Header: React.FC = () => {
       <Container>
         <nav className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center">
-            <h1 className="text-2xl md:text-3xl font-bold text-red-600">
-              AIB
-            </h1>
+            <a 
+              href="/" 
+              onClick={(e) => handleScrollToSection(e, '/')}
+              className="flex items-center gap-3 cursor-pointer group"
+            >
+              <h1 className="text-xl md:text-2xl font-bold text-red-600 group-hover:text-red-700 transition-colors">
+                AIB
+              </h1>
+            </a>
           </div>
           
           <div className="hidden md:flex items-center gap-8">
             <a 
               href="/" 
               onClick={(e) => handleScrollToSection(e, '/')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer"
+              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase"
             >
               {t('nav.home')}
             </a>
             <a 
               href="#solutions" 
               onClick={(e) => handleScrollToSection(e, '#solutions')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer"
+              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase"
             >
               {t('nav.solutions')}
             </a>
             <a 
-              href="#behaviors" 
-              onClick={(e) => handleScrollToSection(e, '#behaviors')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer"
-            >
-              {t('nav.behaviors')}
-            </a>
-            <a 
-              href="#benefits" 
-              onClick={(e) => handleScrollToSection(e, '#benefits')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer"
-            >
-              {t('nav.benefits')}
-            </a>
-            <a 
-              href="#products" 
-              onClick={(e) => handleScrollToSection(e, '#products')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer"
-            >
-              {t('nav.products')}
-            </a>
-            <a 
               href="#contact" 
               onClick={(e) => handleScrollToSection(e, '#contact')}
-              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer"
+              className="text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase"
             >
               {t('nav.contact')}
             </a>

@@ -5,7 +5,8 @@ import {
   SolutionsSection, 
   BehaviorsSection, 
   BenefitsSection, 
-  ProductsSection 
+  ProductsSection,
+  ContactSection 
 } from '@organisms';
 
 export const LandingPage: React.FC = () => {
@@ -16,6 +17,7 @@ export const LandingPage: React.FC = () => {
       <BehaviorsSection />
       <BenefitsSection />
       <ProductsSection />
+      <ContactSection />
     </MainLayout>
   );
 };

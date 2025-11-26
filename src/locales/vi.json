@@ -5,7 +5,8 @@
     "behaviors": "Hành vi",
     "benefits": "Lợi ích",
     "products": "Sản phẩm",
-    "contact": "Liên hệ"
+    "contact": "Liên hệ",
+    "logoAlt": "AIB - Hệ thống Phân tích Hành vi Thông minh"
   },
   "welcome": {
     "title": "Hệ thống Phân tích Hành vi Thông minh",
@@ -355,6 +356,40 @@
         "dimensions": "Cao 972 x Rộng 600 x Sâu 800 (mm) - chiều cao chưa bao gồm bánh xe",
         "quantity": "01 Thiết bị"
       }
+    }
+  },
+  "contact": {
+    "title": "Liên hệ với Chúng tôi",
+    "subtitle": "Liên hệ để biết thêm thông tin về hệ thống AIB hoặc để đặt lịch demo",
+    "company": {
+      "title": "Nhà sản xuất",
+      "name": "INFINITY PHOENIX PTE. LTD",
+      "location": "Singapore"
+    },
+    "distributor": {
+      "title": "Nhà phân phối Việt Nam",
+      "name": "Công Ty Cổ Phần Xuất Nhập Khẩu Thiết Bị Công Nghệ HTC",
+      "location": "Việt Nam"
+    },
+    "methods": {
+      "title": "Thông tin Liên hệ",
+      "email": "info@htc-tech.vn",
+      "phone": "+84 xxx xxx xxx",
+      "website": "www.htc-tech.vn"
+    },
+    "form": {
+      "title": "Gửi Tin nhắn cho Chúng tôi",
+      "name": "Họ và Tên",
+      "namePlaceholder": "Nhập họ và tên của bạn",
+      "email": "Địa chỉ Email",
+      "emailPlaceholder": "email.cua.ban@congty.com",
+      "phone": "Số điện thoại",
+      "phonePlaceholder": "+84 xxx xxx xxx",
+      "company": "Tên Công ty",
+      "companyPlaceholder": "Tên công ty của bạn",
+      "message": "Tin nhắn",
+      "messagePlaceholder": "Cho chúng tôi biết về yêu cầu của bạn...",
+      "submit": "Gửi Tin nhắn"
     }
   },
   "footer": {

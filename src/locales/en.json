@@ -5,7 +5,8 @@
     "behaviors": "Behaviors",
     "benefits": "Benefits",
     "products": "Products",
-    "contact": "Contact"
+    "contact": "Contact",
+    "logoAlt": "AIB - Artificial Intelligence Behavior Analysis System"
   },
   "welcome": {
     "title": "Artificial Intelligence Behavior Analysis System",
@@ -355,6 +356,40 @@
         "dimensions": "H972 x W600 x D800 (mm) - height excludes wheels",
         "quantity": "01 Unit"
       }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Contact us for more information about AIB system or to schedule a demo",
+    "company": {
+      "title": "Manufacturer",
+      "name": "INFINITY PHOENIX PTE. LTD",
+      "location": "Singapore"
+    },
+    "distributor": {
+      "title": "Vietnam Distributor",
+      "name": "HTC Import-Export Technology Equipment JSC",
+      "location": "Vietnam"
+    },
+    "methods": {
+      "title": "Contact Information",
+      "email": "info@htc-tech.vn",
+      "phone": "+84 xxx xxx xxx",
+      "website": "www.htc-tech.vn"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@company.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+84 xxx xxx xxx",
+      "company": "Company Name",
+      "companyPlaceholder": "Your company name",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your requirements...",
+      "submit": "Send Message"
     }
   },
   "footer": {
