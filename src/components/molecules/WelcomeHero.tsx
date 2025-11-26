@@ -1,9 +1,23 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Text, Button } from '@atoms';
+import { Text } from '@atoms';
 
 export const WelcomeHero: React.FC = () => {
   const { t } = useTranslation();
+
+  const handleScrollToSection = (sectionId: string) => {
+    const element = document.querySelector(sectionId);
+    if (element) {
+      const headerOffset = 80;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   return (
     <div className="relative">
@@ -29,7 +43,7 @@ export const WelcomeHero: React.FC = () => {
         <div className="inline-flex items-center gap-2 bg-red-50 border border-red-200 rounded-full px-4 py-2 mb-6">
           <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
           <Text variant="small" className="text-red-700 font-semibold">
-            AI-Powered Security System
+            {t('welcome.badge')}
           </Text>
         </div>
 
@@ -47,11 +61,17 @@ export const WelcomeHero: React.FC = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-wrap gap-4">
-          <Button size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800">
+          <button 
+            onClick={() => handleScrollToSection('#solutions')}
+            className="px-6 py-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white rounded-lg font-semibold transition-all shadow-lg"
+          >
             {t('welcome.cta')}
-          </Button>
-          <button className="px-6 py-3 border-2 border-gray-300 rounded-lg font-semibold text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors">
-            Watch Demo
+          </button>
+          <button 
+            onClick={() => handleScrollToSection('#behaviors')}
+            className="px-6 py-3 border-2 border-gray-300 rounded-lg font-semibold text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+          >
+            {t('welcome.watchDemo')}
           </button>
         </div>
 
@@ -62,19 +82,19 @@ export const WelcomeHero: React.FC = () => {
               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
               </svg>
-              <span>Enterprise Grade</span>
+              <span>{t('welcome.trustIndicators.enterprise')}</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
               </svg>
-              <span>24/7 Monitoring</span>
+              <span>{t('welcome.trustIndicators.monitoring')}</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
               </svg>
-              <span>ISO Certified</span>
+              <span>{t('welcome.trustIndicators.certified')}</span>
             </div>
           </div>
         </div>

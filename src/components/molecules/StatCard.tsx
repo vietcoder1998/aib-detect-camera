@@ -4,13 +4,13 @@ import { Text } from '@atoms';
 interface StatCardProps {
   value: string;
   label: string;
-  color: 'blue' | 'indigo' | 'purple';
+  color: 'red' | 'orange' | 'purple';
 }
 
 export const StatCard: React.FC<StatCardProps> = ({ value, label, color }) => {
   const colorClasses = {
-    blue: 'bg-blue-50 text-blue-600',
-    indigo: 'bg-indigo-50 text-indigo-600',
+    red: 'bg-red-50 text-red-600',
+    orange: 'bg-orange-50 text-orange-600',
     purple: 'bg-purple-50 text-purple-600',
   };
 

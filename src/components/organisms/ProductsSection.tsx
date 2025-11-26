@@ -1,13 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container, Text } from '@atoms';
-import { MainProductInfo, ModuleSpecifications, EquipmentGrid } from '@molecules';
+import { MainProductInfo, ModuleSpecifications, DetectionFeatures, EquipmentGrid } from '@molecules';
 
 export const ProductsSection: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section id="products" className="py-20 bg-gray-50">
       <Container>
         {/* Header */}
         <div className="text-center mb-16">
@@ -22,8 +22,11 @@ export const ProductsSection: React.FC = () => {
         {/* Main Product Info */}
         <MainProductInfo />
 
-        {/* Module 1: ABM System */}
+        {/* Module 1: AIB System Performance */}
         <ModuleSpecifications />
+
+        {/* Comprehensive Detection Features */}
+        <DetectionFeatures />
 
         {/* Equipment Section */}
         <EquipmentGrid />

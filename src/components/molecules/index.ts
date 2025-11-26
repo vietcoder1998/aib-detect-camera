@@ -3,6 +3,7 @@ export { LanguageSwitcher } from './LanguageSwitcher';
 export { ProductCard } from './ProductCard';
 export { MainProductInfo } from './MainProductInfo';
 export { ModuleSpecifications } from './ModuleSpecifications';
+export { DetectionFeatures } from './DetectionFeatures';
 export { EquipmentCard } from '../atoms/EquipmentCard';
 export { EquipmentGrid } from './EquipmentGrid';
 export { WelcomeHero } from './WelcomeHero';

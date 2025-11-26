@@ -1,7 +1,9 @@
 {
   "nav": {
     "home": "Trang chủ",
-    "about": "Giới thiệu",
+    "solutions": "Giải pháp",
+    "behaviors": "Hành vi",
+    "benefits": "Lợi ích",
     "products": "Sản phẩm",
     "contact": "Liên hệ"
   },
@@ -16,6 +18,168 @@
       "enterprise": "Cấp Doanh nghiệp",
       "monitoring": "Giám sát 24/7",
       "certified": "Chứng nhận ISO"
+    },
+    "monitoringCard": {
+      "title": "Giám sát bằng AI",
+      "subtitle": "Phát hiện Hành vi Thời gian thực",
+      "stats": {
+        "cameras": "Camera/Máy chủ",
+        "accuracy": "Độ chính xác",
+        "detection": "Thời gian phát hiện"
+      }
+    },
+    "features": {
+      "behaviors": {
+        "title": "50+ Tính năng Phát hiện",
+        "description": "Giám sát hành vi toàn diện"
+      },
+      "alerts": {
+        "title": "Cảnh báo Ngay lập tức",
+        "description": "Phản ứng khẩn cấp <5s"
+      },
+      "categories": {
+        "title": "9 Nhóm Phát hiện",
+        "description": "Từ xâm nhập đến nhận diện khuôn mặt"
+      },
+      "accuracy": {
+        "title": "Độ chính xác 80-90%",
+        "description": "Học sâu bằng AI"
+      }
+    }
+  },
+  "solutions": {
+    "title": "Giải pháp Ngành",
+    "subtitle": "Giải pháp An ninh AI Toàn diện cho Mọi Môi trường",
+    "prison": {
+      "title": "Cơ sở Giam giữ",
+      "description": "Giám sát hành vi phạm nhân, phát hiện tự tử, ẩu đả, trốn thoát và mang hung khí. Đảm bảo an toàn với giám sát tự động 24/7.",
+      "icon": "🏛️",
+      "features": ["Phòng chống tự tử", "Phát hiện ẩu đả", "Giám sát trốn thoát", "Phát hiện hung khí"]
+    },
+    "hospital": {
+      "title": "Y tế & Sức khỏe Tâm thần",
+      "description": "Giám sát an toàn bệnh nhân, phát hiện ngã, cảnh báo lang thang và phản ứng khẩn cấp cho bệnh viện và cơ sở tâm thần.",
+      "icon": "🏥",
+      "features": ["Phát hiện ngã", "Giám sát bệnh nhân", "Cảnh báo lang thang", "Phản ứng khẩn cấp"]
+    },
+    "factory": {
+      "title": "Sản xuất & Công nghiệp",
+      "description": "Giám sát tuân thủ an toàn, bảo vệ khu vực hạn chế, phát hiện PPE và phòng ngừa tai nạn trong môi trường công nghiệp.",
+      "icon": "🏭",
+      "features": ["Tuân thủ an toàn", "Khu vực hạn chế", "Giám sát PPE", "Phòng ngừa tai nạn"]
+    },
+    "office": {
+      "title": "Tòa nhà Thương mại",
+      "description": "Bảo mật văn phòng, cửa hàng bán lẻ và cơ sở thương mại với phát hiện xâm nhập, cảnh báo lảng vảng và kiểm soát truy cập.",
+      "icon": "🏢",
+      "features": ["Phát hiện xâm nhập", "Kiểm soát truy cập", "Cảnh báo lảng vảng", "Bảo mật chu vi"]
+    },
+    "school": {
+      "title": "Cơ sở Giáo dục",
+      "description": "An toàn khu học xá với phát hiện bạo lực, cảnh báo truy cập trái phép và giám sát toàn diện khuôn viên trường.",
+      "icon": "🎓",
+      "features": ["Phát hiện bạo lực", "Truy cập trái phép", "Giám sát khuôn viên", "An toàn học sinh"]
+    },
+    "public": {
+      "title": "Không gian Công cộng & Hạ tầng",
+      "description": "Giám sát công viên, trung tâm giao thông và khu vực công cộng để phát hiện hành vi khả nghi, phá hoại và quản lý đám đông.",
+      "icon": "🌆",
+      "features": ["Quản lý đám đông", "Phát hiện phá hoại", "An toàn công cộng", "Giám sát giao thông"]
+    }
+  },
+  "behaviors": {
+    "title": "Trình diễn Phát hiện Hành vi",
+    "subtitle": "Phân tích AI Thời gian thực các Tình huống An ninh Quan trọng",
+    "viewAll": "Xem Tất cả Tính năng",
+    "categories": {
+      "intrusion": {
+        "name": "Phát hiện Xâm nhập",
+        "description": "AI phát hiện xâm nhập trái phép vào khu vực hạn chế với giám sát ranh giới ảo"
+      },
+      "climbing": {
+        "name": "Leo trèo & Trốn thoát",
+        "description": "Nhận diện leo tường, vượt rào và nỗ lực trốn thoát theo thời gian thực"
+      },
+      "violence": {
+        "name": "Bạo lực & Ẩu đả",
+        "description": "Phát hiện hành vi hung hăng, ẩu đả và tấn công ngay lập tức"
+      },
+      "weapons": {
+        "name": "Phát hiện Hung khí",
+        "description": "Nhận dạng dao, gậy và vật nguy hiểm bằng nhận dạng mẫu AI"
+      },
+      "suicide": {
+        "name": "Phòng chống Tự tử",
+        "description": "Phát hiện sớm tư thế treo cổ và hành vi chuẩn bị"
+      },
+      "vandalism": {
+        "name": "Phá hoại & Hư hại",
+        "description": "Giám sát khoan, hư hại tường và hoạt động phá hủy tài sản"
+      },
+      "smoking": {
+        "name": "Hút thuốc & Vi phạm",
+        "description": "Phát hiện hút thuốc, đánh bạc và vi phạm nội quy trong khu vực hạn chế"
+      },
+      "fall": {
+        "name": "Phát hiện Ngã",
+        "description": "Phân biệt giữa tình huống y tế khẩn cấp và ngã do tai nạn"
+      },
+      "face": {
+        "name": "Nhận diện Khuôn mặt",
+        "description": "Xác định và theo dõi cá nhân bằng nhận diện khuôn mặt AI"
+      }
+    }
+  },
+  "benefits": {
+    "title": "Tại sao chọn Hệ thống AIB",
+    "subtitle": "Chuyển đổi Hoạt động An ninh của bạn với Trí tuệ AI",
+    "efficiency": {
+      "title": "Hiệu quả Hoạt động",
+      "description": "Giảm khối lượng giám sát thủ công 70% với phát hiện AI tự động và cảnh báo thông minh",
+      "icon": "⚡",
+      "stats": "Giảm 70% giám sát thủ công"
+    },
+    "response": {
+      "title": "Thời gian Phản ứng Nhanh hơn",
+      "description": "Cảnh báo khẩn cấp trong <5 giây cho phép hành động ngay lập tức và ngăn chặn sự cố trước khi leo thang",
+      "icon": "🚨",
+      "stats": "Phản ứng khẩn cấp <5s"
+    },
+    "accuracy": {
+      "title": "Độ chính xác Cao",
+      "description": "Độ chính xác phát hiện 80-90% với học sâu giảm thiểu cảnh báo giả và đảm bảo cảnh báo đáng tin cậy",
+      "icon": "🎯",
+      "stats": "Độ chính xác phát hiện 80-90%"
+    },
+    "coverage": {
+      "title": "Phạm vi Mở rộng",
+      "description": "Giám sát 35-40 camera trên mỗi máy chủ AI với khả năng xử lý đồng thời nhiều camera",
+      "icon": "📹",
+      "stats": "35-40 camera/máy chủ"
+    },
+    "cost": {
+      "title": "Tiết kiệm Chi phí",
+      "description": "Giảm chi phí nhân sự an ninh trong khi cải thiện phạm vi và tỷ lệ phát hiện sự cố",
+      "icon": "💰",
+      "stats": "Chi phí vận hành thấp hơn"
+    },
+    "compliance": {
+      "title": "Tuân thủ & Báo cáo",
+      "description": "Nhật ký kiểm tra đầy đủ, thu thập chứng cứ và ghi nhật ký toàn diện để tuân thủ quy định",
+      "icon": "📊",
+      "stats": "Nhật ký kiểm tra hoàn chỉnh"
+    },
+    "integration": {
+      "title": "Tích hợp Dễ dàng",
+      "description": "Hoạt động với cơ sở hạ tầng camera hiện có và hệ thống VMS mà không cần nâng cấp lớn",
+      "icon": "🔌",
+      "stats": "Tương thích với hệ thống hiện có"
+    },
+    "support": {
+      "title": "Hỗ trợ 24/7",
+      "description": "Hỗ trợ cấp doanh nghiệp với bảo hành 3 năm và cập nhật hệ thống liên tục",
+      "icon": "🛟",
+      "stats": "Bảo hành 3 năm đi kèm"
     }
   },
   "products": {
@@ -47,19 +211,87 @@
         "alerting": "Nhận diện và cảnh báo hành vi vi phạm"
       },
       "behaviors": {
-        "title": "Các Hành vi Được Giám sát",
-        "item1": "Vùng giới hạn/cấm xâm nhập",
-        "item2": "Trèo tường/vượt rào",
-        "item3": "Đánh nhau/gây rối",
-        "item4": "Dấu hiệu treo cổ (nguy cơ tự tử)",
-        "item5": "Hung khí (dao, gậy, vật kim loại)",
-        "item6": "Cưa thanh sắt cửa sổ (dùng dây đàn hoặc cưa)",
-        "item7": "Khi các đối tượng hay lui tới khu vực cửa sổ",
-        "item8": "Khoan tường/đào tường",
-        "item9": "Hút thuốc",
-        "item10": "Đánh bài",
-        "item11": "Phân biệt hành vi ngã do đột quỵ và ngã do ẩu đả/tai nạn",
-        "item12": "Xác định và định danh đối tượng trong khung hình"
+        "title": "Tính năng Phát hiện Toàn diện",
+        "subtitle": "9 nhóm phát hiện toàn diện với hơn 50 tính năng",
+        "intrusion": {
+          "title": "Phát hiện Xâm nhập / Đột nhập",
+          "item1": "Phát hiện vào vùng cấm",
+          "item2": "Vượt ranh giới ảo",
+          "item3": "Xâm nhập trái phép khu vực hạn chế",
+          "item4": "Đứng lâu hoặc lui tới bất thường tại cửa sổ/lối ra vào"
+        },
+        "climbing": {
+          "title": "Leo trèo / Vượt rào",
+          "item1": "Leo tường",
+          "item2": "Leo rào/vượt rào hai chiều",
+          "item3": "Leo lan can, vượt dải phân cách"
+        },
+        "vandalism": {
+          "title": "Phá hoại Công trình",
+          "item1": "Khoan tường",
+          "item2": "Đục tường/đào tường",
+          "item3": "Cưa song sắt (dùng dây đàn, cưa tay)",
+          "item4": "Đứng lâu tại điểm khả nghi để phá hoại"
+        },
+        "lifeThreat": {
+          "title": "Nguy hiểm Tính mạng",
+          "suicide": {
+            "title": "Tự tử / Treo cổ",
+            "item1": "Tư thế treo cơ thể",
+            "item2": "Hành vi chuẩn bị (buộc dây, leo lên điểm cao)"
+          },
+          "fall": {
+            "title": "Ngã Nguy hiểm",
+            "item1": "Ngã do đột quỵ",
+            "item2": "Ngã do ẩu đả/tai nạn",
+            "item3": "Phân biệt dựa trên: lực tác động, hướng ngã, phản xạ chống đỡ, bất động sau ngã"
+          },
+          "fighting": {
+            "title": "Ẩu đả - Xô xát",
+            "item1": "Hành vi tấn công, giằng co",
+            "item2": "Chuyển động mạnh giữa nhiều người"
+          }
+        },
+        "weapons": {
+          "title": "Phát hiện Hung khí",
+          "item1": "Dao",
+          "item2": "Kéo",
+          "item3": "Gậy",
+          "item4": "Kim loại dài (ống, thanh sắt)",
+          "item5": "Vật sắc nhọn có khả năng gây sát thương",
+          "item6": "Phát hiện dựa trên: hình dạng, kích thước, tương quan với tư thế cầm"
+        },
+        "violations": {
+          "title": "Vi phạm Nội quy",
+          "item1": "Hút thuốc/có khói",
+          "item2": "Đánh bài/tụ tập chơi bài",
+          "item3": "Tụ tập đông người tại khu vực cấm hoặc nhạy cảm",
+          "item4": "Đứng nhóm quá lâu trong vùng giám sát"
+        },
+        "faceRecognition": {
+          "title": "Nhận diện Đối tượng (Face Recognition/ID)",
+          "item1": "Phát hiện khuôn mặt",
+          "item2": "Nhận diện danh tính dựa trên database",
+          "item3": "Gán ID - tên đối tượng",
+          "item4": "Phân biệt nhiều người trong cùng khung hình"
+        },
+        "advanced": {
+          "title": "Phân tích Nâng cao Thời gian thực",
+          "item1": "Nhận diện người - vật thể - chuyển động",
+          "item2": "Phân tích tư thế cơ thể",
+          "item3": "Phân tích hướng - tốc độ di chuyển",
+          "item4": "Nhận diện hành động dựa trên pattern",
+          "item5": "Đánh giá ngữ cảnh (contextual analysis) để giảm báo động giả",
+          "item6": "Xử lý multi-camera đồng thời",
+          "item7": "Vẽ và quản lý vùng giám sát theo từng camera"
+        },
+        "emergency": {
+          "title": "Cảnh báo Khẩn cấp",
+          "item1": "Bật âm thanh cảnh báo trên máy điều khiển",
+          "item2": "Popup + hình ảnh chứng cứ",
+          "item3": "Xác định vị trí camera",
+          "item4": "Nhật ký toàn bộ quá trình xử lý"
+        }
       },
       "alerts": "Cảnh báo khẩn cấp tự động"
     },

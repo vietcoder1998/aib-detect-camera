@@ -4,7 +4,7 @@ import { WelcomeHero, MonitoringInfoCard, FeatureHighlights } from '@molecules';
 
 export const WelcomeSection: React.FC = () => {
   return (
-    <section className="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-20 md:py-32">
+    <section className="bg-gradient-to-br from-red-50 via-orange-50 to-pink-50 py-20 md:py-32">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text Content */}
