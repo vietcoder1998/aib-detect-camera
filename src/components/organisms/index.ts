@@ -5,3 +5,4 @@ export { BehaviorsSection } from './BehaviorsSection';
 export { BenefitsSection } from './BenefitsSection';
 export { ProductsSection } from './ProductsSection';
 export { ContactSection } from './ContactSection';
+export { InformationContact } from './InformationContact';

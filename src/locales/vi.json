@@ -11,7 +11,7 @@
   "welcome": {
     "title": "Hệ thống Phân tích Hành vi Thông minh",
     "subtitle": "Công nghệ AI tiên tiến cho An ninh & Giám sát",
-    "description": "INFINITY PHOENIX giới thiệu hệ thống AIB - công nghệ học sâu tiên tiến với độ chính xác 80-90%, giám sát 35-40 camera trên mỗi máy chủ AI với cảnh báo tự động theo thời gian thực.",
+    "description": "AMBILI TECH SDN. BHDgiới thiệu hệ thống AIB - công nghệ học sâu tiên tiến với độ chính xác 80-90%, giám sát 35-40 camera trên mỗi máy chủ AI với cảnh báo tự động theo thời gian thực.",
     "cta": "Tìm hiểu thêm",
     "badge": "Hệ thống An ninh AI",
     "watchDemo": "Xem Demo",
@@ -378,8 +378,8 @@
     "subtitle": "Liên hệ để biết thêm thông tin về hệ thống AIB hoặc để đặt lịch demo",
     "company": {
       "title": "Nhà sản xuất",
-      "name": "AMBILI TECH SDN. BHD",
-      "location": "Singapore"
+      "name": "AMBILI TECH SDN. BHD.",
+      "location": "Malaysia"
     },
     "distributor": {
       "title": "Nhà phân phối Việt Nam",
@@ -388,8 +388,8 @@
     },
     "methods": {
       "title": "Thông tin Liên hệ",
-      "email": "info@htc-tech.vn",
-      "phone": "+84 xxx xxx xxx",
+      "email": "comsec@gmgroup.com.my",
+      "phone": "+60 3-2389 2826",
       "website": "www.htc-tech.vn"
     },
     "form": {
@@ -405,6 +405,22 @@
       "message": "Tin nhắn",
       "messagePlaceholder": "Cho chúng tôi biết về yêu cầu của bạn...",
       "submit": "Gửi Tin nhắn"
+    }
+  },
+  "information": {
+    "title": "Thông tin Công ty",
+    "subtitle": "Chi tiết Liên hệ Chính thức",
+    "labels": {
+      "companyName": "Tên Công ty",
+      "address": "Địa chỉ",
+      "phone": "Số điện thoại",
+      "email": "Email chính thức"
+    },
+    "company": {
+      "name": "AMBILI TECH SDN. BHD.",
+      "address": "C-14-3, Sri Intan 1 Condominium, Lengkok Selingsing, Taman Kok Lian, Jalan Ipoh Batu 5, 51200 Kuala Lumpur, W.P. Kuala Lumpur, Malaysia",
+      "phone": "+60 3-2389 2826",
+      "email": "comsec@gmgroup.com.my"
     }
   },
   "footer": {

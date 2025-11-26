@@ -11,7 +11,7 @@
   "welcome": {
     "title": "Artificial Intelligence Behavior Analysis System",
     "subtitle": "Advanced AI-Powered Security & Surveillance",
-    "description": "INFINITY PHOENIX presents the AIB system - cutting-edge deep learning technology with 80-90% accuracy, monitoring 35-40 cameras per AI server with automatic real-time alerts.",
+    "description": "AMBILI TECH SDN. BHDpresents the AIB system - cutting-edge deep learning technology with 80-90% accuracy, monitoring 35-40 cameras per AI server with automatic real-time alerts.",
     "cta": "Learn More",
     "badge": "AI-Powered Security System",
     "watchDemo": "Watch Demo",
@@ -378,8 +378,8 @@
     "subtitle": "Contact us for more information about AIB system or to schedule a demo",
     "company": {
       "title": "Manufacturer",
-      "name": "AMBILI TECH SDN. BHD",
-      "location": "Singapore"
+      "name": "AMBILI TECH SDN. BHD.",
+      "location": "Malaysia"
     },
     "distributor": {
       "title": "Vietnam Distributor",
@@ -388,8 +388,8 @@
     },
     "methods": {
       "title": "Contact Information",
-      "email": "info@htc-tech.vn",
-      "phone": "+84 xxx xxx xxx",
+      "email": "comsec@gmgroup.com.my",
+      "phone": "+60 3-2389 2826",
       "website": "www.htc-tech.vn"
     },
     "form": {
@@ -405,6 +405,22 @@
       "message": "Message",
       "messagePlaceholder": "Tell us about your requirements...",
       "submit": "Send Message"
+    }
+  },
+  "information": {
+    "title": "Company Information",
+    "subtitle": "Official Contact Details",
+    "labels": {
+      "companyName": "Company Name",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Official Email"
+    },
+    "company": {
+      "name": "AMBILI TECH SDN. BHD.",
+      "address": "C-14-3, Sri Intan 1 Condominium, Lengkok Selingsing, Taman Kok Lian, Jalan Ipoh Batu 5, 51200 Kuala Lumpur, W.P. Kuala Lumpur, Malaysia",
+      "phone": "+60 3-2389 2826",
+      "email": "comsec@gmgroup.com.my"
     }
   },
   "footer": {
