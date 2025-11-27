@@ -481,7 +481,10 @@
       "model": "Model:",
       "company": "Company:",
       "origin": "Origin:",
-      "requestDemo": "Request Demo"
+      "requestDemo": "Request Demo",
+      "modelValue": "AIB",
+      "companyValue": "AMBILI TECH",
+      "originValue": "Malaysia"
     },
     "technicalSpecs": {
       "badge": "AI-Powered Analysis",

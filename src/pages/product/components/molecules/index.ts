@@ -1,4 +1,6 @@
 export * from './ProductHero';
+export * from './ProductHeroHeader';
+export * from './ProductAboutCard';
 export * from './TechnicalSpecs';
 export * from './KeyFeatures';
 export * from './BehaviorsList';

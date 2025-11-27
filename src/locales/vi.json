@@ -481,7 +481,10 @@
       "model": "Mô hình:",
       "company": "Công ty:",
       "origin": "Xuất xứ:",
-      "requestDemo": "Yêu Cầu Demo"
+      "requestDemo": "Yêu Cầu Demo",
+      "modelValue": "AIB",
+      "companyValue": "AMBILI TECH",
+      "originValue": "Malaysia"
     },
     "technicalSpecs": {
       "badge": "Phân Tích Được Hỗ Trợ Bởi AI",
@@ -507,12 +510,12 @@
     "keyFeatures": {
       "badge": "Công Nghệ Deep Learning Tiên Tiến",
       "title": "Tính Năng Chính",
-      "subtitle": "Tích hợp AI mạnh mẽ cho phát hiện hành vi bất thường thời gian thực",
+      "description": "Tích hợp AI mạnh mẽ cho phát hiện hành vi bất thường thời gian thực",
       "behaviorRecognition": {
         "title": "Nhận Dạng Hành Vi",
         "description": "Phát hiện và phân loại hơn 12 loại hành vi vi phạm khác nhau sử dụng Deep Neural Networks với phân tích ngữ cảnh."
       },
-      "realTimeAlerts": {
+      "realtimeAlerts": {
         "title": "Cảnh Báo Thời Gian Thực",
         "description": "Tự động gửi cảnh báo đến màn hình giám sát và thiết bị di động trong vòng 5 giây khi phát hiện bất thường."
       },
@@ -533,13 +536,13 @@
         "description": "Xuất báo cáo chi tiết về các sự kiện với hình ảnh, tem thời gian, vị trí và phân tích xu hướng vi phạm."
       }
     },
-    "behaviorDetection": {
+    "behaviorsList": {
       "title": "Phát Hiện Hành Vi",
       "subtitle": "Các Hành Vi Được Phát Hiện",
       "description": "Hệ thống có thể nhận biết và cảnh báo 12 loại hành vi vi phạm với độ chính xác 70-85%",
       "behaviors": {
         "zoneIntrusion": "Xâm Nhập Vùng",
-        "climbingFence": "Leo & Nhảy Hàng Rào",
+        "climbingJumping": "Leo & Nhảy Hàng Rào",
         "fightingRiot": "Đánh Nhau & Bạo Loạn",
         "selfHarm": "Tự Gây Thương Tích / Dấu Hiệu Tự Tử",
         "weaponCarrying": "Mang Vũ Khí",
@@ -552,41 +555,69 @@
         "objectIdentification": "Nhận Dạng Vật Thể"
       }
     },
-    "hardware": {
+    "hardwareSpecs": {
       "title": "Phần Cứng",
       "subtitle": "Thiết Bị Bao Gồm",
       "description": "Hệ thống phần cứng hiệu suất cao đảm bảo xử lý AI ổn định 24/7",
       "aiServer": {
         "title": "Máy Chủ Xử Lý AI",
-        "model": "HISOKAI HS25-G4P5000"
+        "model": "HISOKAI HS25-G4P5000",
+        "specs": {
+          "cpu": {
+            "title": "CPU",
+            "value": "Intel Xeon Gen5 x2"
+          },
+          "ram": {
+            "title": "RAM",
+            "value": "128GB"
+          },
+          "storage": {
+            "title": "Lưu Trữ",
+            "value": "1.92TB SSD x2"
+          },
+          "gpu": {
+            "title": "GPU",
+            "value": "48GB VRAM x4"
+          },
+          "power": {
+            "title": "Nguồn",
+            "value": "2600W x2"
+          },
+          "warranty": {
+            "title": "Bảo Hành",
+            "value": "3 Năm"
+          }
+        }
       },
       "vmsServer": {
         "title": "Máy Chủ VMS",
-        "model": "HISOKAI HS25-C5420"
-      },
-      "workstation": {
-        "title": "Trạm Làm Việc Điều Khiển",
-        "model": "HISOKAI HS26-S95"
-      },
-      "networkRack": {
-        "title": "Mạng & Tủ Rack",
-        "model": "TP-Link TL-SG3424 + Tủ Rack 20U"
-      },
-      "specs": {
-        "cpu": "CPU",
-        "ram": "RAM",
-        "storage": "Lưu Trữ",
-        "gpu": "GPU",
-        "power": "Nguồn",
-        "network": "Mạng",
-        "display": "Màn Hình",
-        "audio": "Âm Thanh",
-        "switch": "Switch",
-        "rackModel": "Mô Hình Tủ Rack",
-        "rackSize": "Kích Thước Tủ Rack",
-        "security": "Bảo Mật",
-        "standard": "Tiêu Chuẩn",
-        "warranty": "Bảo Hành"
+        "model": "HISOKAI HS25-C5420",
+        "specs": {
+          "cpu": {
+            "title": "CPU",
+            "value": "Intel Xeon Gen4 x2"
+          },
+          "ram": {
+            "title": "RAM",
+            "value": "256GB"
+          },
+          "storage": {
+            "title": "Lưu Trữ",
+            "value": "1TB SSD"
+          },
+          "power": {
+            "title": "Nguồn",
+            "value": "500W x2"
+          },
+          "network": {
+            "title": "Mạng",
+            "value": "10Gb RJ45 x2"
+          },
+          "warranty": {
+            "title": "Bảo Hành",
+            "value": "3 Năm"
+          }
+        }
       }
     },
     "systemArchitecture": {
@@ -602,7 +633,7 @@
           "title": "Lớp Kết Nối Mạng",
           "description": "Switch POE nhận tất cả luồng hình ảnh từ camera, cung cấp điện và truyền dữ liệu đến hệ thống máy chủ."
         },
-        "processingLayer": {
+        "serverLayer": {
           "title": "Lớp Máy Chủ Xử Lý",
           "description": "Máy chủ VMS quản lý luồng video. Máy chủ AI thực hiện phân tích hành vi thời gian thực. Máy chủ Lưu trữ ghi lại 24/7."
         },
@@ -612,11 +643,11 @@
         }
       }
     },
-    "advantages": {
+    "advantagesGrid": {
       "title": "Ưu Điểm",
       "subtitle": "Tại Sao Chọn AIB?",
       "description": "Giải pháp toàn diện mang lại hiệu suất hệ thống bảo mật vượt trội",
-      "items": {
+      "advantages": {
         "reducedManpower": {
           "title": "Giảm Tải Nhân Lực",
           "description": "AI có thể giám sát hàng chục đến hàng trăm camera đồng thời - điều mà con người không thể làm liên tục."

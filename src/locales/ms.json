@@ -481,7 +481,10 @@
       "model": "Model:",
       "company": "Syarikat:",
       "origin": "Asal:",
-      "requestDemo": "Minta Demo"
+      "requestDemo": "Minta Demo",
+      "modelValue": "AIB",
+      "companyValue": "AMBILI TECH",
+      "originValue": "Malaysia"
     },
     "technicalSpecs": {
       "badge": "Analisis Dikuasakan AI",
