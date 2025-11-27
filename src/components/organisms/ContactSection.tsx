@@ -21,8 +21,19 @@ export const ContactSection: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission logic here
-    console.log('Form submitted:', formData);
+    
+    // Create email content
+    const subject = encodeURIComponent(`Contact Form Submission from ${formData.name}`);
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Phone: ${formData.phone}\n` +
+      `Company: ${formData.company}\n\n` +
+      `Message:\n${formData.message}`
+    );
+    
+    // Open email client
+    window.location.href = `mailto:sales.support@ambili-tech.com?subject=${subject}&body=${body}`;
   };
 
   return (
