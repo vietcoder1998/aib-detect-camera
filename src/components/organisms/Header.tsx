@@ -28,27 +28,6 @@ export const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
-    e.preventDefault();
-    
-    if (sectionId === '/') {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      return;
-    }
-    
-    const element = document.querySelector(sectionId);
-    if (element) {
-      const headerOffset = 80; // Account for sticky header height
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-    }
-  };
-
   return (
     <header className={`bg-white shadow-md sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}>
       <Container>
@@ -62,7 +41,7 @@ export const Header: React.FC = () => {
 
           {/* Second Row - Navigation & Language Switcher */}
           <nav className="flex items-center justify-between">
-            <NavMenu onNavigate={handleScrollToSection} isScrolled={isScrolled} />
+            <NavMenu isScrolled={isScrolled} />
             
             <div className="flex items-center ml-8">
               <LanguageSwitcher />
