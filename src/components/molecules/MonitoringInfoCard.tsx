@@ -1,8 +1,8 @@
+import CameraImage from '@/assets/CameraImage.png';
+import { Card } from '@atoms';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Text, Card } from '@atoms';
 import { StatCard } from './StatCard';
-import CameraImage from '@/assets/CameraImage.png';
 
 export const MonitoringInfoCard: React.FC = () => {
   const { t } = useTranslation();

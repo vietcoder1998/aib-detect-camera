@@ -397,6 +397,7 @@
   "news": {
     "title": "Latest News & Updates",
     "subtitle": "Stay informed about the latest developments in AI security technology and industry insights",
+    "readMore": "Read More",
     "items": {
       "item1": {
         "title": "AIB System Successfully Deployed in Major Correctional Facility",

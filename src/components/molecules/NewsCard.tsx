@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Calendar, ArrowRight } from 'lucide-react';
 import { Text, Card } from '@atoms';
 
@@ -17,6 +18,8 @@ export const NewsCard: React.FC<NewsCardProps> = ({
   image, 
   category 
 }) => {
+  const { t } = useTranslation();
+  
   return (
     <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 group cursor-pointer">
       {/* Image */}
@@ -52,7 +55,7 @@ export const NewsCard: React.FC<NewsCardProps> = ({
 
         {/* Read More */}
         <div className="flex items-center gap-2 text-red-600 font-medium group-hover:gap-4 transition-all">
-          <span>Read More</span>
+          <span>{t('news.readMore')}</span>
           <ArrowRight className="w-4 h-4" />
         </div>
       </div>
