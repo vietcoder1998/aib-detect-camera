@@ -1,11 +1,11 @@
 import React from 'react';
 import { MainLayout } from '@templates';
-import { ProductsSection } from '@organisms';
+import { ProductPageLayout } from './components/organisms/ProductPageLayout';
 
 export const ProductionPage: React.FC = () => {
   return (
     <MainLayout>
-      <ProductsSection />
+      <ProductPageLayout />
     </MainLayout>
   );
 };

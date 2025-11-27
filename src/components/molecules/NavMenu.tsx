@@ -54,12 +54,17 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
       
       <SolutionsDropdown isScrolled={isScrolled} />
 
-      <Link 
-        to="/products"
-        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
+      <button 
+        onClick={() => {
+          navigate('/products');
+          setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }, 100);
+        }}
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-left ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.products')}
-      </Link>
+      </button>
 
       <button 
         onClick={() => scrollToSection('about')}

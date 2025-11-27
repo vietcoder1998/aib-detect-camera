@@ -469,6 +469,173 @@
       "email": "comsec@gmgroup.com.my"
     }
   },
+  "productPage": {
+    "hero": {
+      "badge": "Hành Vi Thông Minh AI",
+      "title": "Hành Vi Thông Minh AI",
+      "subtitle": "Giải pháp giám sát toàn diện được hỗ trợ bởi AI để phát hiện và cảnh báo các hành vi bất thường theo thời gian thực, tăng cường an ninh cho các doanh nghiệp trên toàn thế giới.",
+      "exploreButton": "Khám Phá Tính Năng",
+      "aboutTitle": "Về AIB",
+      "aboutDescription1": "AIB (Artificial Intelligence Behavior) là phần mềm phân tích hành vi thông minh áp dụng trí tuệ nhân tạo để nhận diện các hành vi bất thường trên hình ảnh camera. Hệ thống sử dụng các mô hình Deep Learning (DNN/CNN) để phân tích chuyển động và hành vi theo thời gian thực, cho phép phát hiện sớm các tình huống nguy hiểm hoặc vi phạm.",
+      "aboutDescription2": "Hệ thống cho phép người dùng thiết lập các vùng giám sát, cấu hình các kịch bản an ninh và quản lý các tham số cho từng camera. Giao diện hỗ trợ giám sát trực quan, phù hợp với các nhu cầu giám sát khác nhau.",
+      "model": "Mô hình:",
+      "company": "Công ty:",
+      "origin": "Xuất xứ:",
+      "requestDemo": "Yêu Cầu Demo"
+    },
+    "technicalSpecs": {
+      "badge": "Phân Tích Được Hỗ Trợ Bởi AI",
+      "title": "Thông Số Kỹ Thuật",
+      "subtitle": "Hiệu Suất Mô-đun AI",
+      "description": "Hệ thống AI được tối ưu hóa để phát hiện và cảnh báo các hành vi bất thường",
+      "responseTime": {
+        "value": "5 - 10 giây",
+        "label": "Thời Gian Phản Hồi",
+        "description": "Phát hiện nhanh cho các hành vi đơn giản. Phân tích sâu cho các hành vi phức tạp. Hệ thống cảnh báo thời gian thực."
+      },
+      "accuracyRate": {
+        "value": "80% - 90%",
+        "label": "Tỷ Lệ Chính Xác",
+        "description": "Thuật toán Deep Neural Network. Giảm cảnh báo sai thông qua ngữ cảnh. Học liên tục từ dữ liệu."
+      },
+      "cameraSupport": {
+        "value": "35 - 40 mỗi máy chủ",
+        "label": "Hỗ Trợ Camera",
+        "description": "Xử lý video đa luồng. Kiến trúc có thể mở rộng. Sử dụng tài nguyên được tối ưu hóa."
+      }
+    },
+    "keyFeatures": {
+      "badge": "Công Nghệ Deep Learning Tiên Tiến",
+      "title": "Tính Năng Chính",
+      "subtitle": "Tích hợp AI mạnh mẽ cho phát hiện hành vi bất thường thời gian thực",
+      "behaviorRecognition": {
+        "title": "Nhận Dạng Hành Vi",
+        "description": "Phát hiện và phân loại hơn 12 loại hành vi vi phạm khác nhau sử dụng Deep Neural Networks với phân tích ngữ cảnh."
+      },
+      "realTimeAlerts": {
+        "title": "Cảnh Báo Thời Gian Thực",
+        "description": "Tự động gửi cảnh báo đến màn hình giám sát và thiết bị di động trong vòng 5 giây khi phát hiện bất thường."
+      },
+      "zoneConfiguration": {
+        "title": "Cấu Hình Vùng",
+        "description": "Thiết lập các vùng hạn chế và cấm một cách linh hoạt cho mỗi camera với các tùy chọn đa giác, hình chữ nhật và đường ranh giới."
+      },
+      "weaponDetection": {
+        "title": "Phát Hiện Vũ Khí",
+        "description": "Nhận diện các đối tượng mang vật phẩm nguy hiểm như dao, kéo, gậy và các vật kim loại trong khung hình."
+      },
+      "actionRecognition": {
+        "title": "Nhận Dạng Hành Động",
+        "description": "Theo dõi tư thế, hướng di chuyển và tương tác người-vật-môi trường để phát hiện các hành vi bất thường."
+      },
+      "smartReporting": {
+        "title": "Báo Cáo Thông Minh",
+        "description": "Xuất báo cáo chi tiết về các sự kiện với hình ảnh, tem thời gian, vị trí và phân tích xu hướng vi phạm."
+      }
+    },
+    "behaviorDetection": {
+      "title": "Phát Hiện Hành Vi",
+      "subtitle": "Các Hành Vi Được Phát Hiện",
+      "description": "Hệ thống có thể nhận biết và cảnh báo 12 loại hành vi vi phạm với độ chính xác 70-85%",
+      "behaviors": {
+        "zoneIntrusion": "Xâm Nhập Vùng",
+        "climbingFence": "Leo & Nhảy Hàng Rào",
+        "fightingRiot": "Đánh Nhau & Bạo Loạn",
+        "selfHarm": "Tự Gây Thương Tích / Dấu Hiệu Tự Tử",
+        "weaponCarrying": "Mang Vũ Khí",
+        "barCutting": "Cắt Thanh / Cửa Sổ",
+        "windowLoitering": "Lảng Vảng Khu Vực Cửa Sổ",
+        "wallDrilling": "Khoan / Đào Tường",
+        "smokingViolation": "Vi Phạm Hút Thuốc",
+        "gamblingViolation": "Vi Phạm Đánh Bạc",
+        "fallDetection": "Phát Hiện Ngã",
+        "objectIdentification": "Nhận Dạng Vật Thể"
+      }
+    },
+    "hardware": {
+      "title": "Phần Cứng",
+      "subtitle": "Thiết Bị Bao Gồm",
+      "description": "Hệ thống phần cứng hiệu suất cao đảm bảo xử lý AI ổn định 24/7",
+      "aiServer": {
+        "title": "Máy Chủ Xử Lý AI",
+        "model": "HISOKAI HS25-G4P5000"
+      },
+      "vmsServer": {
+        "title": "Máy Chủ VMS",
+        "model": "HISOKAI HS25-C5420"
+      },
+      "workstation": {
+        "title": "Trạm Làm Việc Điều Khiển",
+        "model": "HISOKAI HS26-S95"
+      },
+      "networkRack": {
+        "title": "Mạng & Tủ Rack",
+        "model": "TP-Link TL-SG3424 + Tủ Rack 20U"
+      },
+      "specs": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "storage": "Lưu Trữ",
+        "gpu": "GPU",
+        "power": "Nguồn",
+        "network": "Mạng",
+        "display": "Màn Hình",
+        "audio": "Âm Thanh",
+        "switch": "Switch",
+        "rackModel": "Mô Hình Tủ Rack",
+        "rackSize": "Kích Thước Tủ Rack",
+        "security": "Bảo Mật",
+        "standard": "Tiêu Chuẩn",
+        "warranty": "Bảo Hành"
+      }
+    },
+    "systemArchitecture": {
+      "title": "Kiến Trúc Hệ Thống",
+      "subtitle": "Tổng Quan Mô Hình Kết Nối",
+      "description": "Kiến trúc đa lớp đảm bảo hiệu suất và bảo mật cao nhất",
+      "layers": {
+        "cameraLayer": {
+          "title": "Lớp Camera Giám Sát",
+          "description": "Nhiều camera ở các vị trí khác nhau để giám sát toàn diện. Mỗi camera truyền hình ảnh trực tiếp qua LAN đến Switch POE."
+        },
+        "networkLayer": {
+          "title": "Lớp Kết Nối Mạng",
+          "description": "Switch POE nhận tất cả luồng hình ảnh từ camera, cung cấp điện và truyền dữ liệu đến hệ thống máy chủ."
+        },
+        "processingLayer": {
+          "title": "Lớp Máy Chủ Xử Lý",
+          "description": "Máy chủ VMS quản lý luồng video. Máy chủ AI thực hiện phân tích hành vi thời gian thực. Máy chủ Lưu trữ ghi lại 24/7."
+        },
+        "operationsLayer": {
+          "title": "Lớp Vận Hành",
+          "description": "Giám sát camera trực tiếp, cảnh báo hành vi bất thường, quản lý cấu hình camera, phát lại video và xuất báo cáo."
+        }
+      }
+    },
+    "advantages": {
+      "title": "Ưu Điểm",
+      "subtitle": "Tại Sao Chọn AIB?",
+      "description": "Giải pháp toàn diện mang lại hiệu suất hệ thống bảo mật vượt trội",
+      "items": {
+        "reducedManpower": {
+          "title": "Giảm Tải Nhân Lực",
+          "description": "AI có thể giám sát hàng chục đến hàng trăm camera đồng thời - điều mà con người không thể làm liên tục."
+        },
+        "earlyDetection": {
+          "title": "Phát Hiện Rủi Ro Sớm",
+          "description": "Hệ thống phát hiện các dấu hiệu bất thường sớm, giảm thời gian phản ứng 70-90%."
+        },
+        "reducedFalseAlerts": {
+          "title": "Giảm Cảnh Báo Sai",
+          "description": "Phân tích ngữ cảnh phân biệt các hành vi có thể nhầm lẫn như ngã do đột quỵ so với ngã do đánh nhau."
+        },
+        "enhancedProactivity": {
+          "title": "Tăng Cường Chủ Động",
+          "description": "Hỗ trợ cảnh báo trước khi rủi ro phát triển nghiêm trọng, cho phép phản ứng sớm."
+        }
+      }
+    }
+  },
   "footer": {
     "copyright": "© 2025 AIB - AMBILI TECH SDN. BHD. Đã đăng ký bản quyền.",
     "location": "Singapore",

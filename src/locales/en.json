@@ -469,6 +469,173 @@
       "email": "comsec@gmgroup.com.my"
     }
   },
+  "productPage": {
+    "hero": {
+      "badge": "AI Intelligent Behavior",
+      "title": "AI Intelligent Behavior",
+      "subtitle": "Comprehensive AI-powered surveillance solution for detecting and alerting abnormal behaviors in real-time, enhancing security for enterprises worldwide.",
+      "exploreButton": "Explore Features",
+      "aboutTitle": "About AIB",
+      "aboutDescription1": "AIB (Artificial Intelligence Behavior) is intelligent behavior analysis software that applies artificial intelligence to identify abnormal behaviors on camera images. The system uses Deep Learning models (DNN/CNN) to analyze movements and behaviors in real-time, enabling early detection of dangerous situations or violations.",
+      "aboutDescription2": "The system allows users to set up monitoring zones, configure security scenarios, and manage parameters for each camera. The interface supports intuitive monitoring, suitable for various surveillance needs.",
+      "model": "Model:",
+      "company": "Company:",
+      "origin": "Origin:",
+      "requestDemo": "Request Demo"
+    },
+    "technicalSpecs": {
+      "badge": "AI-Powered Analysis",
+      "title": "Technical Specifications",
+      "subtitle": "AI Module Performance",
+      "description": "Optimized AI system for detecting and alerting abnormal behaviors",
+      "responseTime": {
+        "value": "5 - 10 seconds",
+        "label": "Response Time",
+        "description": "Fast detection for simple behaviors. Deep analysis for complex behaviors. Real-time alerting system."
+      },
+      "accuracyRate": {
+        "value": "80% - 90%",
+        "label": "Accuracy Rate",
+        "description": "Deep Neural Network algorithms. Reduced false alerts via context. Continuous learning from data."
+      },
+      "cameraSupport": {
+        "value": "35 - 40 per server",
+        "label": "Camera Support",
+        "description": "Multi-stream video processing. Scalable architecture. Optimized resource usage."
+      }
+    },
+    "keyFeatures": {
+      "badge": "Advanced Deep Learning Technology",
+      "title": "Key Features",
+      "subtitle": "Powerful AI integration for real-time abnormal behavior detection",
+      "behaviorRecognition": {
+        "title": "Behavior Recognition",
+        "description": "Detect and classify over 12 different violation behaviors using Deep Neural Networks with contextual analysis."
+      },
+      "realTimeAlerts": {
+        "title": "Real-time Alerts",
+        "description": "Automatically send alerts to monitoring screens and mobile devices within 5 seconds upon detecting anomalies."
+      },
+      "zoneConfiguration": {
+        "title": "Zone Configuration",
+        "description": "Set up restricted and prohibited zones flexibly for each camera with polygon, rectangle, and boundary line options."
+      },
+      "weaponDetection": {
+        "title": "Weapon Detection",
+        "description": "Identify objects carrying dangerous items like knives, scissors, sticks, and metal objects in the frame."
+      },
+      "actionRecognition": {
+        "title": "Action Recognition",
+        "description": "Track posture, movement direction, and person-object-environment interactions to detect abnormal behaviors."
+      },
+      "smartReporting": {
+        "title": "Smart Reporting",
+        "description": "Export detailed reports on events with images, timestamps, locations, and violation trend analytics."
+      }
+    },
+    "behaviorDetection": {
+      "title": "Behavior Detection",
+      "subtitle": "Detected Behaviors",
+      "description": "The system can recognize and alert 12 types of violation behaviors with 70-85% accuracy",
+      "behaviors": {
+        "zoneIntrusion": "Zone Intrusion",
+        "climbingFence": "Climbing & Fence Jumping",
+        "fightingRiot": "Fighting & Riot",
+        "selfHarm": "Self-harm / Suicide Signs",
+        "weaponCarrying": "Weapon Carrying",
+        "barCutting": "Bar / Window Cutting",
+        "windowLoitering": "Window Area Loitering",
+        "wallDrilling": "Wall Drilling / Digging",
+        "smokingViolation": "Smoking Violation",
+        "gamblingViolation": "Gambling Violation",
+        "fallDetection": "Fall Detection",
+        "objectIdentification": "Object Identification"
+      }
+    },
+    "hardware": {
+      "title": "Hardware",
+      "subtitle": "Included Equipment",
+      "description": "High-performance hardware system ensuring stable 24/7 AI processing",
+      "aiServer": {
+        "title": "AI Processing Server",
+        "model": "HISOKAI HS25-G4P5000"
+      },
+      "vmsServer": {
+        "title": "VMS Server",
+        "model": "HISOKAI HS25-C5420"
+      },
+      "workstation": {
+        "title": "Control Workstation",
+        "model": "HISOKAI HS26-S95"
+      },
+      "networkRack": {
+        "title": "Network & Rack",
+        "model": "TP-Link TL-SG3424 + 20U Rack"
+      },
+      "specs": {
+        "cpu": "CPU",
+        "ram": "RAM", 
+        "storage": "Storage",
+        "gpu": "GPU",
+        "power": "Power",
+        "network": "Network",
+        "display": "Display",
+        "audio": "Audio",
+        "switch": "Switch",
+        "rackModel": "Rack Model",
+        "rackSize": "Rack Size",
+        "security": "Security",
+        "standard": "Standard",
+        "warranty": "Warranty"
+      }
+    },
+    "systemArchitecture": {
+      "title": "System Architecture",
+      "subtitle": "Connection Model Overview",
+      "description": "Multi-layer architecture ensuring highest performance and security",
+      "layers": {
+        "cameraLayer": {
+          "title": "Surveillance Camera Layer",
+          "description": "Multiple cameras at different locations for comprehensive monitoring. Each camera transmits images directly via LAN to POE Switch."
+        },
+        "networkLayer": {
+          "title": "Network Connection Layer",
+          "description": "POE Switch receives all image streams from cameras, provides power and transmits data to server system."
+        },
+        "processingLayer": {
+          "title": "Processing Server Layer",
+          "description": "VMS Server manages video streams. AI Server performs real-time behavior analysis. Storage Server records 24/7."
+        },
+        "operationsLayer": {
+          "title": "Operations Layer",
+          "description": "Live camera monitoring, abnormal behavior alerts, camera configuration management, video playback and report export."
+        }
+      }
+    },
+    "advantages": {
+      "title": "Advantages",
+      "subtitle": "Why Choose AIB?",
+      "description": "Comprehensive solution delivering superior security system performance",
+      "items": {
+        "reducedManpower": {
+          "title": "Reduced Manpower Load",
+          "description": "AI can monitor tens to hundreds of cameras simultaneously - something humans cannot do continuously."
+        },
+        "earlyDetection": {
+          "title": "Early Risk Detection",
+          "description": "System detects abnormal signs early, reducing response time by 70-90%."
+        },
+        "reducedFalseAlerts": {
+          "title": "Reduced False Alerts",
+          "description": "Context analysis distinguishes confusable behaviors like stroke falls vs fighting falls."
+        },
+        "enhancedProactivity": {
+          "title": "Enhanced Proactivity",
+          "description": "Supports alerting before risks develop seriously, enabling early response."
+        }
+      }
+    }
+  },
   "footer": {
     "copyright": "© 2025 AIB - AMBILI TECH SDN. BHD. All rights reserved.",
     "location": "Singapore",

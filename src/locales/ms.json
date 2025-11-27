@@ -469,6 +469,173 @@
       "email": "comsec@gmgroup.com.my"
     }
   },
+  "productPage": {
+    "hero": {
+      "badge": "Tingkah Laku Pintar AI",
+      "title": "Tingkah Laku Pintar AI",
+      "subtitle": "Penyelesaian pengawasan berasaskan AI yang komprehensif untuk mengesan dan memberi amaran tingkah laku tidak normal secara masa nyata, meningkatkan keselamatan untuk perusahaan di seluruh dunia.",
+      "exploreButton": "Terokai Ciri-ciri",
+      "aboutTitle": "Mengenai AIB",
+      "aboutDescription1": "AIB (Artificial Intelligence Behavior) adalah perisian analisis tingkah laku pintar yang menggunakan kecerdasan buatan untuk mengenal pasti tingkah laku tidak normal pada imej kamera. Sistem ini menggunakan model Deep Learning (DNN/CNN) untuk menganalisis pergerakan dan tingkah laku secara masa nyata, membolehkan pengesanan awal situasi berbahaya atau pelanggaran.",
+      "aboutDescription2": "Sistem ini membolehkan pengguna menyediakan zon pemantauan, mengkonfigurasi senario keselamatan, dan menguruskan parameter untuk setiap kamera. Antara muka menyokong pemantauan intuitif, sesuai untuk pelbagai keperluan pengawasan.",
+      "model": "Model:",
+      "company": "Syarikat:",
+      "origin": "Asal:",
+      "requestDemo": "Minta Demo"
+    },
+    "technicalSpecs": {
+      "badge": "Analisis Dikuasakan AI",
+      "title": "Spesifikasi Teknikal",
+      "subtitle": "Prestasi Modul AI",
+      "description": "Sistem AI yang dioptimumkan untuk mengesan dan memberi amaran tingkah laku tidak normal",
+      "responseTime": {
+        "value": "5 - 10 saat",
+        "label": "Masa Tindak Balas",
+        "description": "Pengesanan pantas untuk tingkah laku mudah. Analisis mendalam untuk tingkah laku kompleks. Sistem amaran masa nyata."
+      },
+      "accuracyRate": {
+        "value": "80% - 90%",
+        "label": "Kadar Ketepatan",
+        "description": "Algoritma Deep Neural Network. Mengurangkan amaran palsu melalui konteks. Pembelajaran berterusan daripada data."
+      },
+      "cameraSupport": {
+        "value": "35 - 40 per pelayan",
+        "label": "Sokongan Kamera",
+        "description": "Pemprosesan video berbilang aliran. Seni bina boleh skala. Penggunaan sumber dioptimumkan."
+      }
+    },
+    "keyFeatures": {
+      "badge": "Teknologi Deep Learning Lanjutan",
+      "title": "Ciri-ciri Utama",
+      "subtitle": "Integrasi AI yang berkuasa untuk pengesanan tingkah laku tidak normal masa nyata",
+      "behaviorRecognition": {
+        "title": "Pengecaman Tingkah Laku",
+        "description": "Mengesan dan mengklasifikasikan lebih 12 tingkah laku pelanggaran yang berbeza menggunakan Deep Neural Networks dengan analisis kontekstual."
+      },
+      "realTimeAlerts": {
+        "title": "Amaran Masa Nyata",
+        "description": "Secara automatik menghantar amaran ke skrin pemantauan dan peranti mudah alih dalam masa 5 saat setelah mengesan anomali."
+      },
+      "zoneConfiguration": {
+        "title": "Konfigurasi Zon",
+        "description": "Sediakan zon terhad dan dilarang secara fleksibel untuk setiap kamera dengan pilihan poligon, segi empat tepat, dan garis sempadan."
+      },
+      "weaponDetection": {
+        "title": "Pengesanan Senjata",
+        "description": "Mengenal pasti objek yang membawa barang berbahaya seperti pisau, gunting, kayu, dan objek logam dalam bingkai."
+      },
+      "actionRecognition": {
+        "title": "Pengecaman Tindakan",
+        "description": "Menjejak postur, arah pergerakan, dan interaksi orang-objek-persekitaran untuk mengesan tingkah laku tidak normal."
+      },
+      "smartReporting": {
+        "title": "Pelaporan Pintar",
+        "description": "Eksport laporan terperinci mengenai peristiwa dengan imej, cap masa, lokasi, dan analitik trend pelanggaran."
+      }
+    },
+    "behaviorDetection": {
+      "title": "Pengesanan Tingkah Laku",
+      "subtitle": "Tingkah Laku yang Dikesan",
+      "description": "Sistem ini boleh mengenali dan memberi amaran 12 jenis tingkah laku pelanggaran dengan ketepatan 70-85%",
+      "behaviors": {
+        "zoneIntrusion": "Pencerobohan Zon",
+        "climbingFence": "Memanjat & Melompat Pagar",
+        "fightingRiot": "Pergaduhan & Rusuhan",
+        "selfHarm": "Mencederakan Diri / Tanda Bunuh Diri",
+        "weaponCarrying": "Membawa Senjata",
+        "barCutting": "Memotong Palang / Tingkap",
+        "windowLoitering": "Berlegar di Kawasan Tingkap",
+        "wallDrilling": "Menggerudi / Menggali Dinding",
+        "smokingViolation": "Pelanggaran Merokok",
+        "gamblingViolation": "Pelanggaran Perjudian",
+        "fallDetection": "Pengesanan Jatuh",
+        "objectIdentification": "Pengenalan Objek"
+      }
+    },
+    "hardware": {
+      "title": "Perkakasan",
+      "subtitle": "Peralatan yang Disertakan",
+      "description": "Sistem perkakasan berprestasi tinggi memastikan pemprosesan AI yang stabil 24/7",
+      "aiServer": {
+        "title": "Pelayan Pemprosesan AI",
+        "model": "HISOKAI HS25-G4P5000"
+      },
+      "vmsServer": {
+        "title": "Pelayan VMS",
+        "model": "HISOKAI HS25-C5420"
+      },
+      "workstation": {
+        "title": "Stesen Kerja Kawalan",
+        "model": "HISOKAI HS26-S95"
+      },
+      "networkRack": {
+        "title": "Rangkaian & Rak",
+        "model": "TP-Link TL-SG3424 + Rak 20U"
+      },
+      "specs": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "storage": "Penyimpanan",
+        "gpu": "GPU",
+        "power": "Kuasa",
+        "network": "Rangkaian",
+        "display": "Paparan",
+        "audio": "Audio",
+        "switch": "Suis",
+        "rackModel": "Model Rak",
+        "rackSize": "Saiz Rak",
+        "security": "Keselamatan",
+        "standard": "Standard",
+        "warranty": "Waranti"
+      }
+    },
+    "systemArchitecture": {
+      "title": "Seni Bina Sistem",
+      "subtitle": "Gambaran Model Sambungan",
+      "description": "Seni bina berbilang lapisan memastikan prestasi dan keselamatan tertinggi",
+      "layers": {
+        "cameraLayer": {
+          "title": "Lapisan Kamera Pengawasan",
+          "description": "Berbilang kamera di lokasi berbeza untuk pemantauan komprehensif. Setiap kamera menghantar imej terus melalui LAN ke Suis POE."
+        },
+        "networkLayer": {
+          "title": "Lapisan Sambungan Rangkaian",
+          "description": "Suis POE menerima semua aliran imej dari kamera, menyediakan kuasa dan menghantar data ke sistem pelayan."
+        },
+        "processingLayer": {
+          "title": "Lapisan Pelayan Pemprosesan",
+          "description": "Pelayan VMS menguruskan aliran video. Pelayan AI melakukan analisis tingkah laku masa nyata. Pelayan Penyimpanan merakam 24/7."
+        },
+        "operationsLayer": {
+          "title": "Lapisan Operasi",
+          "description": "Pemantauan kamera langsung, amaran tingkah laku tidak normal, pengurusan konfigurasi kamera, main balik video dan eksport laporan."
+        }
+      }
+    },
+    "advantages": {
+      "title": "Kelebihan",
+      "subtitle": "Mengapa Pilih AIB?",
+      "description": "Penyelesaian komprehensif memberikan prestasi sistem keselamatan yang unggul",
+      "items": {
+        "reducedManpower": {
+          "title": "Mengurangkan Beban Tenaga Kerja",
+          "description": "AI boleh memantau puluhan hingga beratus kamera serentak - sesuatu yang manusia tidak boleh lakukan secara berterusan."
+        },
+        "earlyDetection": {
+          "title": "Pengesanan Risiko Awal",
+          "description": "Sistem mengesan tanda tidak normal awal, mengurangkan masa tindak balas sebanyak 70-90%."
+        },
+        "reducedFalseAlerts": {
+          "title": "Mengurangkan Amaran Palsu",
+          "description": "Analisis konteks membezakan tingkah laku yang boleh keliru seperti jatuh strok berbanding jatuh bergaduh."
+        },
+        "enhancedProactivity": {
+          "title": "Proaktif Ditingkatkan",
+          "description": "Menyokong amaran sebelum risiko berkembang serius, membolehkan tindak balas awal."
+        }
+      }
+    }
+  },
   "footer": {
     "copyright": "© 2025 AIB - AMBILI TECH SDN. BHD. Hak cipta terpelihara.",
     "location": "Singapura",

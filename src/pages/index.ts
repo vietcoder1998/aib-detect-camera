@@ -1,2 +1,2 @@
-export { LandingPage } from './LandingPage';
-export { ProductionPage } from './ProductionPage';
+export { LandingPage } from './page';
+export { ProductionPage } from './product/page';
