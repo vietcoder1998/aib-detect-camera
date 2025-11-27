@@ -1,7 +1,7 @@
+import { Container, Text } from '@atoms';
+import { EquipmentGrid } from '@molecules';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Container, Text } from '@atoms';
-import { MainProductInfo, ModuleSpecifications, DetectionFeatures, EquipmentGrid } from '@molecules';
 
 export const ProductsSection: React.FC = () => {
   const { t } = useTranslation();
