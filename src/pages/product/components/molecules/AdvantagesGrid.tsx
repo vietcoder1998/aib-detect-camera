@@ -1,31 +1,34 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
 import { Users, Clock, Shield, Zap } from 'lucide-react';
 
 export const AdvantagesGrid: React.FC = () => {
+  const { t } = useTranslation();
+  
   const advantages = [
     {
       icon: Users,
-      title: 'Reduced Manpower Load',
-      description: 'AI can monitor tens to hundreds of cameras simultaneously - something humans cannot do continuously.',
+      title: t('productPage.advantagesGrid.advantages.reducedManpower.title'),
+      description: t('productPage.advantagesGrid.advantages.reducedManpower.description'),
       color: 'text-red-600'
     },
     {
       icon: Clock,
-      title: 'Early Risk Detection',
-      description: 'System detects abnormal signs early, reducing response time by 70-90%.',
+      title: t('productPage.advantagesGrid.advantages.earlyDetection.title'),
+      description: t('productPage.advantagesGrid.advantages.earlyDetection.description'),
       color: 'text-blue-600'
     },
     {
       icon: Shield,
-      title: 'Reduced False Alerts',
-      description: 'Context analysis distinguishes confusable behaviors like stroke falls vs fighting falls.',
+      title: t('productPage.advantagesGrid.advantages.reducedFalseAlerts.title'),
+      description: t('productPage.advantagesGrid.advantages.reducedFalseAlerts.description'),
       color: 'text-green-600'
     },
     {
       icon: Zap,
-      title: 'Enhanced Proactivity',
-      description: 'Supports alerting before risks develop seriously, enabling early response.',
+      title: t('productPage.advantagesGrid.advantages.enhancedProactivity.title'),
+      description: t('productPage.advantagesGrid.advantages.enhancedProactivity.description'),
       color: 'text-purple-600'
     }
   ];
@@ -35,13 +38,13 @@ export const AdvantagesGrid: React.FC = () => {
       <Container>
         <div className="text-center mb-16">
           <Text variant="h2" className="text-gray-900 mb-4">
-            Advantages
+            {t('productPage.advantagesGrid.title')}
           </Text>
           <Text variant="h3" className="text-red-600 mb-6">
-            Why Choose AIB?
+            {t('productPage.advantagesGrid.subtitle')}
           </Text>
           <Text variant="body" className="text-gray-600 max-w-3xl mx-auto">
-            Comprehensive solution delivering superior security system performance
+            {t('productPage.advantagesGrid.description')}
           </Text>
         </div>
 

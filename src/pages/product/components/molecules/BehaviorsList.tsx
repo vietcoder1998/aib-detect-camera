@@ -1,35 +1,37 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
 import { ShieldAlert, Mountain, Swords, Skull, Cigarette, UserX, User, Hammer, Shield } from 'lucide-react';
 
-const behaviors = [
-  { icon: ShieldAlert, label: 'Zone Intrusion', color: 'text-red-600' },
-  { icon: Mountain, label: 'Climbing & Fence Jumping', color: 'text-orange-600' },
-  { icon: Swords, label: 'Fighting & Riot', color: 'text-yellow-600' },
-  { icon: Skull, label: 'Self-harm / Suicide Signs', color: 'text-purple-600' },
-  { icon: Shield, label: 'Weapon Carrying', color: 'text-pink-600' },
-  { icon: Hammer, label: 'Bar / Window Cutting', color: 'text-indigo-600' },
-  { icon: UserX, label: 'Window Area Loitering', color: 'text-teal-600' },
-  { icon: Hammer, label: 'Wall Drilling / Digging', color: 'text-green-600' },
-  { icon: Cigarette, label: 'Smoking Violation', color: 'text-blue-600' },
-  { icon: Shield, label: 'Gambling Violation', color: 'text-red-500' },
-  { icon: UserX, label: 'Fall Detection', color: 'text-orange-500' },
-  { icon: User, label: 'Object Identification', color: 'text-purple-500' },
-];
-
 export const BehaviorsList: React.FC = () => {
+  const { t } = useTranslation();
+  
+  const behaviors = [
+    { icon: ShieldAlert, label: t('productPage.behaviorsList.behaviors.zoneIntrusion'), color: 'text-red-600' },
+    { icon: Mountain, label: t('productPage.behaviorsList.behaviors.climbingJumping'), color: 'text-orange-600' },
+    { icon: Swords, label: t('productPage.behaviorsList.behaviors.fightingRiot'), color: 'text-yellow-600' },
+    { icon: Skull, label: t('productPage.behaviorsList.behaviors.selfHarm'), color: 'text-purple-600' },
+    { icon: Shield, label: t('productPage.behaviorsList.behaviors.weaponCarrying'), color: 'text-pink-600' },
+    { icon: Hammer, label: t('productPage.behaviorsList.behaviors.barCutting'), color: 'text-indigo-600' },
+    { icon: UserX, label: t('productPage.behaviorsList.behaviors.windowLoitering'), color: 'text-teal-600' },
+    { icon: Hammer, label: t('productPage.behaviorsList.behaviors.wallDrilling'), color: 'text-green-600' },
+    { icon: Cigarette, label: t('productPage.behaviorsList.behaviors.smokingViolation'), color: 'text-blue-600' },
+    { icon: Shield, label: t('productPage.behaviorsList.behaviors.gamblingViolation'), color: 'text-red-500' },
+    { icon: UserX, label: t('productPage.behaviorsList.behaviors.fallDetection'), color: 'text-orange-500' },
+    { icon: User, label: t('productPage.behaviorsList.behaviors.objectIdentification'), color: 'text-purple-500' },
+  ];
   return (
     <section className="py-20 bg-gradient-to-br from-gray-50 to-red-50">
       <Container>
         <div className="text-center mb-16">
           <Text variant="h2" className="text-gray-900 mb-4">
-            Behavior Detection
+            {t('productPage.behaviorsList.title')}
           </Text>
           <Text variant="h3" className="text-red-600 mb-6">
-            Detected Behaviors
+            {t('productPage.behaviorsList.subtitle')}
           </Text>
           <Text variant="body" className="text-gray-600 max-w-3xl mx-auto">
-            The system can recognize and alert 12 types of violation behaviors with 70-85% accuracy
+            {t('productPage.behaviorsList.description')}
           </Text>
         </div>
 

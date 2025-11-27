@@ -1,44 +1,47 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
 import { TechBadge } from '../atoms/TechBadge';
 import { Brain, Bell, MapPin, Shield, Activity, FileText } from 'lucide-react';
 
 export const KeyFeatures: React.FC = () => {
+  const { t } = useTranslation();
+  
   const features = [
     {
       icon: Brain,
-      title: 'Behavior Recognition',
-      description: 'Detect and classify over 12 different violation behaviors using Deep Neural Networks with contextual analysis.',
+      title: t('productPage.keyFeatures.behaviorRecognition.title'),
+      description: t('productPage.keyFeatures.behaviorRecognition.description'),
       color: 'text-red-600'
     },
     {
       icon: Bell,
-      title: 'Real-time Alerts', 
-      description: 'Automatically send alerts to monitoring screens and mobile devices within 5 seconds upon detecting anomalies.',
+      title: t('productPage.keyFeatures.realtimeAlerts.title'), 
+      description: t('productPage.keyFeatures.realtimeAlerts.description'),
       color: 'text-blue-600'
     },
     {
       icon: MapPin,
-      title: 'Zone Configuration',
-      description: 'Set up restricted and prohibited zones flexibly for each camera with polygon, rectangle, and boundary line options.',
+      title: t('productPage.keyFeatures.zoneConfiguration.title'),
+      description: t('productPage.keyFeatures.zoneConfiguration.description'),
       color: 'text-green-600'
     },
     {
       icon: Shield,
-      title: 'Weapon Detection',
-      description: 'Identify objects carrying dangerous items like knives, scissors, sticks, and metal objects in the frame.',
+      title: t('productPage.keyFeatures.weaponDetection.title'),
+      description: t('productPage.keyFeatures.weaponDetection.description'),
       color: 'text-purple-600'
     },
     {
       icon: Activity,
-      title: 'Action Recognition',
-      description: 'Track posture, movement direction, and person-object-environment interactions to detect abnormal behaviors.',
+      title: t('productPage.keyFeatures.actionRecognition.title'),
+      description: t('productPage.keyFeatures.actionRecognition.description'),
       color: 'text-orange-600'
     },
     {
       icon: FileText,
-      title: 'Smart Reporting',
-      description: 'Export detailed reports on events with images, timestamps, locations, and violation trend analytics.',
+      title: t('productPage.keyFeatures.smartReporting.title'),
+      description: t('productPage.keyFeatures.smartReporting.description'),
       color: 'text-teal-600'
     }
   ];
@@ -49,13 +52,13 @@ export const KeyFeatures: React.FC = () => {
         <div className="text-center mb-16">
           <TechBadge>
             <Brain className="w-4 h-4" />
-            Advanced Deep Learning Technology
+            {t('productPage.keyFeatures.badge')}
           </TechBadge>
           <Text variant="h2" className="text-gray-900 mt-6 mb-4">
-            Key Features
+            {t('productPage.keyFeatures.title')}
           </Text>
           <Text variant="body" className="text-gray-600 max-w-3xl mx-auto">
-            Powerful AI integration for real-time abnormal behavior detection
+            {t('productPage.keyFeatures.description')}
           </Text>
         </div>
 

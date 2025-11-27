@@ -1,31 +1,34 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
 import { Camera, Network, Server, Monitor } from 'lucide-react';
 
 export const SystemArchitecture: React.FC = () => {
+  const { t } = useTranslation();
+  
   const layers = [
     {
       icon: Camera,
-      title: 'Surveillance Camera Layer',
-      description: 'Multiple cameras at different locations for comprehensive monitoring. Each camera transmits images directly via LAN to POE Switch.',
+      title: t('productPage.systemArchitecture.layers.cameraLayer.title'),
+      description: t('productPage.systemArchitecture.layers.cameraLayer.description'),
       color: 'text-red-600 bg-red-50 border-red-200'
     },
     {
       icon: Network,
-      title: 'Network Connection Layer', 
-      description: 'POE Switch receives all image streams from cameras, provides power and transmits data to server system.',
+      title: t('productPage.systemArchitecture.layers.networkLayer.title'), 
+      description: t('productPage.systemArchitecture.layers.networkLayer.description'),
       color: 'text-blue-600 bg-blue-50 border-blue-200'
     },
     {
       icon: Server,
-      title: 'Processing Server Layer',
-      description: 'VMS Server manages video streams. AI Server performs real-time behavior analysis. Storage Server records 24/7.',
+      title: t('productPage.systemArchitecture.layers.serverLayer.title'),
+      description: t('productPage.systemArchitecture.layers.serverLayer.description'),
       color: 'text-green-600 bg-green-50 border-green-200'
     },
     {
       icon: Monitor,
-      title: 'Operations Layer',
-      description: 'Live camera monitoring, abnormal behavior alerts, camera configuration management, video playback and report export.',
+      title: t('productPage.systemArchitecture.layers.operationsLayer.title'),
+      description: t('productPage.systemArchitecture.layers.operationsLayer.description'),
       color: 'text-purple-600 bg-purple-50 border-purple-200'
     }
   ];
@@ -35,13 +38,13 @@ export const SystemArchitecture: React.FC = () => {
       <Container>
         <div className="text-center mb-16">
           <Text variant="h2" className="text-gray-900 mb-4">
-            System Architecture
+            {t('productPage.systemArchitecture.title')}
           </Text>
           <Text variant="h3" className="text-red-600 mb-6">
-            Connection Model Overview
+            {t('productPage.systemArchitecture.subtitle')}
           </Text>
           <Text variant="body" className="text-gray-600 max-w-3xl mx-auto">
-            Multi-layer architecture ensuring highest performance and security
+            {t('productPage.systemArchitecture.description')}
           </Text>
         </div>
 

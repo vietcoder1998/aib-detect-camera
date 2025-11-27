@@ -1,21 +1,24 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
 import { SpecCard } from '../atoms/SpecCard';
 import { Server, Cpu, HardDrive, Zap, Monitor, Network } from 'lucide-react';
 
 export const HardwareSpecs: React.FC = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className="py-20 bg-white">
       <Container>
         <div className="text-center mb-16">
           <Text variant="h2" className="text-gray-900 mb-4">
-            Hardware
+            {t('productPage.hardwareSpecs.title')}
           </Text>
           <Text variant="h3" className="text-red-600 mb-6">
-            Included Equipment
+            {t('productPage.hardwareSpecs.subtitle')}
           </Text>
           <Text variant="body" className="text-gray-600 max-w-3xl mx-auto">
-            High-performance hardware system ensuring stable 24/7 AI processing
+            {t('productPage.hardwareSpecs.description')}
           </Text>
         </div>
 
@@ -25,17 +28,17 @@ export const HardwareSpecs: React.FC = () => {
             <div className="flex items-center gap-3 mb-6">
               <Server className="w-8 h-8 text-red-600" />
               <div>
-                <Text variant="h3" className="text-gray-900">AI Processing Server</Text>
-                <Text variant="small" className="text-gray-600">HISOKAI HS25-G4P5000</Text>
+                <Text variant="h3" className="text-gray-900">{t('productPage.hardwareSpecs.aiServer.title')}</Text>
+                <Text variant="small" className="text-gray-600">{t('productPage.hardwareSpecs.aiServer.model')}</Text>
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <SpecCard title="CPU" value="Intel Xeon Gen5 x2" icon={<Cpu className="w-5 h-5" />} />
-              <SpecCard title="RAM" value="128GB" icon={<HardDrive className="w-5 h-5" />} />
-              <SpecCard title="Storage" value="1.92TB SSD x2" icon={<HardDrive className="w-5 h-5" />} />
-              <SpecCard title="GPU" value="48GB VRAM x4" icon={<Monitor className="w-5 h-5" />} />
-              <SpecCard title="Power" value="2600W x2" icon={<Zap className="w-5 h-5" />} />
-              <SpecCard title="Warranty" value="3 Years" icon={<Server className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.aiServer.specs.cpu.title')} value={t('productPage.hardwareSpecs.aiServer.specs.cpu.value')} icon={<Cpu className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.aiServer.specs.ram.title')} value={t('productPage.hardwareSpecs.aiServer.specs.ram.value')} icon={<HardDrive className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.aiServer.specs.storage.title')} value={t('productPage.hardwareSpecs.aiServer.specs.storage.value')} icon={<HardDrive className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.aiServer.specs.gpu.title')} value={t('productPage.hardwareSpecs.aiServer.specs.gpu.value')} icon={<Monitor className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.aiServer.specs.power.title')} value={t('productPage.hardwareSpecs.aiServer.specs.power.value')} icon={<Zap className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.aiServer.specs.warranty.title')} value={t('productPage.hardwareSpecs.aiServer.specs.warranty.value')} icon={<Server className="w-5 h-5" />} />
             </div>
           </Card>
 
@@ -44,17 +47,17 @@ export const HardwareSpecs: React.FC = () => {
             <div className="flex items-center gap-3 mb-6">
               <Server className="w-8 h-8 text-blue-600" />
               <div>
-                <Text variant="h3" className="text-gray-900">VMS Server</Text>
-                <Text variant="small" className="text-gray-600">HISOKAI HS25-C5420</Text>
+                <Text variant="h3" className="text-gray-900">{t('productPage.hardwareSpecs.vmsServer.title')}</Text>
+                <Text variant="small" className="text-gray-600">{t('productPage.hardwareSpecs.vmsServer.model')}</Text>
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <SpecCard title="CPU" value="Intel Xeon Gen4 x2" icon={<Cpu className="w-5 h-5" />} />
-              <SpecCard title="RAM" value="256GB" icon={<HardDrive className="w-5 h-5" />} />
-              <SpecCard title="Storage" value="1TB SSD" icon={<HardDrive className="w-5 h-5" />} />
-              <SpecCard title="Power" value="500W x2" icon={<Zap className="w-5 h-5" />} />
-              <SpecCard title="Network" value="10Gb RJ45 x2" icon={<Network className="w-5 h-5" />} />
-              <SpecCard title="Warranty" value="3 Years" icon={<Server className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.vmsServer.specs.cpu.title')} value={t('productPage.hardwareSpecs.vmsServer.specs.cpu.value')} icon={<Cpu className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.vmsServer.specs.ram.title')} value={t('productPage.hardwareSpecs.vmsServer.specs.ram.value')} icon={<HardDrive className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.vmsServer.specs.storage.title')} value={t('productPage.hardwareSpecs.vmsServer.specs.storage.value')} icon={<HardDrive className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.vmsServer.specs.power.title')} value={t('productPage.hardwareSpecs.vmsServer.specs.power.value')} icon={<Zap className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.vmsServer.specs.network.title')} value={t('productPage.hardwareSpecs.vmsServer.specs.network.value')} icon={<Network className="w-5 h-5" />} />
+              <SpecCard title={t('productPage.hardwareSpecs.vmsServer.specs.warranty.title')} value={t('productPage.hardwareSpecs.vmsServer.specs.warranty.value')} icon={<Server className="w-5 h-5" />} />
             </div>
           </Card>
 

@@ -533,13 +533,13 @@
         "description": "Export detailed reports on events with images, timestamps, locations, and violation trend analytics."
       }
     },
-    "behaviorDetection": {
+    "behaviorsList": {
       "title": "Behavior Detection",
       "subtitle": "Detected Behaviors",
       "description": "The system can recognize and alert 12 types of violation behaviors with 70-85% accuracy",
       "behaviors": {
         "zoneIntrusion": "Zone Intrusion",
-        "climbingFence": "Climbing & Fence Jumping",
+        "climbingJumping": "Climbing & Fence Jumping",
         "fightingRiot": "Fighting & Riot",
         "selfHarm": "Self-harm / Suicide Signs",
         "weaponCarrying": "Weapon Carrying",
@@ -552,41 +552,69 @@
         "objectIdentification": "Object Identification"
       }
     },
-    "hardware": {
+    "hardwareSpecs": {
       "title": "Hardware",
       "subtitle": "Included Equipment",
       "description": "High-performance hardware system ensuring stable 24/7 AI processing",
       "aiServer": {
         "title": "AI Processing Server",
-        "model": "HISOKAI HS25-G4P5000"
+        "model": "HISOKAI HS25-G4P5000",
+        "specs": {
+          "cpu": {
+            "title": "CPU",
+            "value": "Intel Xeon Gen5 x2"
+          },
+          "ram": {
+            "title": "RAM",
+            "value": "128GB"
+          },
+          "storage": {
+            "title": "Storage",
+            "value": "1.92TB SSD x2"
+          },
+          "gpu": {
+            "title": "GPU",
+            "value": "48GB VRAM x4"
+          },
+          "power": {
+            "title": "Power",
+            "value": "2600W x2"
+          },
+          "warranty": {
+            "title": "Warranty",
+            "value": "3 Years"
+          }
+        }
       },
       "vmsServer": {
         "title": "VMS Server",
-        "model": "HISOKAI HS25-C5420"
-      },
-      "workstation": {
-        "title": "Control Workstation",
-        "model": "HISOKAI HS26-S95"
-      },
-      "networkRack": {
-        "title": "Network & Rack",
-        "model": "TP-Link TL-SG3424 + 20U Rack"
-      },
-      "specs": {
-        "cpu": "CPU",
-        "ram": "RAM", 
-        "storage": "Storage",
-        "gpu": "GPU",
-        "power": "Power",
-        "network": "Network",
-        "display": "Display",
-        "audio": "Audio",
-        "switch": "Switch",
-        "rackModel": "Rack Model",
-        "rackSize": "Rack Size",
-        "security": "Security",
-        "standard": "Standard",
-        "warranty": "Warranty"
+        "model": "HISOKAI HS25-C5420",
+        "specs": {
+          "cpu": {
+            "title": "CPU",
+            "value": "Intel Xeon Gen4 x2"
+          },
+          "ram": {
+            "title": "RAM",
+            "value": "256GB"
+          },
+          "storage": {
+            "title": "Storage",
+            "value": "1TB SSD"
+          },
+          "power": {
+            "title": "Power",
+            "value": "500W x2"
+          },
+          "network": {
+            "title": "Network",
+            "value": "10Gb RJ45 x2"
+          },
+          "warranty": {
+            "title": "Warranty",
+            "value": "3 Years"
+          }
+        }
       }
     },
     "systemArchitecture": {
