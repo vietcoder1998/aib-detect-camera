@@ -199,7 +199,7 @@
       "name": "Intelligent Behavior Analysis Equipment Set",
       "model": "AIB (Artificial Intelligence Behavior)",
       "manufacturer": "AMBILI TECH SDN. BHD",
-      "origin": "Singapore",
+      "origin": "Malaysia",
       "quantity": "01 Complete Set",
       "description": "The AIB Intelligent Behavior Analysis System applies artificial intelligence (AI) for video surveillance and automatic detection of abnormal behaviors on camera systems. Deep Learning technology enables accurate recognition of dangerous or violation situations, sending real-time alerts to operators. The system supports zone setup, security scenario creation, camera-based configuration, and visual monitoring. AIB detects diverse behaviors including restricted area intrusion, climbing, fighting, weapon carrying, vandalism, smoking, gambling, as well as emergencies like suicide risk or abnormal falls."
     },
@@ -445,7 +445,7 @@
       "email": "Email Address",
       "emailPlaceholder": "your.email@company.com",
       "phone": "Phone Number",
-      "phonePlaceholder": "+84 xxx xxx xxx",
+      "phonePlaceholder": "Your phone number",
       "company": "Company Name",
       "companyPlaceholder": "Your company name",
       "message": "Message",
@@ -669,7 +669,6 @@
   },
   "footer": {
     "copyright": "© 2025 AIB - AMBILI TECH SDN. BHD. All rights reserved.",
-    "location": "Singapore",
-    "distributor": "Distributed by HTC Import-Export Technology Equipment JSC"
+    "location": "Malaysia"
   }
 }

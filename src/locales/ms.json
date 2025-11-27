@@ -445,7 +445,7 @@
       "email": "Alamat E-mel",
       "emailPlaceholder": "emel.anda@syarikat.com",
       "phone": "Nombor Telefon",
-      "phonePlaceholder": "+60 xxx xxx xxx",
+      "phonePlaceholder": "Nombor telefon anda",
       "company": "Nama Syarikat",
       "companyPlaceholder": "Nama syarikat anda",
       "message": "Mesej",
@@ -669,7 +669,6 @@
   },
   "footer": {
     "copyright": "© 2025 AIB - AMBILI TECH SDN. BHD. Hak cipta terpelihara.",
-    "location": "Singapura",
-    "distributor": "Diedarkan oleh HTC Import-Export Technology Equipment JSC"
+    "location": "Malaysia"
   }
 }

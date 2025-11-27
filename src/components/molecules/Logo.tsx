@@ -24,11 +24,11 @@ export const Logo: React.FC<LogoProps> = ({ isScrolled }) => {
     >
       <img 
         src={favicon} 
-        alt="AIB Logo" 
+        alt="AmbilitiTechLogo" 
         className={`object-contain transition-all duration-300 ${isScrolled ? 'h-8' : 'h-12'}`}
       />
       <span className="text-2xl font-bold text-red-600 hover:text-red-700 transition-colors">
-        AIB
+        AmbilitiTech
       </span>
     </button>
   );

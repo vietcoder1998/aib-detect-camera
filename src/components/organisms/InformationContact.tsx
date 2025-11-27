@@ -30,7 +30,7 @@ export const InformationContact: React.FC = () => {
             <div className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-red-600" strokeWidth={2} />
               <a 
-                href={`tel:84914481435`}
+                href={`tel:60323892826`}
                 className="text-gray-900 hover:text-red-600 transition-colors font-medium"
               >
                 {t('information.company.phone')}
