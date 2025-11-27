@@ -91,6 +91,7 @@
     }
   },
   "behaviors": {
+    "badge": "Pengesanan Berkuasa AI",
     "title": "Pameran Pengesanan Tingkah Laku",
     "subtitle": "Analisis AI Masa Nyata Situasi Keselamatan Kritikal",
     "viewAll": "Lihat Semua Ciri",

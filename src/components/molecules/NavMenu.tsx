@@ -44,7 +44,7 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
   };
 
   return (
-    <div className={`flex items-center ${isScrolled ? 'gap-6' : 'gap-8'}`}>
+    <div className={`flex lg:flex-row flex-col lg:items-center ${isScrolled ? 'gap-6' : 'gap-8'}`}>
       <Link 
         to="/"
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
@@ -63,21 +63,21 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
 
       <button 
         onClick={() => scrollToSection('about')}
-        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-left ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.aboutUs')}
       </button>
 
       <button 
         onClick={() => scrollToSection('news')}
-        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-left ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.news')}
       </button>
 
       <button 
         onClick={() => scrollToSection('contact')}
-        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-left ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.contact')}
       </button>

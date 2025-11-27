@@ -119,7 +119,7 @@ export const BehaviorsSection: React.FC = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-100 text-red-700 rounded-full text-sm font-semibold mb-4">
             <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
-            AI-Powered Detection
+            {t('behaviors.badge')}
           </div>
           <Text variant="h2" className="text-gray-900 mb-4">
             {t('behaviors.title')}

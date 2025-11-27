@@ -91,6 +91,7 @@
     }
   },
   "behaviors": {
+    "badge": "Phát hiện Hỗ trợ AI",
     "title": "Trình diễn Phát hiện Hành vi",
     "subtitle": "Phân tích AI Thời gian thực các Tình huống An ninh Quan trọng",
     "viewAll": "Xem Tất cả Tính năng",

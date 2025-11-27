@@ -13,7 +13,7 @@
   "welcome": {
     "title": "Artificial Intelligence Behavior Analysis System",
     "subtitle": "Advanced AI-Powered Security & Surveillance",
-    "description": "AMBILI TECH SDN. BHDpresents the AIB system - cutting-edge deep learning technology with 80-90% accuracy, monitoring 35-40 cameras per AI server with automatic real-time alerts.",
+    "description": "AMBILI TECH SDN. BHD presents the AIB system - cutting-edge deep learning technology with 80-90% accuracy, monitoring 35-40 cameras per AI server with automatic real-time alerts.",
     "cta": "Learn More",
     "badge": "AI-Powered Security System",
     "watchDemo": "Watch Demo",
@@ -91,6 +91,7 @@
     }
   },
   "behaviors": {
+    "badge": "AI-Powered Detection",
     "title": "AIB - Artificial Intelligence Behavior",
     "subtitle": "Real-time AI Analysis of Critical Security Situations",
     "viewAll": "View All Features",
