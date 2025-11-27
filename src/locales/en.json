@@ -186,6 +186,12 @@
   "products": {
     "title": "Technical Specifications",
     "subtitle": "Complete AIB System Package",
+    "labels": {
+      "model": "Model",
+      "manufacturer": "Manufacturer",
+      "origin": "Origin",
+      "quantity": "Quantity"
+    },
     "mainProduct": {
       "name": "Intelligent Behavior Analysis Equipment Set",
       "model": "AIB (Artificial Intelligence Behavior)",

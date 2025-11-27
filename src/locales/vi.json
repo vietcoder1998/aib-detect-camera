@@ -186,6 +186,12 @@
   "products": {
     "title": "Bảng Mô tả Kỹ thuật",
     "subtitle": "Bộ thiết bị Hệ thống AIB Hoàn chỉnh",
+    "labels": {
+      "model": "Model",
+      "manufacturer": "Nhà sản xuất",
+      "origin": "Xuất xứ",
+      "quantity": "Số lượng"
+    },
     "mainProduct": {
       "name": "Bộ thiết bị Phân tích Hành vi Thông minh",
       "model": "AIB (Artificial Intelligence Behavior)",
