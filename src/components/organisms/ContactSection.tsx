@@ -32,8 +32,9 @@ export const ContactSection: React.FC = () => {
       `Message:\n${formData.message}`
     );
     
-    // Open email client
-    window.location.href = `mailto:sales.support@ambili-tech.com?subject=${subject}&body=${body}`;
+    // Open Gmail compose in new tab
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=sales.support@ambili-tech.com&su=${subject}&body=${body}`;
+    window.open(gmailUrl, '_blank');
   };
 
   return (
