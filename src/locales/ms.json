@@ -57,37 +57,67 @@
       "title": "Kemudahan Pembetulan",
       "description": "Pantau tingkah laku banduan, kesan percubaan bunuh diri, pergaduhan, percubaan melarikan diri, dan pemilikan senjata. Pastikan keselamatan dengan pengawasan automatik 24/7.",
       "icon": "prison",
-      "features": ["Pencegahan bunuh diri", "Pengesanan pergaduhan", "Pemantauan melarikan diri", "Pengesanan senjata"]
+      "features": [
+        "Pencegahan bunuh diri",
+        "Pengesanan pergaduhan",
+        "Pemantauan melarikan diri",
+        "Pengesanan senjata"
+      ]
     },
     "hospital": {
       "title": "Penjagaan Kesihatan & Mental",
       "description": "Pemantauan keselamatan pesakit, pengesanan jatuh, makluman merayau, dan tindak balas kecemasan untuk hospital dan kemudahan psikiatri.",
       "icon": "hospital",
-      "features": ["Pengesanan jatuh", "Pemantauan pesakit", "Makluman merayau", "Tindak balas kecemasan"]
+      "features": [
+        "Pengesanan jatuh",
+        "Pemantauan pesakit",
+        "Makluman merayau",
+        "Tindak balas kecemasan"
+      ]
     },
     "factory": {
       "title": "Pembuatan & Industri",
       "description": "Pemantauan pematuhan keselamatan, perlindungan kawasan terhad, pengesanan PPE, dan pencegahan kemalangan di persekitaran perindustrian.",
       "icon": "factory",
-      "features": ["Pematuhan keselamatan", "Zon terhad", "Pemantauan PPE", "Pencegahan kemalangan"]
+      "features": [
+        "Pematuhan keselamatan",
+        "Zon terhad",
+        "Pemantauan PPE",
+        "Pencegahan kemalangan"
+      ]
     },
     "office": {
       "title": "Bangunan Komersial",
       "description": "Ruang pejabat selamat, kedai runcit, dan kemudahan komersial dengan pengesanan pencerobohan, makluman merayau, dan kawalan akses.",
       "icon": "office",
-      "features": ["Pengesanan pencerobohan", "Kawalan akses", "Makluman merayau", "Keselamatan perimeter"]
+      "features": [
+        "Pengesanan pencerobohan",
+        "Kawalan akses",
+        "Makluman merayau",
+        "Keselamatan perimeter"
+      ]
     },
     "school": {
       "title": "Institusi Pendidikan",
       "description": "Keselamatan kampus dengan pengesanan keganasan, makluman akses tidak sah, dan pemantauan menyeluruh premis sekolah.",
       "icon": "school",
-      "features": ["Pengesanan keganasan", "Akses tidak sah", "Pemantauan kampus", "Keselamatan pelajar"]
+      "features": [
+        "Pengesanan keganasan",
+        "Akses tidak sah",
+        "Pemantauan kampus",
+        "Keselamatan pelajar"
+      ]
     },
     "public": {
       "title": "Ruang Awam & Infrastruktur",
       "description": "Pantau taman, hab pengangkutan, dan kawasan awam untuk tingkah laku mencurigakan, vandalisme, dan pengurusan orang ramai.",
       "icon": "public",
-      "features": ["Pengurusan orang ramai", "Pengesanan vandalisme", "Keselamatan awam", "Pemantauan trafik"]
+      "features": [
+        "Pengurusan orang ramai",
+        "Pengesanan vandalisme",
+        "Keselamatan awam",
+        "Pemantauan trafik"
+      ]
     }
   },
   "behaviors": {

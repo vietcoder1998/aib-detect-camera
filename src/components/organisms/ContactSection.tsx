@@ -9,36 +9,43 @@ export const ContactSection: React.FC = () => {
     email: '',
     phone: '',
     company: '',
-    message: ''
+    message: '',
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Create email content
-    const subject = encodeURIComponent(`Contact Form Submission from ${formData.name}`);
+    const subject = encodeURIComponent(
+      `Contact Form Submission from ${formData.name}`
+    );
     const body = encodeURIComponent(
       `Name: ${formData.name}\n` +
-      `Email: ${formData.email}\n` +
-      `Phone: ${formData.phone}\n` +
-      `Company: ${formData.company}\n\n` +
-      `Message:\n${formData.message}`
+        `Email: ${formData.email}\n` +
+        `Phone: ${formData.phone}\n` +
+        `Company: ${formData.company}\n\n` +
+        `Message:\n${formData.message}`
     );
-    
+
     // Open Gmail compose in new tab
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=sales.support@ambili-tech.com&su=${subject}&body=${body}`;
     window.open(gmailUrl, '_blank');
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-gray-50 to-red-50">
+    <section
+      id="contact"
+      className="py-20 bg-gradient-to-br from-gray-50 to-red-50"
+    >
       <Container>
         {/* Header */}
         <div className="text-center mb-16">
@@ -60,8 +67,12 @@ export const ContactSection: React.FC = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      {t('contact.form.name')} <span className="text-red-600">*</span>
+                    <label
+                      htmlFor="name"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
+                      {t('contact.form.name')}{' '}
+                      <span className="text-red-600">*</span>
                     </label>
                     <input
                       type="text"
@@ -75,8 +86,12 @@ export const ContactSection: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      {t('contact.form.email')} <span className="text-red-600">*</span>
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
+                      {t('contact.form.email')}{' '}
+                      <span className="text-red-600">*</span>
                     </label>
                     <input
                       type="email"
@@ -93,7 +108,10 @@ export const ContactSection: React.FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="phone"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       {t('contact.form.phone')}
                     </label>
                     <input
@@ -107,7 +125,10 @@ export const ContactSection: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="company"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       {t('contact.form.company')}
                     </label>
                     <input
@@ -123,8 +144,12 @@ export const ContactSection: React.FC = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    {t('contact.form.message')} <span className="text-red-600">*</span>
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
+                    {t('contact.form.message')}{' '}
+                    <span className="text-red-600">*</span>
                   </label>
                   <textarea
                     id="message"

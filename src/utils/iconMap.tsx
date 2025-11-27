@@ -1,9 +1,9 @@
-import { 
-  Building2, 
-  Hospital, 
-  Factory, 
-  Building, 
-  GraduationCap, 
+import {
+  Building2,
+  Hospital,
+  Factory,
+  Building,
+  GraduationCap,
   Landmark,
   Zap,
   AlertTriangle,
@@ -22,45 +22,45 @@ import {
   User,
   Siren,
   Check,
-  LucideIcon
+  LucideIcon,
 } from 'lucide-react';
 
 export const iconMap: Record<string, LucideIcon> = {
   // Solutions icons
-  'prison': Building2,
-  'hospital': Hospital,
-  'factory': Factory,
-  'office': Building,
-  'school': GraduationCap,
-  'public': Landmark,
-  
+  prison: Building2,
+  hospital: Hospital,
+  factory: Factory,
+  office: Building,
+  school: GraduationCap,
+  public: Landmark,
+
   // Benefits icons
-  'efficiency': Zap,
-  'response': AlertTriangle,
-  'accuracy': Target,
-  'coverage': Video,
-  'cost': DollarSign,
-  'compliance': BarChart3,
-  'integration': Plug,
-  'support': LifeBuoy,
-  
+  efficiency: Zap,
+  response: AlertTriangle,
+  accuracy: Target,
+  coverage: Video,
+  cost: DollarSign,
+  compliance: BarChart3,
+  integration: Plug,
+  support: LifeBuoy,
+
   // Feature highlights icons
-  'behaviors': Target,
-  'alerts': Zap,
-  'categories': BarChart3,
-  'aiAccuracy': Brain,
-  
+  behaviors: Target,
+  alerts: Zap,
+  categories: BarChart3,
+  aiAccuracy: Brain,
+
   // Detection features icons
-  'intrusion': ShieldAlert,
-  'climbing': Mountain,
-  'vandalism': Hammer,
-  'lifeThreat': AlertTriangle,
-  'weapons': Swords,
-  'violations': Cigarette,
-  'faceRecognition': User,
-  'advanced': Brain,
-  'emergency': Siren,
-  'checkmark': Check,
+  intrusion: ShieldAlert,
+  climbing: Mountain,
+  vandalism: Hammer,
+  lifeThreat: AlertTriangle,
+  weapons: Swords,
+  violations: Cigarette,
+  faceRecognition: User,
+  advanced: Brain,
+  emergency: Siren,
+  checkmark: Check,
 };
 
 export const getIcon = (iconName: string): LucideIcon => {

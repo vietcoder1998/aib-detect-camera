@@ -7,15 +7,18 @@ interface SectionTitleProps {
   className?: string;
 }
 
-export const SectionTitle: React.FC<SectionTitleProps> = ({ 
-  children, 
+export const SectionTitle: React.FC<SectionTitleProps> = ({
+  children,
   centered = true,
-  className = '' 
+  className = '',
 }) => {
   const centerClass = centered ? 'text-center' : '';
-  
+
   return (
-    <Text variant="h3" className={`text-gray-900 mb-8 ${centerClass} ${className}`}>
+    <Text
+      variant="h3"
+      className={`text-gray-900 mb-8 ${centerClass} ${className}`}
+    >
       {children}
     </Text>
   );

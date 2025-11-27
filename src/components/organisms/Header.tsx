@@ -10,9 +10,9 @@ export const Header: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      
+
       // Use hysteresis to prevent flickering: different thresholds for scrolling down vs up
-      setIsScrolled((prev) => {
+      setIsScrolled(prev => {
         if (prev) {
           // When already scrolled, only switch back to unscrolled below 80px
           return scrollY > 80;
@@ -31,7 +31,9 @@ export const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className={`bg-white shadow-md sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}>
+    <header
+      className={`bg-white shadow-md sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-4'}`}
+    >
       <Container>
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -44,7 +46,7 @@ export const Header: React.FC = () => {
           </nav>
 
           {/* Mobile Menu Button - Visible on mobile only */}
-        <button
+          <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="lg:hidden p-2 text-gray-700 hover:text-red-600 transition-colors"
             aria-label="Toggle menu"

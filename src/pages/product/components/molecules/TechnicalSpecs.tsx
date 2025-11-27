@@ -7,7 +7,7 @@ import { Brain } from 'lucide-react';
 
 export const TechnicalSpecs: React.FC = () => {
   const { t } = useTranslation();
-  
+
   return (
     <section className="py-20 bg-white">
       <Container>
@@ -31,19 +31,25 @@ export const TechnicalSpecs: React.FC = () => {
           <MetricCard
             value={t('productPage.technicalSpecs.responseTime.value')}
             label={t('productPage.technicalSpecs.responseTime.label')}
-            description={t('productPage.technicalSpecs.responseTime.description')}
+            description={t(
+              'productPage.technicalSpecs.responseTime.description'
+            )}
             color="red"
           />
           <MetricCard
             value={t('productPage.technicalSpecs.accuracyRate.value')}
             label={t('productPage.technicalSpecs.accuracyRate.label')}
-            description={t('productPage.technicalSpecs.accuracyRate.description')}
+            description={t(
+              'productPage.technicalSpecs.accuracyRate.description'
+            )}
             color="blue"
           />
           <MetricCard
             value={t('productPage.technicalSpecs.cameraSupport.value')}
             label={t('productPage.technicalSpecs.cameraSupport.label')}
-            description={t('productPage.technicalSpecs.cameraSupport.description')}
+            description={t(
+              'productPage.technicalSpecs.cameraSupport.description'
+            )}
             color="green"
           />
         </div>

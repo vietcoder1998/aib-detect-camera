@@ -19,12 +19,9 @@ export const ProductsSection: React.FC = () => {
           </Text>
         </div>
 
-
-
         {/* Equipment Section */}
         <EquipmentGrid />
       </Container>
     </section>
   );
 };
-

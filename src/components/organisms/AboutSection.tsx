@@ -30,7 +30,10 @@ export const AboutSection: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section
+      id="about"
+      className="py-20 bg-gradient-to-br from-gray-50 to-white"
+    >
       <Container>
         <div className="max-w-4xl mx-auto text-center mb-16">
           <Text variant="h2" className="text-gray-900 mb-4">
@@ -59,7 +62,10 @@ export const AboutSection: React.FC = () => {
                 className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center group"
               >
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-red-100 rounded-full mb-4 group-hover:bg-red-600 transition-colors duration-300">
-                  <Icon className="w-8 h-8 text-red-600 group-hover:text-white transition-colors duration-300" strokeWidth={2} />
+                  <Icon
+                    className="w-8 h-8 text-red-600 group-hover:text-white transition-colors duration-300"
+                    strokeWidth={2}
+                  />
                 </div>
                 <Text variant="h2" className="text-gray-900 mb-2">
                   {stat.value}

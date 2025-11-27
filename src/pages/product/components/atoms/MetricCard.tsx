@@ -8,11 +8,11 @@ interface MetricCardProps {
   color?: 'red' | 'blue' | 'green' | 'purple';
 }
 
-export const MetricCard: React.FC<MetricCardProps> = ({ 
-  value, 
-  label, 
+export const MetricCard: React.FC<MetricCardProps> = ({
+  value,
+  label,
   description,
-  color = 'red' 
+  color = 'red',
 }) => {
   const colorClasses = {
     red: 'text-red-600 border-red-200 bg-red-50',
@@ -23,15 +23,13 @@ export const MetricCard: React.FC<MetricCardProps> = ({
 
   return (
     <Card className={`p-6 ${colorClasses[color]} border-l-4`}>
-      <div className={`text-3xl font-bold ${color === 'red' ? 'text-red-600' : color === 'blue' ? 'text-blue-600' : color === 'green' ? 'text-green-600' : 'text-purple-600'} mb-2`}>
+      <div
+        className={`text-3xl font-bold ${color === 'red' ? 'text-red-600' : color === 'blue' ? 'text-blue-600' : color === 'green' ? 'text-green-600' : 'text-purple-600'} mb-2`}
+      >
         {value}
       </div>
-      <div className="text-gray-900 font-semibold text-lg mb-1">
-        {label}
-      </div>
-      <div className="text-gray-600 text-sm">
-        {description}
-      </div>
+      <div className="text-gray-900 font-semibold text-lg mb-1">{label}</div>
+      <div className="text-gray-600 text-sm">{description}</div>
     </Card>
   );
 };

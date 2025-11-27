@@ -12,19 +12,29 @@ export const MainProductInfo: React.FC = () => {
       </Text>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
         <div>
-          <span className="font-semibold text-gray-700">{t('products.labels.model')}:</span>
+          <span className="font-semibold text-gray-700">
+            {t('products.labels.model')}:
+          </span>
           <p className="text-gray-600">{t('products.mainProduct.model')}</p>
         </div>
         <div>
-          <span className="font-semibold text-gray-700">{t('products.labels.manufacturer')}:</span>
-          <p className="text-gray-600">{t('products.mainProduct.manufacturer')}</p>
+          <span className="font-semibold text-gray-700">
+            {t('products.labels.manufacturer')}:
+          </span>
+          <p className="text-gray-600">
+            {t('products.mainProduct.manufacturer')}
+          </p>
         </div>
         <div>
-          <span className="font-semibold text-gray-700">{t('products.labels.origin')}:</span>
+          <span className="font-semibold text-gray-700">
+            {t('products.labels.origin')}:
+          </span>
           <p className="text-gray-600">{t('products.mainProduct.origin')}</p>
         </div>
         <div>
-          <span className="font-semibold text-gray-700">{t('products.labels.quantity')}:</span>
+          <span className="font-semibold text-gray-700">
+            {t('products.labels.quantity')}:
+          </span>
           <p className="text-gray-600">{t('products.mainProduct.quantity')}</p>
         </div>
       </div>

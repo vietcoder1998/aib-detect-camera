@@ -11,9 +11,14 @@ interface SolutionCardProps {
   features: string[];
 }
 
-const SolutionCard: React.FC<SolutionCardProps> = ({ iconName, title, description, features }) => {
+const SolutionCard: React.FC<SolutionCardProps> = ({
+  iconName,
+  title,
+  description,
+  features,
+}) => {
   const Icon = getIcon(iconName);
-  
+
   return (
     <Card className="p-6 hover:shadow-xl transition-shadow duration-300 h-full">
       <div className="mb-4">
@@ -28,7 +33,10 @@ const SolutionCard: React.FC<SolutionCardProps> = ({ iconName, title, descriptio
       <div className="space-y-2">
         {features.map((feature, idx) => (
           <div key={idx} className="flex items-center text-sm text-gray-700">
-            <Check className="w-4 h-4 text-green-600 mr-2 flex-shrink-0" strokeWidth={2.5} />
+            <Check
+              className="w-4 h-4 text-green-600 mr-2 flex-shrink-0"
+              strokeWidth={2.5}
+            />
             <span>{feature}</span>
           </div>
         ))}
@@ -45,37 +53,49 @@ export const SolutionsSection: React.FC = () => {
       icon: t('solutions.prison.icon'),
       title: t('solutions.prison.title'),
       description: t('solutions.prison.description'),
-      features: t('solutions.prison.features', { returnObjects: true }) as string[],
+      features: t('solutions.prison.features', {
+        returnObjects: true,
+      }) as string[],
     },
     {
       icon: t('solutions.hospital.icon'),
       title: t('solutions.hospital.title'),
       description: t('solutions.hospital.description'),
-      features: t('solutions.hospital.features', { returnObjects: true }) as string[],
+      features: t('solutions.hospital.features', {
+        returnObjects: true,
+      }) as string[],
     },
     {
       icon: t('solutions.factory.icon'),
       title: t('solutions.factory.title'),
       description: t('solutions.factory.description'),
-      features: t('solutions.factory.features', { returnObjects: true }) as string[],
+      features: t('solutions.factory.features', {
+        returnObjects: true,
+      }) as string[],
     },
     {
       icon: t('solutions.office.icon'),
       title: t('solutions.office.title'),
       description: t('solutions.office.description'),
-      features: t('solutions.office.features', { returnObjects: true }) as string[],
+      features: t('solutions.office.features', {
+        returnObjects: true,
+      }) as string[],
     },
     {
       icon: t('solutions.school.icon'),
       title: t('solutions.school.title'),
       description: t('solutions.school.description'),
-      features: t('solutions.school.features', { returnObjects: true }) as string[],
+      features: t('solutions.school.features', {
+        returnObjects: true,
+      }) as string[],
     },
     {
       icon: t('solutions.public.icon'),
       title: t('solutions.public.title'),
       description: t('solutions.public.description'),
-      features: t('solutions.public.features', { returnObjects: true }) as string[],
+      features: t('solutions.public.features', {
+        returnObjects: true,
+      }) as string[],
     },
   ];
 

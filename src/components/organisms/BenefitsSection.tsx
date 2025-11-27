@@ -10,9 +10,14 @@ interface BenefitCardProps {
   stats: string;
 }
 
-const BenefitCard: React.FC<BenefitCardProps> = ({ iconName, title, description, stats }) => {
+const BenefitCard: React.FC<BenefitCardProps> = ({
+  iconName,
+  title,
+  description,
+  stats,
+}) => {
   const Icon = getIcon(iconName);
-  
+
   return (
     <Card className="p-6 text-center hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
       <div className="flex justify-center mb-4">
@@ -39,11 +44,12 @@ export const BenefitsSection: React.FC = () => {
     if (element) {
       const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -131,16 +137,17 @@ export const BenefitsSection: React.FC = () => {
             Ready to Transform Your Security?
           </Text>
           <Text variant="body" className="text-red-100 mb-6 max-w-2xl mx-auto">
-            Join leading organizations worldwide using AIB for intelligent behavior detection and automated security monitoring
+            Join leading organizations worldwide using AIB for intelligent
+            behavior detection and automated security monitoring
           </Text>
           <div className="flex flex-wrap justify-center gap-4">
-            <button 
+            <button
               onClick={() => handleScrollToSection('#contact')}
               className="px-8 py-4 bg-white text-red-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors shadow-lg"
             >
               Request Demo
             </button>
-            <button 
+            <button
               onClick={() => handleScrollToSection('#contact')}
               className="px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-red-600 transition-colors"
             >

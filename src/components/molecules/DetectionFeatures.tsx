@@ -11,9 +11,14 @@ interface FeatureCategoryProps {
   color?: string;
 }
 
-const FeatureCategory: React.FC<FeatureCategoryProps> = ({ iconName, title, items, color = 'blue' }) => {
+const FeatureCategory: React.FC<FeatureCategoryProps> = ({
+  iconName,
+  title,
+  items,
+  color = 'blue',
+}) => {
   const Icon = getIcon(iconName);
-  
+
   const colorClasses = {
     blue: 'bg-blue-50 border-blue-200 text-blue-700',
     red: 'bg-red-50 border-red-200 text-red-700',
@@ -27,15 +32,22 @@ const FeatureCategory: React.FC<FeatureCategoryProps> = ({ iconName, title, item
   };
 
   return (
-    <Card className={`p-6 border-l-4 ${colorClasses[color as keyof typeof colorClasses]}`}>
+    <Card
+      className={`p-6 border-l-4 ${colorClasses[color as keyof typeof colorClasses]}`}
+    >
       <div className="flex items-center gap-3 mb-4">
         <Icon className="w-8 h-8 text-gray-700" strokeWidth={1.5} />
-        <Text variant="h4" className="text-gray-900">{title}</Text>
+        <Text variant="h4" className="text-gray-900">
+          {title}
+        </Text>
       </div>
       <ul className="space-y-2">
         {items.map((item, idx) => (
           <li key={idx} className="flex items-start text-gray-700 text-sm">
-            <Check className="w-4 h-4 text-green-600 mr-2 mt-0.5 flex-shrink-0" strokeWidth={2.5} />
+            <Check
+              className="w-4 h-4 text-green-600 mr-2 mt-0.5 flex-shrink-0"
+              strokeWidth={2.5}
+            />
             <span>{item}</span>
           </li>
         ))}
@@ -57,7 +69,7 @@ export const DetectionFeatures: React.FC = () => {
         t('products.module1.behaviors.comprehensive.intrusion.item2'),
         t('products.module1.behaviors.comprehensive.intrusion.item3'),
         t('products.module1.behaviors.comprehensive.intrusion.item4'),
-      ]
+      ],
     },
     {
       icon: 'climbing',
@@ -67,7 +79,7 @@ export const DetectionFeatures: React.FC = () => {
         t('products.module1.behaviors.comprehensive.climbing.item1'),
         t('products.module1.behaviors.comprehensive.climbing.item2'),
         t('products.module1.behaviors.comprehensive.climbing.item3'),
-      ]
+      ],
     },
     {
       icon: 'vandalism',
@@ -78,7 +90,7 @@ export const DetectionFeatures: React.FC = () => {
         t('products.module1.behaviors.comprehensive.vandalism.item2'),
         t('products.module1.behaviors.comprehensive.vandalism.item3'),
         t('products.module1.behaviors.comprehensive.vandalism.item4'),
-      ]
+      ],
     },
     {
       icon: 'lifeThreat',
@@ -89,7 +101,7 @@ export const DetectionFeatures: React.FC = () => {
         `${t('products.module1.behaviors.comprehensive.lifeThreat.fall.title')}: ${t('products.module1.behaviors.comprehensive.lifeThreat.fall.item1')}, ${t('products.module1.behaviors.comprehensive.lifeThreat.fall.item2')}`,
         t('products.module1.behaviors.comprehensive.lifeThreat.fall.item3'),
         `${t('products.module1.behaviors.comprehensive.lifeThreat.fighting.title')}: ${t('products.module1.behaviors.comprehensive.lifeThreat.fighting.item1')}, ${t('products.module1.behaviors.comprehensive.lifeThreat.fighting.item2')}`,
-      ]
+      ],
     },
     {
       icon: 'weapons',
@@ -102,7 +114,7 @@ export const DetectionFeatures: React.FC = () => {
         t('products.module1.behaviors.comprehensive.weapons.item4'),
         t('products.module1.behaviors.comprehensive.weapons.item5'),
         t('products.module1.behaviors.comprehensive.weapons.item6'),
-      ]
+      ],
     },
     {
       icon: 'violations',
@@ -113,18 +125,20 @@ export const DetectionFeatures: React.FC = () => {
         t('products.module1.behaviors.comprehensive.violations.item2'),
         t('products.module1.behaviors.comprehensive.violations.item3'),
         t('products.module1.behaviors.comprehensive.violations.item4'),
-      ]
+      ],
     },
     {
       icon: 'faceRecognition',
-      title: t('products.module1.behaviors.comprehensive.faceRecognition.title'),
+      title: t(
+        'products.module1.behaviors.comprehensive.faceRecognition.title'
+      ),
       color: 'blue',
       items: [
         t('products.module1.behaviors.comprehensive.faceRecognition.item1'),
         t('products.module1.behaviors.comprehensive.faceRecognition.item2'),
         t('products.module1.behaviors.comprehensive.faceRecognition.item3'),
         t('products.module1.behaviors.comprehensive.faceRecognition.item4'),
-      ]
+      ],
     },
     {
       icon: 'advanced',
@@ -138,7 +152,7 @@ export const DetectionFeatures: React.FC = () => {
         t('products.module1.behaviors.comprehensive.advanced.item5'),
         t('products.module1.behaviors.comprehensive.advanced.item6'),
         t('products.module1.behaviors.comprehensive.advanced.item7'),
-      ]
+      ],
     },
     {
       icon: 'emergency',
@@ -149,8 +163,8 @@ export const DetectionFeatures: React.FC = () => {
         t('products.module1.behaviors.comprehensive.emergency.item2'),
         t('products.module1.behaviors.comprehensive.emergency.item3'),
         t('products.module1.behaviors.comprehensive.emergency.item4'),
-      ]
-    }
+      ],
+    },
   ];
 
   return (

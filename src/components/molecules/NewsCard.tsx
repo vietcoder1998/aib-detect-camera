@@ -11,20 +11,20 @@ interface NewsCardProps {
   category: string;
 }
 
-export const NewsCard: React.FC<NewsCardProps> = ({ 
-  title, 
-  excerpt, 
-  date, 
-  image, 
-  category 
+export const NewsCard: React.FC<NewsCardProps> = ({
+  title,
+  excerpt,
+  date,
+  image,
+  category,
 }) => {
   const { t } = useTranslation();
-  
+
   return (
     <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 group cursor-pointer">
       {/* Image */}
       <div className="aspect-video overflow-hidden relative">
-        <div 
+        <div
           className="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500"
           style={{ backgroundImage: `url('${image}')` }}
         />
@@ -44,7 +44,10 @@ export const NewsCard: React.FC<NewsCardProps> = ({
         </div>
 
         {/* Title */}
-        <Text variant="h4" className="text-gray-900 mb-3 group-hover:text-red-600 transition-colors line-clamp-2">
+        <Text
+          variant="h4"
+          className="text-gray-900 mb-3 group-hover:text-red-600 transition-colors line-clamp-2"
+        >
           {title}
         </Text>
 

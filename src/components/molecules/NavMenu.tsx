@@ -24,7 +24,7 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
           const offsetPosition = elementPosition + window.pageYOffset - offset;
           window.scrollTo({
             top: offsetPosition,
-            behavior: 'smooth'
+            behavior: 'smooth',
           });
         }
       }, 100);
@@ -37,15 +37,17 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
         const offsetPosition = elementPosition + window.pageYOffset - offset;
         window.scrollTo({
           top: offsetPosition,
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
     }
   };
 
   return (
-    <div className={`flex lg:flex-row flex-col lg:items-center ${isScrolled ? 'gap-6' : 'gap-8'}`}>
-      <button 
+    <div
+      className={`flex lg:flex-row flex-col lg:items-center ${isScrolled ? 'gap-6' : 'gap-8'}`}
+    >
+      <button
         onClick={() => {
           navigate('/');
           setTimeout(() => {
@@ -57,7 +59,7 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
         {t('nav.home')}
       </button>
       <SolutionsDropdown isScrolled={isScrolled} />
-      <button 
+      <button
         onClick={() => {
           navigate('/products');
           setTimeout(() => {
@@ -69,21 +71,21 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
         {t('nav.products')}
       </button>
 
-      <button 
+      <button
         onClick={() => scrollToSection('about')}
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-left ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.aboutUs')}
       </button>
 
-      <button 
+      <button
         onClick={() => scrollToSection('news')}
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-left ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.news')}
       </button>
 
-      <button 
+      <button
         onClick={() => scrollToSection('contact')}
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-left ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >

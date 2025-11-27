@@ -9,7 +9,7 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     @apply antialiased;
     font-family: 'Saira', ui-sans-serif, system-ui, sans-serif;

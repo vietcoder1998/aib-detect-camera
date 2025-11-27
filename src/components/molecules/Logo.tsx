@@ -18,17 +18,17 @@ export const Logo: React.FC<LogoProps> = ({ isScrolled }) => {
   };
 
   return (
-    <button 
+    <button
       onClick={handleClick}
       className="flex items-center gap-3 cursor-pointer group"
     >
-      <img 
-        src={favicon} 
-        alt="AmbilitiTechLogo" 
+      <img
+        src={favicon}
+        alt="AmbiliTech Logo"
         className={`object-contain transition-all duration-300 ${isScrolled ? 'h-8' : 'h-12'}`}
       />
       <span className="text-2xl font-bold text-red-600 hover:text-red-700 transition-colors">
-        AmbilitiTech
+        AmbiliTech
       </span>
     </button>
   );

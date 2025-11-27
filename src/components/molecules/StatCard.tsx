@@ -16,7 +16,10 @@ export const StatCard: React.FC<StatCardProps> = ({ value, label, color }) => {
 
   return (
     <div className={`p-4 ${colorClasses[color].split(' ')[0]} rounded-lg`}>
-      <Text variant="h3" className={`${colorClasses[color].split(' ')[1]} mb-1`}>
+      <Text
+        variant="h3"
+        className={`${colorClasses[color].split(' ')[1]} mb-1`}
+      >
         {value}
       </Text>
       <Text variant="small" className="text-gray-600">

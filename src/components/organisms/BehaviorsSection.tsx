@@ -1,7 +1,17 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Container, Text, Card } from '@atoms';
-import { ShieldAlert, Mountain, Swords, Skull, Hammer, Cigarette, UserX, User, type LucideIcon } from 'lucide-react';
+import {
+  ShieldAlert,
+  Mountain,
+  Swords,
+  Skull,
+  Hammer,
+  Cigarette,
+  UserX,
+  User,
+  type LucideIcon,
+} from 'lucide-react';
 
 interface BehaviorCardProps {
   name: string;
@@ -10,7 +20,12 @@ interface BehaviorCardProps {
   icon: LucideIcon;
 }
 
-const BehaviorCard: React.FC<BehaviorCardProps> = ({ name, description, color, icon: Icon }) => {
+const BehaviorCard: React.FC<BehaviorCardProps> = ({
+  name,
+  description,
+  color,
+  icon: Icon,
+}) => {
   const colorClasses = {
     red: 'bg-red-500',
     orange: 'bg-orange-500',
@@ -25,7 +40,9 @@ const BehaviorCard: React.FC<BehaviorCardProps> = ({ name, description, color, i
 
   return (
     <Card className="p-6 hover:shadow-xl transition-all duration-300 border-l-4 border-transparent hover:border-red-600">
-      <div className={`w-12 h-12 ${colorClasses[color as keyof typeof colorClasses]} rounded-lg mb-4 flex items-center justify-center`}>
+      <div
+        className={`w-12 h-12 ${colorClasses[color as keyof typeof colorClasses]} rounded-lg mb-4 flex items-center justify-center`}
+      >
         <Icon className="w-6 h-6 text-white" strokeWidth={2} />
       </div>
       <Text variant="h4" className="text-gray-900 mb-2">
@@ -46,11 +63,12 @@ export const BehaviorsSection: React.FC = () => {
     if (element) {
       const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -113,7 +131,10 @@ export const BehaviorsSection: React.FC = () => {
   ];
 
   return (
-    <section id="behaviors" className="py-20 bg-gradient-to-br from-gray-50 to-red-50">
+    <section
+      id="behaviors"
+      className="py-20 bg-gradient-to-br from-gray-50 to-red-50"
+    >
       <Container>
         {/* Header */}
         <div className="text-center mb-16">
@@ -144,7 +165,7 @@ export const BehaviorsSection: React.FC = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <button 
+          <button
             onClick={() => handleScrollToSection('#products')}
             className="px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-lg font-semibold hover:from-red-700 hover:to-red-800 transition-all shadow-lg hover:shadow-xl"
           >

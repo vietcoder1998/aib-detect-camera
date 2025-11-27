@@ -15,7 +15,10 @@ export const InformationContact: React.FC = () => {
             <div className="flex items-start gap-1">
               <div>
                 <Text variant="h4" className="text-gray-900 mb-1 flex gap-3">
-                    <Building2 className="w-6 h-6 text-red-600 mt-0.5" strokeWidth={2} />
+                  <Building2
+                    className="w-6 h-6 text-red-600 mt-0.5"
+                    strokeWidth={2}
+                  />
                   {t('information.company.name')}
                 </Text>
                 <div className="flex items-start gap-2">
@@ -29,7 +32,7 @@ export const InformationContact: React.FC = () => {
             {/* Phone */}
             <div className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-red-600" strokeWidth={2} />
-              <a 
+              <a
                 href={`tel:60323892826`}
                 className="text-gray-900 hover:text-red-600 transition-colors font-medium"
               >
@@ -40,7 +43,7 @@ export const InformationContact: React.FC = () => {
             {/* Email */}
             <div className="flex items-center gap-3">
               <Mail className="w-6 h-6 text-red-600" strokeWidth={2} />
-              <a 
+              <a
                 href={`mailto:${t('information.company.email')}`}
                 className="text-gray-900 hover:text-red-600 transition-colors font-medium"
               >

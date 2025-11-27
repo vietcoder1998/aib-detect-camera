@@ -5,32 +5,40 @@ import { Camera, Network, Server, Monitor } from 'lucide-react';
 
 export const SystemArchitecture: React.FC = () => {
   const { t } = useTranslation();
-  
+
   const layers = [
     {
       icon: Camera,
       title: t('productPage.systemArchitecture.layers.cameraLayer.title'),
-      description: t('productPage.systemArchitecture.layers.cameraLayer.description'),
-      color: 'text-red-600 bg-red-50 border-red-200'
+      description: t(
+        'productPage.systemArchitecture.layers.cameraLayer.description'
+      ),
+      color: 'text-red-600 bg-red-50 border-red-200',
     },
     {
       icon: Network,
-      title: t('productPage.systemArchitecture.layers.networkLayer.title'), 
-      description: t('productPage.systemArchitecture.layers.networkLayer.description'),
-      color: 'text-blue-600 bg-blue-50 border-blue-200'
+      title: t('productPage.systemArchitecture.layers.networkLayer.title'),
+      description: t(
+        'productPage.systemArchitecture.layers.networkLayer.description'
+      ),
+      color: 'text-blue-600 bg-blue-50 border-blue-200',
     },
     {
       icon: Server,
       title: t('productPage.systemArchitecture.layers.serverLayer.title'),
-      description: t('productPage.systemArchitecture.layers.serverLayer.description'),
-      color: 'text-green-600 bg-green-50 border-green-200'
+      description: t(
+        'productPage.systemArchitecture.layers.serverLayer.description'
+      ),
+      color: 'text-green-600 bg-green-50 border-green-200',
     },
     {
       icon: Monitor,
       title: t('productPage.systemArchitecture.layers.operationsLayer.title'),
-      description: t('productPage.systemArchitecture.layers.operationsLayer.description'),
-      color: 'text-purple-600 bg-purple-50 border-purple-200'
-    }
+      description: t(
+        'productPage.systemArchitecture.layers.operationsLayer.description'
+      ),
+      color: 'text-purple-600 bg-purple-50 border-purple-200',
+    },
   ];
 
   return (
@@ -52,8 +60,12 @@ export const SystemArchitecture: React.FC = () => {
           {layers.map((layer, index) => (
             <Card key={index} className={`p-8 border-l-4 ${layer.color}`}>
               <div className="flex items-start gap-4">
-                <div className={`p-3 rounded-lg ${layer.color.split(' ')[1]} ${layer.color.split(' ')[2]}`}>
-                  <layer.icon className={`w-6 h-6 ${layer.color.split(' ')[0]}`} />
+                <div
+                  className={`p-3 rounded-lg ${layer.color.split(' ')[1]} ${layer.color.split(' ')[2]}`}
+                >
+                  <layer.icon
+                    className={`w-6 h-6 ${layer.color.split(' ')[0]}`}
+                  />
                 </div>
                 <div className="flex-1">
                   <Text variant="h4" className="text-gray-900 mb-3">

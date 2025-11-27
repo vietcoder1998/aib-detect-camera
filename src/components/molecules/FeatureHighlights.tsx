@@ -5,25 +5,25 @@ import { FeatureCard } from './FeatureCard';
 
 export const FeatureHighlights: React.FC = () => {
   const { t } = useTranslation();
-  
+
   return (
     <Grid cols={2} gap={4}>
-      <FeatureCard 
+      <FeatureCard
         iconName="behaviors"
         title={t('welcome.features.behaviors.title')}
         description={t('welcome.features.behaviors.description')}
       />
-      <FeatureCard 
+      <FeatureCard
         iconName="alerts"
         title={t('welcome.features.alerts.title')}
         description={t('welcome.features.alerts.description')}
       />
-      <FeatureCard 
+      <FeatureCard
         iconName="categories"
         title={t('welcome.features.categories.title')}
         description={t('welcome.features.categories.description')}
       />
-      <FeatureCard 
+      <FeatureCard
         iconName="aiAccuracy"
         title={t('welcome.features.accuracy.title')}
         description={t('welcome.features.accuracy.description')}

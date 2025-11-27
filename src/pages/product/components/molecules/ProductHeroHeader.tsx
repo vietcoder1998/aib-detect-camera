@@ -6,7 +6,7 @@ import { Cpu } from 'lucide-react';
 
 export const ProductHeroHeader: React.FC = () => {
   const { t } = useTranslation();
-  
+
   return (
     <section className="py-20 bg-gradient-to-br from-gray-50 to-red-50">
       <Container>
@@ -21,7 +21,11 @@ export const ProductHeroHeader: React.FC = () => {
           <Text variant="body" className="text-gray-600 max-w-4xl mx-auto mb-8">
             {t('productPage.hero.subtitle')}
           </Text>
-          <Button variant="primary" size="lg" className="mb-12 bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700">
+          <Button
+            variant="primary"
+            size="lg"
+            className="mb-12 bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700"
+          >
             {t('productPage.hero.exploreButton')}
           </Button>
         </div>

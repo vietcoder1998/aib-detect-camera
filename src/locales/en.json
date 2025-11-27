@@ -57,37 +57,67 @@
       "title": "Correctional Facilities",
       "description": "Monitor inmate behavior, detect suicide attempts, fighting, escape attempts, and weapon possession. Ensure safety with 24/7 automated surveillance.",
       "icon": "prison",
-      "features": ["Suicide prevention", "Fighting detection", "Escape monitoring", "Weapon detection"]
+      "features": [
+        "Suicide prevention",
+        "Fighting detection",
+        "Escape monitoring",
+        "Weapon detection"
+      ]
     },
     "hospital": {
       "title": "Healthcare & Mental Health",
       "description": "Patient safety monitoring, fall detection, wandering alerts, and emergency response for hospitals and psychiatric facilities.",
       "icon": "hospital",
-      "features": ["Fall detection", "Patient monitoring", "Wandering alerts", "Emergency response"]
+      "features": [
+        "Fall detection",
+        "Patient monitoring",
+        "Wandering alerts",
+        "Emergency response"
+      ]
     },
     "factory": {
       "title": "Manufacturing & Industry",
       "description": "Safety compliance monitoring, restricted area protection, PPE detection, and accident prevention in industrial environments.",
       "icon": "factory",
-      "features": ["Safety compliance", "Restricted zones", "PPE monitoring", "Accident prevention"]
+      "features": [
+        "Safety compliance",
+        "Restricted zones",
+        "PPE monitoring",
+        "Accident prevention"
+      ]
     },
     "office": {
       "title": "Commercial Buildings",
       "description": "Secure office spaces, retail stores, and commercial facilities with intrusion detection, loitering alerts, and access control.",
       "icon": "office",
-      "features": ["Intrusion detection", "Access control", "Loitering alerts", "Perimeter security"]
+      "features": [
+        "Intrusion detection",
+        "Access control",
+        "Loitering alerts",
+        "Perimeter security"
+      ]
     },
     "school": {
       "title": "Educational Institutions",
       "description": "Campus safety with violence detection, unauthorized access alerts, and comprehensive monitoring of school premises.",
       "icon": "school",
-      "features": ["Violence detection", "Unauthorized access", "Campus monitoring", "Student safety"]
+      "features": [
+        "Violence detection",
+        "Unauthorized access",
+        "Campus monitoring",
+        "Student safety"
+      ]
     },
     "public": {
       "title": "Public Spaces & Infrastructure",
       "description": "Monitor parks, transportation hubs, and public areas for suspicious behavior, vandalism, and crowd management.",
       "icon": "public",
-      "features": ["Crowd management", "Vandalism detection", "Public safety", "Traffic monitoring"]
+      "features": [
+        "Crowd management",
+        "Vandalism detection",
+        "Public safety",
+        "Traffic monitoring"
+      ]
     }
   },
   "behaviors": {

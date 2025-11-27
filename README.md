@@ -32,27 +32,31 @@ src/
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Start the development server:
+
 ```bash
 npm run dev
 ```
 
 3. Build for production:
+
 ```bash
 npm run build
 ```
 
 4. Preview production build:
+
 ```bash
 npm run preview
 ```
@@ -60,16 +64,19 @@ npm run preview
 ## Features Breakdown
 
 ### Header
+
 - Responsive navigation
 - Language switcher (English/Vietnamese)
 - Sticky positioning
 
 ### Welcome Section
+
 - Hero banner with gradient background
 - Multi-language content
 - Call-to-action button
 
 ### Products Section
+
 - Grid layout (responsive: 1/2/4 columns)
 - Product cards with images and descriptions
 - Multi-language support

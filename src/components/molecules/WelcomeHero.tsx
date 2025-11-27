@@ -10,11 +10,12 @@ export const WelcomeHero: React.FC = () => {
     if (element) {
       const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -24,16 +25,24 @@ export const WelcomeHero: React.FC = () => {
       {/* Decorative Security Icons */}
       <div className="absolute -left-4 top-0 opacity-10">
         <div className="w-20 h-20 rounded-full border-4 border-red-600 flex items-center justify-center">
-          <svg className="w-10 h-10 text-red-600" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1 14H9v-2h2v2zm0-4H9V7h2v5z"/>
+          <svg
+            className="w-10 h-10 text-red-600"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 2L4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5l-8-3zm-1 14H9v-2h2v2zm0-4H9V7h2v5z" />
           </svg>
         </div>
       </div>
-      
+
       <div className="absolute -right-4 bottom-0 opacity-10">
         <div className="w-16 h-16 rounded-full border-4 border-red-600 flex items-center justify-center">
-          <svg className="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+          <svg
+            className="w-8 h-8 text-red-600"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
           </svg>
         </div>
       </div>
@@ -50,24 +59,27 @@ export const WelcomeHero: React.FC = () => {
         <Text variant="h1" className="text-gray-900 mb-6">
           {t('welcome.title')}
         </Text>
-        
-        <Text variant="h3" className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-red-500 to-orange-500 mb-8">
+
+        <Text
+          variant="h3"
+          className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-red-500 to-orange-500 mb-8"
+        >
           {t('welcome.subtitle')}
         </Text>
-        
+
         <Text variant="body" className="text-gray-700 mb-10 leading-relaxed">
           {t('welcome.description')}
         </Text>
 
         {/* CTA Buttons */}
         <div className="flex flex-wrap gap-4">
-          <button 
+          <button
             onClick={() => handleScrollToSection('#solutions')}
             className="px-6 py-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white rounded-lg font-semibold transition-all shadow-lg"
           >
             {t('welcome.cta')}
           </button>
-          <button 
+          <button
             onClick={() => handleScrollToSection('#behaviors')}
             className="px-6 py-3 border-2 border-gray-300 rounded-lg font-semibold text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
           >
@@ -79,20 +91,44 @@ export const WelcomeHero: React.FC = () => {
         <div className="mt-10 pt-8 border-t border-gray-200">
           <div className="flex flex-wrap items-center gap-6 text-sm text-gray-600">
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
+              <svg
+                className="w-5 h-5 text-green-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clipRule="evenodd"
+                />
               </svg>
               <span>{t('welcome.trustIndicators.enterprise')}</span>
             </div>
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
+              <svg
+                className="w-5 h-5 text-green-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clipRule="evenodd"
+                />
               </svg>
               <span>{t('welcome.trustIndicators.monitoring')}</span>
             </div>
             <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
+              <svg
+                className="w-5 h-5 text-green-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clipRule="evenodd"
+                />
               </svg>
               <span>{t('welcome.trustIndicators.certified')}</span>
             </div>

@@ -12,7 +12,8 @@ export const NewsSection: React.FC = () => {
       title: t('news.items.item1.title'),
       excerpt: t('news.items.item1.excerpt'),
       date: t('news.items.item1.date'),
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop',
+      image:
+        'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop',
       category: t('news.items.item1.category'),
     },
     {
@@ -20,7 +21,8 @@ export const NewsSection: React.FC = () => {
       title: t('news.items.item2.title'),
       excerpt: t('news.items.item2.excerpt'),
       date: t('news.items.item2.date'),
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop',
+      image:
+        'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop',
       category: t('news.items.item2.category'),
     },
     {
@@ -28,7 +30,8 @@ export const NewsSection: React.FC = () => {
       title: t('news.items.item3.title'),
       excerpt: t('news.items.item3.excerpt'),
       date: t('news.items.item3.date'),
-      image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2000&auto=format&fit=crop',
+      image:
+        'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2000&auto=format&fit=crop',
       category: t('news.items.item3.category'),
     },
   ];
@@ -46,7 +49,7 @@ export const NewsSection: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {newsItems.map((item) => (
+          {newsItems.map(item => (
             <NewsCard
               key={item.id}
               title={item.title}

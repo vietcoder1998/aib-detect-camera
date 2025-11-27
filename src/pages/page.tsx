@@ -1,4 +1,8 @@
-import { DetectionFeatures, MainProductInfo, ModuleSpecifications } from '@/components/molecules';
+import {
+  DetectionFeatures,
+  MainProductInfo,
+  ModuleSpecifications,
+} from '@/components/molecules';
 import {
   AboutSection,
   BehaviorsSection,
@@ -6,7 +10,7 @@ import {
   ContactSection,
   NewsSection,
   SolutionsSection,
-  WelcomeSection
+  WelcomeSection,
 } from '@organisms';
 import { MainLayout } from '@templates';
 import React from 'react';
