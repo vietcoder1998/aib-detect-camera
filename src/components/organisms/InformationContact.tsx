@@ -1,10 +1,11 @@
 import { Container, Text } from '@atoms';
-import { Building2, Mail, Phone } from 'lucide-react';
-import React from 'react';
+import { Building2, Mail, Phone, QrCode } from 'lucide-react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export const InformationContact: React.FC = () => {
   const { t } = useTranslation();
+  const [showPhoneQR, setShowPhoneQR] = useState(false);
 
   return (
     <section className="bg-gradient-to-br from-gray-50 to-red-50 py-16">
@@ -31,7 +32,7 @@ export const InformationContact: React.FC = () => {
             <div className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-red-600" strokeWidth={2} />
               <a 
-                href={`tel:${t('information.company.phone')}`}
+                href={`tel:84914481435`}
                 className="text-gray-900 hover:text-red-600 transition-colors font-medium"
               >
                 {t('information.company.phone')}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 interface NavMenuProps {
   onNavigate: (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => void;
@@ -26,13 +27,12 @@ export const NavMenu: React.FC<NavMenuProps> = ({ onNavigate, isScrolled }) => {
 
   return (
     <div className={`flex items-center ${isScrolled ? 'gap-6' : 'gap-8'}`}>
-      <a 
-        href="/" 
-        onClick={(e) => onNavigate(e, '/')}
+      <Link 
+        to="/"
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.home')}
-      </a>
+      </Link>
       
       {/* Solutions Dropdown */}
       <div 
@@ -67,13 +67,19 @@ export const NavMenu: React.FC<NavMenuProps> = ({ onNavigate, isScrolled }) => {
         )}
       </div>
 
-      <a 
-        href="#contact" 
-        onClick={(e) => onNavigate(e, '#contact')}
+      <Link 
+        to="/products"
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
+      >
+        {t('nav.products')}
+      </Link>
+
+      <Link 
+        to="/#contact"
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.contact')}
-      </a>
+      </Link>
     </div>
   );
 };
