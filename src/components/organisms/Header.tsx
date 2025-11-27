@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
           </nav>
 
           {/* Mobile Menu Button - Visible on mobile only */}
-          <button
+        <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="lg:hidden p-2 text-gray-700 hover:text-red-600 transition-colors"
             aria-label="Toggle menu"
