@@ -1,0 +1,8 @@
+/* Saira Font Family - Variable Font */
+@font-face {
+  font-family: 'Saira';
+  src: url('./Saira-Variable.ttf') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

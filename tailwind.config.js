@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif'],
-        'sans': ['Roboto', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        'saira': ['Saira', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        'sans': ['Saira', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
         primary: {
