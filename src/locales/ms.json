@@ -507,12 +507,12 @@
     "keyFeatures": {
       "badge": "Teknologi Deep Learning Lanjutan",
       "title": "Ciri-ciri Utama",
-      "subtitle": "Integrasi AI yang berkuasa untuk pengesanan tingkah laku tidak normal masa nyata",
+      "description": "Integrasi AI yang berkuasa untuk pengesanan tingkah laku tidak normal masa nyata",
       "behaviorRecognition": {
         "title": "Pengecaman Tingkah Laku",
         "description": "Mengesan dan mengklasifikasikan lebih 12 tingkah laku pelanggaran yang berbeza menggunakan Deep Neural Networks dengan analisis kontekstual."
       },
-      "realTimeAlerts": {
+      "realtimeAlerts": {
         "title": "Amaran Masa Nyata",
         "description": "Secara automatik menghantar amaran ke skrin pemantauan dan peranti mudah alih dalam masa 5 saat setelah mengesan anomali."
       },
@@ -533,13 +533,13 @@
         "description": "Eksport laporan terperinci mengenai peristiwa dengan imej, cap masa, lokasi, dan analitik trend pelanggaran."
       }
     },
-    "behaviorDetection": {
+    "behaviorsList": {
       "title": "Pengesanan Tingkah Laku",
       "subtitle": "Tingkah Laku yang Dikesan",
       "description": "Sistem ini boleh mengenali dan memberi amaran 12 jenis tingkah laku pelanggaran dengan ketepatan 70-85%",
       "behaviors": {
         "zoneIntrusion": "Pencerobohan Zon",
-        "climbingFence": "Memanjat & Melompat Pagar",
+        "climbingJumping": "Memanjat & Melompat Pagar",
         "fightingRiot": "Pergaduhan & Rusuhan",
         "selfHarm": "Mencederakan Diri / Tanda Bunuh Diri",
         "weaponCarrying": "Membawa Senjata",
@@ -552,41 +552,69 @@
         "objectIdentification": "Pengenalan Objek"
       }
     },
-    "hardware": {
+    "hardwareSpecs": {
       "title": "Perkakasan",
       "subtitle": "Peralatan yang Disertakan",
       "description": "Sistem perkakasan berprestasi tinggi memastikan pemprosesan AI yang stabil 24/7",
       "aiServer": {
         "title": "Pelayan Pemprosesan AI",
-        "model": "HISOKAI HS25-G4P5000"
+        "model": "HISOKAI HS25-G4P5000",
+        "specs": {
+          "cpu": {
+            "title": "CPU",
+            "value": "Intel Xeon Gen5 x2"
+          },
+          "ram": {
+            "title": "RAM",
+            "value": "128GB"
+          },
+          "storage": {
+            "title": "Penyimpanan",
+            "value": "1.92TB SSD x2"
+          },
+          "gpu": {
+            "title": "GPU",
+            "value": "48GB VRAM x4"
+          },
+          "power": {
+            "title": "Kuasa",
+            "value": "2600W x2"
+          },
+          "warranty": {
+            "title": "Waranti",
+            "value": "3 Tahun"
+          }
+        }
       },
       "vmsServer": {
         "title": "Pelayan VMS",
-        "model": "HISOKAI HS25-C5420"
-      },
-      "workstation": {
-        "title": "Stesen Kerja Kawalan",
-        "model": "HISOKAI HS26-S95"
-      },
-      "networkRack": {
-        "title": "Rangkaian & Rak",
-        "model": "TP-Link TL-SG3424 + Rak 20U"
-      },
-      "specs": {
-        "cpu": "CPU",
-        "ram": "RAM",
-        "storage": "Penyimpanan",
-        "gpu": "GPU",
-        "power": "Kuasa",
-        "network": "Rangkaian",
-        "display": "Paparan",
-        "audio": "Audio",
-        "switch": "Suis",
-        "rackModel": "Model Rak",
-        "rackSize": "Saiz Rak",
-        "security": "Keselamatan",
-        "standard": "Standard",
-        "warranty": "Waranti"
+        "model": "HISOKAI HS25-C5420",
+        "specs": {
+          "cpu": {
+            "title": "CPU",
+            "value": "Intel Xeon Gen4 x2"
+          },
+          "ram": {
+            "title": "RAM",
+            "value": "256GB"
+          },
+          "storage": {
+            "title": "Penyimpanan",
+            "value": "1TB SSD"
+          },
+          "power": {
+            "title": "Kuasa",
+            "value": "500W x2"
+          },
+          "network": {
+            "title": "Rangkaian",
+            "value": "10Gb RJ45 x2"
+          },
+          "warranty": {
+            "title": "Waranti",
+            "value": "3 Tahun"
+          }
+        }
       }
     },
     "systemArchitecture": {
@@ -602,7 +630,7 @@
           "title": "Lapisan Sambungan Rangkaian",
           "description": "Suis POE menerima semua aliran imej dari kamera, menyediakan kuasa dan menghantar data ke sistem pelayan."
         },
-        "processingLayer": {
+        "serverLayer": {
           "title": "Lapisan Pelayan Pemprosesan",
           "description": "Pelayan VMS menguruskan aliran video. Pelayan AI melakukan analisis tingkah laku masa nyata. Pelayan Penyimpanan merakam 24/7."
         },
@@ -612,11 +640,11 @@
         }
       }
     },
-    "advantages": {
+    "advantagesGrid": {
       "title": "Kelebihan",
       "subtitle": "Mengapa Pilih AIB?",
       "description": "Penyelesaian komprehensif memberikan prestasi sistem keselamatan yang unggul",
-      "items": {
+      "advantages": {
         "reducedManpower": {
           "title": "Mengurangkan Beban Tenaga Kerja",
           "description": "AI boleh memantau puluhan hingga beratus kamera serentak - sesuatu yang manusia tidak boleh lakukan secara berterusan."

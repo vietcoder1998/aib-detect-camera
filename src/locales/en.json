@@ -507,12 +507,12 @@
     "keyFeatures": {
       "badge": "Advanced Deep Learning Technology",
       "title": "Key Features",
-      "subtitle": "Powerful AI integration for real-time abnormal behavior detection",
+      "description": "Powerful AI integration for real-time abnormal behavior detection",
       "behaviorRecognition": {
         "title": "Behavior Recognition",
         "description": "Detect and classify over 12 different violation behaviors using Deep Neural Networks with contextual analysis."
       },
-      "realTimeAlerts": {
+      "realtimeAlerts": {
         "title": "Real-time Alerts",
         "description": "Automatically send alerts to monitoring screens and mobile devices within 5 seconds upon detecting anomalies."
       },
@@ -630,7 +630,7 @@
           "title": "Network Connection Layer",
           "description": "POE Switch receives all image streams from cameras, provides power and transmits data to server system."
         },
-        "processingLayer": {
+        "serverLayer": {
           "title": "Processing Server Layer",
           "description": "VMS Server manages video streams. AI Server performs real-time behavior analysis. Storage Server records 24/7."
         },
@@ -640,11 +640,11 @@
         }
       }
     },
-    "advantages": {
+    "advantagesGrid": {
       "title": "Advantages",
       "subtitle": "Why Choose AIB?",
       "description": "Comprehensive solution delivering superior security system performance",
-      "items": {
+      "advantages": {
         "reducedManpower": {
           "title": "Reduced Manpower Load",
           "description": "AI can monitor tens to hundreds of cameras simultaneously - something humans cannot do continuously."
