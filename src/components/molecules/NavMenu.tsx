@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { SolutionsDropdown } from './SolutionsDropdown';
 
 interface NavMenuProps {
@@ -45,15 +45,18 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
 
   return (
     <div className={`flex lg:flex-row flex-col lg:items-center ${isScrolled ? 'gap-6' : 'gap-8'}`}>
-      <Link 
-        to="/"
-        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
+      <button 
+        onClick={() => {
+          navigate('/');
+          setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }, 100);
+        }}
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase text-left ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.home')}
-      </Link>
-      
+      </button>
       <SolutionsDropdown isScrolled={isScrolled} />
-
       <button 
         onClick={() => {
           navigate('/products');

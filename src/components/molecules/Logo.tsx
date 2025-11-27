@@ -1,16 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import favicon from '@/assets/favicon-32x32.png';
 
 interface LogoProps {
   isScrolled: boolean;
-  onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
+  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 export const Logo: React.FC<LogoProps> = ({ isScrolled }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/');
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100);
+  };
+
   return (
-    <Link 
-      to="/"
+    <button 
+      onClick={handleClick}
       className="flex items-center gap-3 cursor-pointer group"
     >
       <img 
@@ -21,6 +30,6 @@ export const Logo: React.FC<LogoProps> = ({ isScrolled }) => {
       <span className="text-2xl font-bold text-red-600 hover:text-red-700 transition-colors">
         AIB
       </span>
-    </Link>
+    </button>
   );
 };
