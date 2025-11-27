@@ -1,23 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import favicon from '@/assets/favicon-32x32.png';
 
 interface LogoProps {
   isScrolled: boolean;
-  onClick: (e: React.MouseEvent<HTMLAnchorElement>) => void;
+  onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
-export const Logo: React.FC<LogoProps> = ({ onClick }) => {
+export const Logo: React.FC<LogoProps> = ({ isScrolled }) => {
   return (
-    <a 
-      href="/" 
-      onClick={onClick}
-      className="flex items-center gap-3 cursor-pointer group text-2xl font-bold text-red-600 hover:text-red-700 transition-colors"
+    <Link 
+      to="/"
+      className="flex items-center gap-3 cursor-pointer group"
     >
-      {/* <img 
-        src="https://www.hisokai.com/wp-content/uploads/2023/09/hisokai-logo-1.png" 
-        alt="HISOKAI Logo" 
+      <img 
+        src={favicon} 
+        alt="AIB Logo" 
         className={`object-contain transition-all duration-300 ${isScrolled ? 'h-8' : 'h-12'}`}
-      /> */}
-      AIB
-    </a>
+      />
+      <span className="text-2xl font-bold text-red-600 hover:text-red-700 transition-colors">
+        AIB
+      </span>
+    </Link>
   );
 };

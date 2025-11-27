@@ -56,8 +56,7 @@ export const Header: React.FC = () => {
           {/* First Row - Logo */}
           <div className="flex items-center">
             <Logo 
-              isScrolled={isScrolled} 
-              onClick={(e) => handleScrollToSection(e, '/')} 
+              isScrolled={isScrolled}
             />
           </div>
 
