@@ -1,0 +1,475 @@
+{
+  "nav": {
+    "home": "Laman Utama",
+    "solutions": "Penyelesaian",
+    "behaviors": "Tingkah Laku",
+    "benefits": "Manfaat",
+    "products": "Produk",
+    "aboutUs": "Tentang Kami",
+    "news": "Berita",
+    "contact": "Hubungi",
+    "logoAlt": "AIB - Sistem Analisis Tingkah Laku Kecerdasan Buatan"
+  },
+  "welcome": {
+    "title": "Sistem Analisis Tingkah Laku Kecerdasan Buatan",
+    "subtitle": "Keselamatan & Pengawasan Berkuasa AI Canggih",
+    "description": "AMBILI TECH SDN. BHD mempersembahkan sistem AIB - teknologi pembelajaran mendalam termaju dengan ketepatan 80-90%, memantau 35-40 kamera setiap pelayan AI dengan makluman masa nyata automatik.",
+    "cta": "Ketahui Lebih Lanjut",
+    "badge": "Sistem Keselamatan Berkuasa AI",
+    "watchDemo": "Tonton Demo",
+    "trustIndicators": {
+      "enterprise": "Gred Perusahaan",
+      "monitoring": "Pemantauan 24/7",
+      "certified": "Pensijilan ISO"
+    },
+    "monitoringCard": {
+      "title": "Pemantauan Berkuasa AI",
+      "subtitle": "Pengesanan Tingkah Laku Masa Nyata",
+      "stats": {
+        "cameras": "Kamera/Pelayan",
+        "accuracy": "Ketepatan",
+        "detection": "Masa Pengesanan"
+      }
+    },
+    "features": {
+      "behaviors": {
+        "title": "50+ Ciri Pengesanan",
+        "description": "Pemantauan tingkah laku menyeluruh"
+      },
+      "alerts": {
+        "title": "Makluman Segera",
+        "description": "Tindak balas kecemasan <5s"
+      },
+      "categories": {
+        "title": "9 Kategori Pengesanan",
+        "description": "Dari pencerobohan hingga pengecaman muka"
+      },
+      "accuracy": {
+        "title": "Ketepatan 80-90%",
+        "description": "Pembelajaran mendalam berkuasa AI"
+      }
+    }
+  },
+  "solutions": {
+    "title": "Penyelesaian Industri",
+    "subtitle": "Keselamatan AI Menyeluruh untuk Setiap Persekitaran",
+    "prison": {
+      "title": "Kemudahan Pembetulan",
+      "description": "Pantau tingkah laku banduan, kesan percubaan bunuh diri, pergaduhan, percubaan melarikan diri, dan pemilikan senjata. Pastikan keselamatan dengan pengawasan automatik 24/7.",
+      "icon": "prison",
+      "features": ["Pencegahan bunuh diri", "Pengesanan pergaduhan", "Pemantauan melarikan diri", "Pengesanan senjata"]
+    },
+    "hospital": {
+      "title": "Penjagaan Kesihatan & Mental",
+      "description": "Pemantauan keselamatan pesakit, pengesanan jatuh, makluman merayau, dan tindak balas kecemasan untuk hospital dan kemudahan psikiatri.",
+      "icon": "hospital",
+      "features": ["Pengesanan jatuh", "Pemantauan pesakit", "Makluman merayau", "Tindak balas kecemasan"]
+    },
+    "factory": {
+      "title": "Pembuatan & Industri",
+      "description": "Pemantauan pematuhan keselamatan, perlindungan kawasan terhad, pengesanan PPE, dan pencegahan kemalangan di persekitaran perindustrian.",
+      "icon": "factory",
+      "features": ["Pematuhan keselamatan", "Zon terhad", "Pemantauan PPE", "Pencegahan kemalangan"]
+    },
+    "office": {
+      "title": "Bangunan Komersial",
+      "description": "Ruang pejabat selamat, kedai runcit, dan kemudahan komersial dengan pengesanan pencerobohan, makluman merayau, dan kawalan akses.",
+      "icon": "office",
+      "features": ["Pengesanan pencerobohan", "Kawalan akses", "Makluman merayau", "Keselamatan perimeter"]
+    },
+    "school": {
+      "title": "Institusi Pendidikan",
+      "description": "Keselamatan kampus dengan pengesanan keganasan, makluman akses tidak sah, dan pemantauan menyeluruh premis sekolah.",
+      "icon": "school",
+      "features": ["Pengesanan keganasan", "Akses tidak sah", "Pemantauan kampus", "Keselamatan pelajar"]
+    },
+    "public": {
+      "title": "Ruang Awam & Infrastruktur",
+      "description": "Pantau taman, hab pengangkutan, dan kawasan awam untuk tingkah laku mencurigakan, vandalisme, dan pengurusan orang ramai.",
+      "icon": "public",
+      "features": ["Pengurusan orang ramai", "Pengesanan vandalisme", "Keselamatan awam", "Pemantauan trafik"]
+    }
+  },
+  "behaviors": {
+    "title": "Pameran Pengesanan Tingkah Laku",
+    "subtitle": "Analisis AI Masa Nyata Situasi Keselamatan Kritikal",
+    "viewAll": "Lihat Semua Ciri",
+    "categories": {
+      "intrusion": {
+        "name": "Pengesanan Pencerobohan",
+        "description": "AI mengesan kemasukan tanpa kebenaran ke zon terhad dengan pemantauan sempadan maya"
+      },
+      "climbing": {
+        "name": "Memanjat & Melarikan Diri",
+        "description": "Kenal pasti memanjat dinding, melintasi pagar, dan percubaan melarikan diri secara masa nyata"
+      },
+      "violence": {
+        "name": "Keganasan & Pergaduhan",
+        "description": "Kesan tingkah laku agresif, pergaduhan, dan situasi serangan serta-merta"
+      },
+      "weapons": {
+        "name": "Pengesanan Senjata",
+        "description": "Kenali pisau, kayu, dan objek berbahaya dengan pengecaman corak AI"
+      },
+      "suicide": {
+        "name": "Pencegahan Bunuh Diri",
+        "description": "Pengesanan awal postur menggantung diri dan tingkah laku persediaan"
+      },
+      "vandalism": {
+        "name": "Vandalisme & Kerosakan",
+        "description": "Pantau penggerudian, kerosakan dinding, dan aktiviti pemusnahan harta"
+      },
+      "smoking": {
+        "name": "Merokok & Pelanggaran",
+        "description": "Kesan merokok, perjudian, dan pelanggaran peraturan di kawasan terhad"
+      },
+      "fall": {
+        "name": "Pengesanan Jatuh",
+        "description": "Bezakan antara kecemasan perubatan dan jatuh berkaitan kemalangan"
+      },
+      "face": {
+        "name": "Pengecaman Muka",
+        "description": "Kenal pasti dan jejaki individu dengan pengecaman muka berkuasa AI"
+      }
+    }
+  },
+  "benefits": {
+    "title": "Mengapa Pilih Sistem AIB",
+    "subtitle": "Ubah Operasi Keselamatan Anda dengan Kecerdasan AI",
+    "efficiency": {
+      "title": "Kecekapan Operasi",
+      "description": "Kurangkan beban kerja pemantauan manusia sebanyak 70% dengan pengesanan AI automatik dan makluman pintar",
+      "icon": "efficiency",
+      "stats": "Pengurangan 70% dalam pemantauan manual"
+    },
+    "response": {
+      "title": "Masa Tindak Balas Lebih Pantas",
+      "description": "Makluman kecemasan dalam <5 saat membolehkan tindakan segera dan mencegah insiden sebelum meningkat",
+      "icon": "response",
+      "stats": "Tindak balas kecemasan <5s"
+    },
+    "accuracy": {
+      "title": "Ketepatan Tinggi",
+      "description": "Ketepatan pengesanan 80-90% dengan pembelajaran mendalam meminimumkan penggera palsu dan memastikan makluman yang boleh dipercayai",
+      "icon": "accuracy",
+      "stats": "Ketepatan pengesanan 80-90%"
+    },
+    "coverage": {
+      "title": "Liputan Boleh Skala",
+      "description": "Pantau 35-40 kamera setiap pelayan AI dengan keupayaan pemprosesan serentak berbilang kamera",
+      "icon": "coverage",
+      "stats": "35-40 kamera setiap pelayan"
+    },
+    "cost": {
+      "title": "Kos Efektif",
+      "description": "Kurangkan kos kakitangan keselamatan sambil meningkatkan liputan dan kadar pengesanan insiden",
+      "icon": "cost",
+      "stats": "Kos operasi lebih rendah"
+    },
+    "compliance": {
+      "title": "Pematuhan & Pelaporan",
+      "description": "Jejak audit lengkap, tangkapan bukti, dan pembalakan menyeluruh untuk pematuhan peraturan",
+      "icon": "compliance",
+      "stats": "Jejak audit lengkap"
+    },
+    "integration": {
+      "title": "Integrasi Mudah",
+      "description": "Berfungsi dengan infrastruktur kamera sedia ada dan sistem VMS tanpa peningkatan besar",
+      "icon": "integration",
+      "stats": "Serasi dengan sistem sedia ada"
+    },
+    "support": {
+      "title": "Sokongan 24/7",
+      "description": "Sokongan gred perusahaan dengan waranti 3 tahun dan kemas kini sistem berterusan",
+      "icon": "support",
+      "stats": "Waranti 3 tahun disertakan"
+    }
+  },
+  "products": {
+    "title": "Spesifikasi Teknikal",
+    "subtitle": "Pakej Sistem AIB Lengkap",
+    "labels": {
+      "model": "Model",
+      "manufacturer": "Pengilang",
+      "origin": "Asal",
+      "quantity": "Kuantiti"
+    },
+    "mainProduct": {
+      "name": "Set Peralatan Analisis Tingkah Laku Pintar",
+      "model": "AIB (Artificial Intelligence Behavior)",
+      "manufacturer": "AMBILI TECH SDN. BHD",
+      "origin": "Singapura",
+      "quantity": "01 Set Lengkap",
+      "description": "Sistem Analisis Tingkah Laku Pintar AIB mengaplikasikan kecerdasan buatan (AI) untuk pengawasan video dan pengesanan automatik tingkah laku tidak normal pada sistem kamera. Teknologi Pembelajaran Mendalam membolehkan pengecaman tepat situasi berbahaya atau pelanggaran, menghantar makluman masa nyata kepada pengendali. Sistem menyokong persediaan zon, penciptaan senario keselamatan, konfigurasi berasaskan kamera, dan pemantauan visual. AIB mengesan pelbagai tingkah laku termasuk pencerobohan kawasan terhad, memanjat, pergaduhan, membawa senjata, vandalisme, merokok, perjudian, serta kecemasan seperti risiko bunuh diri atau jatuh tidak normal."
+    },
+    "module1": {
+      "title": "Modul Analisis Tingkah Laku Pintar",
+      "performance": {
+        "title": "Spesifikasi Prestasi",
+        "detectionTime": "Kelewatan pengesanan pelanggaran tingkah laku: 5-10 saat",
+        "accuracy": "Kadar makluman tepat: 80-90%",
+        "cameraCapacity": "Sokongan kamera serentak: 35-40 kamera setiap pelayan AI",
+        "violationAccuracy": "Ketepatan pengesanan pelanggaran (bergantung tingkah laku): 70-85%",
+        "emergencyAlert": "Masa makluman kecemasan: <5 saat"
+      },
+      "features": {
+        "title": "Ciri Utama",
+        "detection": "Kesan dan maklumkan tingkah laku objek",
+        "zoneCreation": "Cipta zon & senario pemantauan keselamatan",
+        "configuration": "Konfigurasikan dan lukis zon pemantauan setiap kamera",
+        "alerting": "Kenali dan maklumkan tingkah laku pelanggaran"
+      },
+      "behaviors": {
+        "title": "Tingkah Laku Dipantau",
+        "item1": "Memasuki kawasan terhad/dilarang",
+        "item2": "Melintasi sempadan maya, akses tanpa kebenaran",
+        "item3": "Memanjat dinding, melintasi pagar, memanjat pagar",
+        "item4": "Menggerudi dinding, memahat, memotong palang tingkap",
+        "item5": "Pengesanan bunuh diri/menggantung dan tingkah laku persediaan",
+        "item6": "Jatuh berbahaya (strok, pergaduhan, kemalangan)",
+        "item7": "Pergaduhan, serangan, dan tingkah laku bergelut",
+        "item8": "Pengesanan senjata (pisau, gunting, kayu, objek logam)",
+        "item9": "Pengesanan merokok/asap",
+        "item10": "Bermain kad, perjudian, perhimpunan tanpa kebenaran",
+        "item11": "Pengecaman muka dan pengenalan identiti",
+        "item12": "Analisis canggih masa nyata dan makluman kecemasan",
+        "comprehensive": {
+          "title": "Ciri Pengesanan Menyeluruh",
+          "subtitle": "9 kategori pengesanan menyeluruh dengan 50+ ciri",
+          "intrusion": {
+            "title": "Pengesanan Pencerobohan & Pencerobohan",
+            "item1": "Memasuki kawasan terhad/dilarang",
+            "item2": "Melintasi sempadan maya",
+            "item3": "Akses tanpa kebenaran ke zon terhad",
+            "item4": "Merayau berpanjangan berhampiran tingkap/pintu masuk"
+          },
+          "climbing": {
+            "title": "Memanjat & Melintasi Pagar",
+            "item1": "Memanjat dinding",
+            "item2": "Memanjat/melintasi pagar dua hala",
+            "item3": "Memanjat pagar, melintasi pembahagi"
+          },
+          "vandalism": {
+            "title": "Pengesanan Kerosakan Harta",
+            "item1": "Menggerudi dinding",
+            "item2": "Memahat/menggali dinding",
+            "item3": "Memotong palang tingkap (gergaji dawai, gergaji tangan)",
+            "item4": "Berdiri lama di titik mencurigakan untuk vandalisme"
+          },
+          "lifeThreat": {
+            "title": "Situasi Mengancam Nyawa",
+            "suicide": {
+              "title": "Pengesanan Bunuh Diri/Menggantung",
+              "item1": "Postur badan menggantung",
+              "item2": "Tingkah laku persediaan (mengikat tali, memanjat ke tempat tinggi)"
+            },
+            "fall": {
+              "title": "Jatuh Berbahaya",
+              "item1": "Jatuh akibat strok",
+              "item2": "Jatuh dari pergaduhan/kemalangan",
+              "item3": "Analisis berdasarkan: daya impak, arah jatuh, refleks pertahanan, tidak bergerak selepas jatuh"
+            },
+            "fighting": {
+              "title": "Pergaduhan & Serangan",
+              "item1": "Tingkah laku serangan, bergelut",
+              "item2": "Pergerakan sengit di kalangan ramai orang"
+            }
+          },
+          "weapons": {
+            "title": "Pengesanan Senjata",
+            "item1": "Pisau",
+            "item2": "Gunting",
+            "item3": "Kayu/Belantan",
+            "item4": "Objek logam panjang (paip, bar keluli)",
+            "item5": "Objek tajam berkemampuan menyebabkan kecederaan",
+            "item6": "Pengesanan berdasarkan: bentuk, saiz, korelasi dengan postur memegang"
+          },
+          "violations": {
+            "title": "Pengesanan Pelanggaran Peraturan",
+            "item1": "Pengesanan merokok/asap",
+            "item2": "Bermain kad/perjudian",
+            "item3": "Perhimpunan orang ramai di kawasan dilarang atau sensitif",
+            "item4": "Kumpulan berdiri terlalu lama di zon dipantau"
+          },
+          "faceRecognition": {
+            "title": "Pengecaman & Pengenalan Muka",
+            "item1": "Pengesanan muka",
+            "item2": "Pengecaman identiti berdasarkan pangkalan data",
+            "item3": "Penetapan ID dan penamaan objek",
+            "item4": "Membezakan ramai orang dalam bingkai yang sama"
+          },
+          "advanced": {
+            "title": "Analisis Canggih Masa Nyata",
+            "item1": "Pengecaman orang-objek-pergerakan",
+            "item2": "Analisis postur badan",
+            "item3": "Analisis arah dan kelajuan pergerakan",
+            "item4": "Pengecaman tindakan berasaskan corak",
+            "item5": "Analisis kontekstual untuk mengurangkan penggera palsu",
+            "item6": "Pemprosesan serentak berbilang kamera",
+            "item7": "Melukis dan mengurus zon pemantauan setiap kamera"
+          },
+          "emergency": {
+            "title": "Sistem Makluman Kecemasan",
+            "item1": "Makluman audio pada stesen kerja kawalan",
+            "item2": "Pop timbul dengan imej bukti",
+            "item3": "Pengenalan lokasi kamera",
+            "item4": "Pembalakan proses lengkap"
+          }
+        }
+      },
+      "alerts": "Makluman kecemasan automatik"
+    },
+    "equipment": {
+      "title": "Pakej Peralatan Sistem Bersepadu",
+      "server1": {
+        "name": "Pelayan AI Khusus",
+        "model": "HISOKAI HS25-G4P5000",
+        "cpu": "Intel Xeon Gen5 x2",
+        "ram": "128GB",
+        "storage": "1.92TB SSD x2",
+        "gpu": "48GB VRAM x4",
+        "power": "2600W x2",
+        "managementPort": "01",
+        "usbPort": "02",
+        "sata3Port": "04",
+        "networkPort": "02 x RJ45 10Gigabit",
+        "sfpPort": "02 x SFP+ 10Gb",
+        "antivirus": "Lesen Kaspersky",
+        "warranty": "3 tahun",
+        "quantity": "01 Unit"
+      },
+      "server2": {
+        "name": "Pelayan Pengekstrakan Strim VMS",
+        "model": "HISOKAI HS25-C5420",
+        "cpu": "Intel Xeon Gen4 x2",
+        "ram": "256GB",
+        "storage": "1TB SSD",
+        "power": "500W x2",
+        "managementPort": "01",
+        "usbPort": "02",
+        "sata3Port": "04",
+        "networkPort": "02 x RJ45 10Gigabit",
+        "sfpPort": "02 x SFP+ 10Gb",
+        "antivirus": "Lesen Kaspersky",
+        "warranty": "3 tahun",
+        "quantity": "01 Unit"
+      },
+      "workstation": {
+        "name": "Stesen Kerja Kawalan",
+        "model": "HISOKAI HS26-S95",
+        "cpu": "Intel Core i5 Gen 11",
+        "ram": "16GB",
+        "storage": "512GB SSD NVMe M.2",
+        "monitor": "24 inci, Full HD (1920x1080), IPS, HDMI",
+        "speaker": "Pembesar suara makluman disertakan",
+        "antivirus": "Lesen Kaspersky",
+        "warranty": "3 tahun",
+        "quantity": "01 Unit"
+      },
+      "switch": {
+        "name": "Suis Rangkaian",
+        "model": "TP-Link TL-SG3424",
+        "ports": "12 x 10/100/1000BASE-T",
+        "warranty": "3 tahun",
+        "quantity": "01 Unit"
+      },
+      "rack": {
+        "name": "Kabinet Rak 20U",
+        "model": "Kabinet Rak 19 inci 20U ECP 20U800",
+        "dimensions": "T972 x L600 x D800 (mm) - ketinggian tidak termasuk roda",
+        "quantity": "01 Unit"
+      }
+    }
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "company": "AMBILI TECH SDN. BHD.",
+    "description1": "AMBILI TECH adalah syarikat teknologi terkemuka yang pakar dalam penyelesaian pengawasan dan keselamatan berkuasa AI. Kami bekerjasama dengan AMBILI TECH untuk menyampaikan sistem analisis tingkah laku termaju yang mengubah cara perusahaan mendekati pemantauan keselamatan.",
+    "description2": "Penyelesaian AIB kami memanfaatkan Pembelajaran Mendalam dan Rangkaian Neural untuk menyediakan pengawasan proaktif, menggantikan pemantauan pasif dengan pengesanan ancaman pintar masa nyata.",
+    "stats": {
+      "experience": "Tahun Pengalaman",
+      "projects": "Projek Berjaya",
+      "partners": "Rakan Kongsi Dipercayai",
+      "support": "Sokongan Teknikal"
+    }
+  },
+  "news": {
+    "title": "Berita & Kemas Kini Terkini",
+    "subtitle": "Kekal termaklum tentang perkembangan terkini dalam teknologi keselamatan AI dan wawasan industri",
+    "items": {
+      "item1": {
+        "title": "Sistem AIB Berjaya Digunakan di Kemudahan Pembetulan Utama",
+        "excerpt": "Kemudahan pembetulan terkemuka telah melaksanakan sistem AIB kami, menghasilkan pengurangan 60% dalam insiden keselamatan dan masa tindak balas yang lebih baik.",
+        "date": "15 November 2025",
+        "category": "Kajian Kes"
+      },
+      "item2": {
+        "title": "Ciri AI Baharu: Keupayaan Pengesanan Senjata Dipertingkatkan",
+        "excerpt": "Kami telah menaik taraf algoritma pengesanan senjata kami dengan ketepatan yang lebih baik untuk mengenal pasti senjata tersembunyi dan objek berbahaya secara masa nyata.",
+        "date": "10 November 2025",
+        "category": "Kemas Kini Produk"
+      },
+      "item3": {
+        "title": "AMBILI TECH Bekerjasama dengan Rangkaian Penjagaan Kesihatan Terkemuka",
+        "excerpt": "Perkongsian strategik mengembangkan pemantauan keselamatan pesakit berkuasa AI merentas pelbagai kemudahan penjagaan kesihatan di Asia Tenggara.",
+        "date": "5 November 2025",
+        "category": "Perkongsian"
+      }
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Hubungi kami untuk maklumat lanjut tentang sistem AIB atau untuk menjadualkan demo",
+    "company": {
+      "title": "Pengilang",
+      "name": "AMBILI TECH SDN. BHD.",
+      "location": "Malaysia"
+    },
+    "distributor": {
+      "title": "Pengedar Vietnam",
+      "name": "HTC Import-Export Technology Equipment JSC",
+      "location": "Vietnam"
+    },
+    "methods": {
+      "title": "Maklumat Hubungan",
+      "email": "comsec@gmgroup.com.my",
+      "phone": "+60 3-2389 2826",
+      "website": "www.htc-tech.vn"
+    },
+    "form": {
+      "title": "Hantar Mesej Kepada Kami",
+      "name": "Nama Penuh",
+      "namePlaceholder": "Masukkan nama penuh anda",
+      "email": "Alamat E-mel",
+      "emailPlaceholder": "emel.anda@syarikat.com",
+      "phone": "Nombor Telefon",
+      "phonePlaceholder": "+60 xxx xxx xxx",
+      "company": "Nama Syarikat",
+      "companyPlaceholder": "Nama syarikat anda",
+      "message": "Mesej",
+      "messagePlaceholder": "Beritahu kami tentang keperluan anda...",
+      "submit": "Hantar Mesej"
+    }
+  },
+  "information": {
+    "title": "Maklumat Syarikat",
+    "subtitle": "Butiran Hubungan Rasmi",
+    "labels": {
+      "companyName": "Nama Syarikat",
+      "address": "Alamat",
+      "phone": "Telefon",
+      "email": "E-mel Rasmi"
+    },
+    "company": {
+      "name": "AMBILI TECH SDN. BHD.",
+      "address": "C-14-3, Sri Intan 1 Condominium, Lengkok Selingsing, Taman Kok Lian, Jalan Ipoh Batu 5, 51200 Kuala Lumpur, W.P. Kuala Lumpur, Malaysia",
+      "phone": "+60 3-2389 2826",
+      "email": "comsec@gmgroup.com.my"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 AIB - AMBILI TECH SDN. BHD. Hak cipta terpelihara.",
+    "location": "Singapura",
+    "distributor": "Diedarkan oleh HTC Import-Export Technology Equipment JSC"
+  }
+}

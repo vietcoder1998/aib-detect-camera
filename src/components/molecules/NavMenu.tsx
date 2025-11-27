@@ -29,6 +29,20 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
       </Link>
 
       <Link 
+        to="/#about"
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
+      >
+        {t('nav.aboutUs')}
+      </Link>
+
+      <Link 
+        to="/#news"
+        className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
+      >
+        {t('nav.news')}
+      </Link>
+
+      <Link 
         to="/#contact"
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >

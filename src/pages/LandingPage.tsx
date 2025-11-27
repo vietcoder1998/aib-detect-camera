@@ -1,8 +1,10 @@
 import { DetectionFeatures, MainProductInfo, ModuleSpecifications } from '@/components/molecules';
 import {
+  AboutSection,
   BehaviorsSection,
   BenefitsSection,
   ContactSection,
+  NewsSection,
   SolutionsSection,
   WelcomeSection
 } from '@organisms';
@@ -19,6 +21,8 @@ export const LandingPage: React.FC = () => {
       <MainProductInfo />
       <ModuleSpecifications />
       <DetectionFeatures />
+      <AboutSection />
+      <NewsSection />
       <ContactSection />
     </MainLayout>
   );

@@ -5,6 +5,8 @@
     "behaviors": "Hành vi",
     "benefits": "Lợi ích",
     "products": "Sản phẩm",
+    "aboutUs": "Về chúng tôi",
+    "news": "Tin tức",
     "contact": "Liên hệ",
     "logoAlt": "AIB - Hệ thống Phân tích Hành vi Thông minh"
   },
@@ -376,6 +378,42 @@
         "model": "Rack Cabinet 19 inch 20U ECP 20U800",
         "dimensions": "Cao 972 x Rộng 600 x Sâu 800 (mm) - chiều cao chưa bao gồm bánh xe",
         "quantity": "01 Thiết bị"
+      }
+    }
+  },
+  "about": {
+    "title": "Về chúng tôi",
+    "company": "AMBILI TECH SDN. BHD.",
+    "description1": "AMBILI TECH là công ty công nghệ hàng đầu chuyên về giải pháp giám sát và an ninh tích hợp AI. Chúng tôi hợp tác với AMBILI TECH để cung cấp các hệ thống phân tích hành vi tiên tiến, chuyển đổi cách thức các doanh nghiệp tiếp cận giám sát an ninh.",
+    "description2": "Giải pháp AIB của chúng tôi tận dụng Học sâu (Deep Learning) và Mạng nơ-ron (Neural Networks) để cung cấp giám sát chủ động, thay thế giám sát thủ động bằng phát hiện mối đe dọa thông minh theo thời gian thực.",
+    "stats": {
+      "experience": "Năm kinh nghiệm",
+      "projects": "Dự án thành công",
+      "partners": "Đối tác tin cậy",
+      "support": "Hỗ trợ kỹ thuật"
+    }
+  },
+  "news": {
+    "title": "Tin tức & Cập nhật mới nhất",
+    "subtitle": "Cập nhật những phát triển mới nhất về công nghệ an ninh AI và thông tin ngành",
+    "items": {
+      "item1": {
+        "title": "Hệ thống AIB Triển khai Thành công tại Cơ sở Giam giữ Lớn",
+        "excerpt": "Một cơ sở giam giữ hàng đầu đã triển khai hệ thống AIB của chúng tôi, giúp giảm 60% sự cố an ninh và cải thiện thời gian phản ứng.",
+        "date": "15 Tháng 11, 2025",
+        "category": "Nghiên cứu điển hình"
+      },
+      "item2": {
+        "title": "Tính năng AI Mới: Nâng cao Khả năng Phát hiện Hung khí",
+        "excerpt": "Chúng tôi đã nâng cấp thuật toán phát hiện hung khí với độ chính xác được cải thiện để nhận diện vũ khí giấu kín và vật nguy hiểm theo thời gian thực.",
+        "date": "10 Tháng 11, 2025",
+        "category": "Cập nhật Sản phẩm"
+      },
+      "item3": {
+        "title": "AMBILI TECH Hợp tác với Mạng lưới Y tế Hàng đầu",
+        "excerpt": "Các quan hệ đối tác chiến lược mở rộng giám sát an toàn bệnh nhân bằng AI tại nhiều cơ sở y tế ở Đông Nam Á.",
+        "date": "5 Tháng 11, 2025",
+        "category": "Hợp tác"
       }
     }
   },

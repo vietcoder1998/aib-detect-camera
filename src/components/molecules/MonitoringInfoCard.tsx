@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Text, Card } from '@atoms';
 import { StatCard } from './StatCard';
+import CameraImage from '@/assets/CameraImage.png';
 
 export const MonitoringInfoCard: React.FC = () => {
   const { t } = useTranslation();
@@ -12,7 +13,7 @@ export const MonitoringInfoCard: React.FC = () => {
         {/* Background Image with Opacity */}
         <div 
           className="absolute inset-0 bg-cover bg-center opacity-30 group-hover:opacity-100 transition-opacity duration-500"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1557597774-9d273605dfa9?q=80&w=2000&auto=format&fit=crop')" }}
+          style={{ backgroundImage: `url('${CameraImage}')` }}
         />
         
         {/* Content */}

@@ -4,5 +4,7 @@ export { SolutionsSection } from './SolutionsSection';
 export { BehaviorsSection } from './BehaviorsSection';
 export { BenefitsSection } from './BenefitsSection';
 export { ProductsSection } from './ProductsSection';
+export { AboutSection } from './AboutSection';
+export { NewsSection } from './NewsSection';
 export { ContactSection } from './ContactSection';
 export { InformationContact } from './InformationContact';

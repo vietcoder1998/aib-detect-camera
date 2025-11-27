@@ -14,3 +14,4 @@ export { StatCard } from './StatCard';
 export { FeatureCard } from './FeatureCard';
 export { MonitoringInfoCard } from './MonitoringInfoCard';
 export { FeatureHighlights } from './FeatureHighlights';
+export { NewsCard } from './NewsCard';

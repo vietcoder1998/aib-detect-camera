@@ -5,6 +5,8 @@
     "behaviors": "Behaviors",
     "benefits": "Benefits",
     "products": "Products",
+    "aboutUs": "About Us",
+    "news": "News",
     "contact": "Contact",
     "logoAlt": "AIB - Artificial Intelligence Behavior Analysis System"
   },
@@ -376,6 +378,42 @@
         "model": "Rack Cabinet 19 inch 20U ECP 20U800",
         "dimensions": "H972 x W600 x D800 (mm) - height excludes wheels",
         "quantity": "01 Unit"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "company": "AMBILI TECH SDN. BHD.",
+    "description1": "AMBILI TECH is a leading technology company specializing in AI-powered surveillance and security solutions. We partner with AMBILI TECH to deliver cutting-edge behavior analysis systems that transform how enterprises approach security monitoring.",
+    "description2": "Our AIB solution leverages Deep Learning and Neural Networks to provide proactive surveillance, replacing passive monitoring with intelligent, real-time threat detection.",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Successful Projects",
+      "partners": "Trusted Partners",
+      "support": "Technical Support"
+    }
+  },
+  "news": {
+    "title": "Latest News & Updates",
+    "subtitle": "Stay informed about the latest developments in AI security technology and industry insights",
+    "items": {
+      "item1": {
+        "title": "AIB System Successfully Deployed in Major Correctional Facility",
+        "excerpt": "A leading correctional facility has implemented our AIB system, resulting in a 60% reduction in security incidents and improved response times.",
+        "date": "November 15, 2025",
+        "category": "Case Study"
+      },
+      "item2": {
+        "title": "New AI Features: Enhanced Weapon Detection Capabilities",
+        "excerpt": "We've upgraded our weapon detection algorithms with improved accuracy for identifying concealed weapons and dangerous objects in real-time.",
+        "date": "November 10, 2025",
+        "category": "Product Update"
+      },
+      "item3": {
+        "title": "AMBILI TECH Partners with Leading Healthcare Networks",
+        "excerpt": "Strategic partnerships expand AI-powered patient safety monitoring across multiple healthcare facilities in Southeast Asia.",
+        "date": "November 5, 2025",
+        "category": "Partnership"
       }
     }
   },
