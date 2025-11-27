@@ -7,7 +7,7 @@ export const ModuleSpecifications: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
+    <div className="bg-white rounded-lg shadow-lg p-8 mb-12 container mx-auto px-4 sm:px-6 lg:px-8 ">
       <Text variant="h3" className="text-gray-900 mb-6">
         {t('products.module1.title')}
       </Text>

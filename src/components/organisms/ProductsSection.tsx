@@ -19,14 +19,7 @@ export const ProductsSection: React.FC = () => {
           </Text>
         </div>
 
-        {/* Main Product Info */}
-        <MainProductInfo />
 
-        {/* Module 1: AIB System Performance */}
-        <ModuleSpecifications />
-
-        {/* Comprehensive Detection Features */}
-        <DetectionFeatures />
 
         {/* Equipment Section */}
         <EquipmentGrid />

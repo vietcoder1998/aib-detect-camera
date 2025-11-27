@@ -1,12 +1,13 @@
-import React from 'react';
-import { MainLayout } from '@templates';
-import { 
-  WelcomeSection, 
-  SolutionsSection, 
-  BehaviorsSection, 
-  BenefitsSection, 
-  ContactSection 
+import { DetectionFeatures, MainProductInfo, ModuleSpecifications } from '@/components/molecules';
+import {
+  BehaviorsSection,
+  BenefitsSection,
+  ContactSection,
+  SolutionsSection,
+  WelcomeSection
 } from '@organisms';
+import { MainLayout } from '@templates';
+import React from 'react';
 
 export const LandingPage: React.FC = () => {
   return (
@@ -15,6 +16,9 @@ export const LandingPage: React.FC = () => {
       <SolutionsSection />
       <BehaviorsSection />
       <BenefitsSection />
+      <MainProductInfo />
+      <ModuleSpecifications />
+      <DetectionFeatures />
       <ContactSection />
     </MainLayout>
   );
