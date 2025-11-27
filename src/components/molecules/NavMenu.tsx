@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { SolutionsDropdown } from './SolutionsDropdown';
 
 interface NavMenuProps {
@@ -9,6 +9,39 @@ interface NavMenuProps {
 
 export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const scrollToSection = (sectionId: string) => {
+    // If not on home page, navigate to home first
+    if (window.location.pathname !== '/') {
+      navigate('/');
+      // Wait for navigation to complete before scrolling
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const offset = 80; // Account for fixed header
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - offset;
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }, 100);
+    } else {
+      // Already on home page, just scroll
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const offset = 80; // Account for fixed header
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }
+  };
 
   return (
     <div className={`flex items-center ${isScrolled ? 'gap-6' : 'gap-8'}`}>
@@ -28,26 +61,26 @@ export const NavMenu: React.FC<NavMenuProps> = ({ isScrolled }) => {
         {t('nav.products')}
       </Link>
 
-      <Link 
-        to="/#about"
+      <button 
+        onClick={() => scrollToSection('about')}
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.aboutUs')}
-      </Link>
+      </button>
 
-      <Link 
-        to="/#news"
+      <button 
+        onClick={() => scrollToSection('news')}
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.news')}
-      </Link>
+      </button>
 
-      <Link 
-        to="/#contact"
+      <button 
+        onClick={() => scrollToSection('contact')}
         className={`text-gray-700 hover:text-red-600 transition-colors font-medium cursor-pointer uppercase ${isScrolled ? 'text-xs' : 'text-sm'}`}
       >
         {t('nav.contact')}
-      </Link>
+      </button>
     </div>
   );
 };
