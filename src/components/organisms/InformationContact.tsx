@@ -1,12 +1,10 @@
 import { Container, Text } from '@atoms';
-import { Building2, Mail, Phone, QrCode } from 'lucide-react';
-import React, { useState } from 'react';
+import { Building2, Mail, Phone } from 'lucide-react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 export const InformationContact: React.FC = () => {
   const { t } = useTranslation();
-  const [showPhoneQR, setShowPhoneQR] = useState(false);
-
   return (
     <section className="bg-gradient-to-br from-gray-50 to-red-50 py-16">
       <Container>
